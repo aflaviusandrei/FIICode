@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title>FIICode </title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="libs/jquery-1.12.0.min.js"></script>
+    <script src="./libs/typed.js-master/js/typed.js"></script>
+    <script src="./libs/modernizr-custom.js"></script>
+    <script src="core.js"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74652966-1', 'auto');
+  ga('send', 'pageview');
+
+	</script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="menu">
+            <p class="title"> Select your hero </p>
+            <div class="heroes">
+                <img src="./images/warriors/cppidle.png" class="hero" id="cpp" onmouseover="hover('cpp')" onmouseout="unHover('cpp')" onclick="select('cpp')" />
+                <img src="./images/warriors/jsidle.png" class="hero" id="js" onmouseover="hover('js')" onmouseout="unHover('js')" onclick="select('js')" />
+                <img src="./images/warriors/phpidle.png" class="hero" id="php" onmouseover="hover('php')" onmouseout="unHover('php')" onclick="select('php')" />
+            </div>
+            <button class="btn" type="button" onclick="startGame()">Start!</button>
+            <div id="instructions">
+                You are under attack!
+                <ul>
+                    <li> defeat your enemies with the power of CLICK! </li>
+                    <li> Under pressure? Click on your hero to activate it's secret power!</li>
+                    <li> C++: unlimited time</li>
+                    <li> JS: slow your enemies </li>
+                    <li> PHP: defeat half of your enemies </li>
+                    <li> Good LUCK! </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <svg id="svg" width="100%" height="95%" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+        <path id="mpath1" d="M 90 225 L 90 132 M 90 132 L 195 132 M 195 132 L 195 40 M 195 40 L 300 40 M 300 40 L 300 90 M 300 90 L 355 90 M 355 90 L 355 40 M 355 40 L 410 40 M 410 40 L 410 133 M 410 133 L 515 133 M 515 133 L 515 40 M 515 40 L 620 40 M 620 40 L 620 90 M 620 90 L 675 90 M 675 90 L 675 133 M 675 133 L 780 133 M 780 133 L 780 40 M 780 40 L 830 40 M 830 40 L 830 225 M 830 225 L 880 225 M 880 225 L 880 275 M 880 275 L 830 275 M 830 275 L 830 368 M 830 368 L 725 368 M 725 368 L 725 461 M 725 461 L 620 461 M 620 461 L 620 368 M 620 368 L 570 368 M 570 368 L 570 413 M 570 413 L 515 413 M 515 413 L 515 461 M 515 461 L 410 461 M 410 461 L 410 413 M 410 413 L 200 413 M 200 413 L 200 368 M 200 368 L 90 368 M 90 368 L 90 225" stroke="#24b8f9" stroke-width="2" />
+        <path id="mpath2" d=" M 300 40 L 300 90 M 300 90 L 355 90 M 355 90 L 355 40 M 355 40 L 410 40 M 410 40 L 410 133 M 410 133 L 515 133 M 515 133 L 515 40 M 515 40 L 620 40 M 620 40 L 620 90 M 620 90 L 675 90 M 675 90 L 675 133 M 675 133 L 780 133 M 780 133 L 780 40 M 780 40 L 830 40 M 830 40 L 830 225 M 830 225 L 880 225 M 880 225 L 880 275 M 880 275 L 830 275 M 830 275 L 830 368 M 830 368 L 725 368 M 725 368 L 725 461 M 725 461 L 620 461 M 620 461 L 620 368 M 620 368 L 570 368 M 570 368 L 570 413 M 570 413 L 515 413 M 515 413 L 515 461 M 515 461 L 410 461 M 410 461 L 410 413 M 410 413 L 200 413 M 200 413 L 200 368 M 200 368 L 90 368 M 90 368 L 90 225 M 90 225 L 90 132 M 90 132 L 195 132 M 195 132 L 195 40 M 195 40 L 300 40 " stroke="#24b8f9" stroke-width="2" />
+        <path id="mpath3" d="  M 355 40 L 410 40 M 410 40 L 410 133 M 410 133 L 515 133 M 515 133 L 515 40 M 515 40 L 620 40 M 620 40 L 620 90 M 620 90 L 675 90 M 675 90 L 675 133 M 675 133 L 780 133 M 780 133 L 780 40 M 780 40 L 830 40 M 830 40 L 830 225 M 830 225 L 880 225 M 880 225 L 880 275 M 880 275 L 830 275 M 830 275 L 830 368 M 830 368 L 725 368 M 725 368 L 725 461 M 725 461 L 620 461 M 620 461 L 620 368 M 620 368 L 570 368 M 570 368 L 570 413 M 570 413 L 515 413 M 515 413 L 515 461 M 515 461 L 410 461 M 410 461 L 410 413 M 410 413 L 200 413 M 200 413 L 200 368 M 200 368 L 90 368 M 90 368 L 90 225 M 90 225 L 90 132 M 90 132 L 195 132 M 195 132 L 195 40 M 195 40 L 300 40 M 300 40 L 300 90 M 300 90 L 355 90 M 355 90 L 355 40 " stroke="#24b8f9" stroke-width="2" />
+        <path id="mpath4" d="  M 410 413 L 200 413  M 200 413 L 200 368 M 200 368 L 90 368 M 90 368 L 90 225 M 90 225 L 90 132 M 90 132 L 195 132 M 195 132 L 195 40 M 195 40 L 300 40 M 300 40 L 300 90 M 300 90 L 355 90 M 355 90 L 355 40 M 355 40 L 410 40 M 410 40 L 410 133 M 410 133 L 515 133 M 515 133 L 515 40 M 515 40 L 620 40 M 620 40 L 620 90 M 620 90 L 675 90 M 675 90 L 675 133 M 675 133 L 780 133 M 780 133 L 780 40 M 780 40 L 830 40 M 830 40 L 830 225 M 830 225 L 880 225 M 880 225 L 880 275 M 880 275 L 830 275 M 830 275 L 830 368 M 830 368 L 725 368 M 725 368 L 725 461 M 725 461 L 620 461 M 620 461 L 620 368 M 620 368 L 570 368 M 570 368 L 570 413 M 570 413 L 515 413 M 515 413 L 515 461 M 515 461 L 410 461 M 410 461 L 410 413" stroke="#24b8f9" stroke-width="2" />
+        <path id="mpath5" d="   M 725 461 L 620 461 M 620 461 L 620 368 M 620 368 L 570 368 M 570 368 L 570 413 M 570 413 L 515 413 M 515 413 L 515 461 M 515 461 L 410 461 M 410 461 L 410 413 M 410 413 L 200 413  M 200 413 L 200 368 M 200 368 L 90 368 M 90 368 L 90 225 M 90 225 L 90 132 M 90 132 L 195 132 M 195 132 L 195 40 M 195 40 L 300 40 M 300 40 L 300 90 M 300 90 L 355 90 M 355 90 L 355 40 M 355 40 L 410 40 M 410 40 L 410 133 M 410 133 L 515 133 M 515 133 L 515 40 M 515 40 L 620 40 M 620 40 L 620 90 M 620 90 L 675 90 M 675 90 L 675 133 M 675 133 L 780 133 M 780 133 L 780 40 M 780 40 L 830 40 M 830 40 L 830 225 M 830 225 L 880 225 M 880 225 L 880 275 M 880 275 L 830 275 M 830 275 L 830 368 M 830 368 L 725 368 M 725 368 L 725 461" stroke="#24b8f9" stroke-width="2" />
+        <image xlink:href="./images/fiicode_logo.png" x="0px" y="200px" width="100%" height="100px" />
+        <image id="inGameIcon" x="900px" y="50px" width="100px" height="100px" onmouseover="hoverHero()" onmouseout="unHoverHero()" onclick="activatePower()" />
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="30s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath1" />
+            </animateMotion>
+        </image>
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="30s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath2" />
+            </animateMotion>
+        </image>
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="30s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath3" />
+            </animateMotion>
+        </image>
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="30s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath4" />
+            </animateMotion>
+        </image>
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="30s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath5" />
+            </animateMotion>
+        </image>
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="25s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath1" />
+            </animateMotion>
+        </image>
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="25s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath2" />
+            </animateMotion>
+        </image>
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="25s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath3" />
+            </animateMotion>
+        </image>
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="25s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath4" />
+            </animateMotion>
+        </image>
+        <image class="enemy" x="-20px" y="-20px" width="40px" height="40px" onclick="killEnemy(evt)">
+            <animateMotion dur="25s" repeatCount="indefinite" class="animation">
+                <mpath xlink:href="#mpath5" />
+            </animateMotion>
+        </image>
+        <image xlink:href="./images/asii_logo.png" x="0" y="400" width="100px" height="100px" />
+        <image xlink:href="./images/fii_logo.png" x="900" y="400px" width="120px" height="120px" />
+        <text id="timer" x="25" y="25" fill="white"> 30</text>
+    </svg>
+    <div class="box" id="message">
+    </div>
+</body>
+
+</html>
