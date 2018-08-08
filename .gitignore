@@ -2,6 +2,6 @@
 ./.env
 ./storage
 ./config/app.php
-#./fiicode.sql
-#./config/database.php
-#./config/mail.php
+./fiicode.sql
+./config/database.php
+./config/mail.php
