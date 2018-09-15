@@ -55,7 +55,7 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'test'),
+            'database'  => env('DB_DATABASE', 'changeme_asii'),
             'username'  => env('DB_USERNAME', 'changeme_asii'),
             'password'  => env('DB_PASSWORD', 'changeme_asii'),
             'charset'   => 'utf8',
