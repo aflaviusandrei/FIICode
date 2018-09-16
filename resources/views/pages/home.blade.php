@@ -121,7 +121,7 @@
         </div>
     </section>
     <div class="ui container">
-        <div class="head"><i class="icon code"></i> {{ $title }} <div class="green"></div><div class="red"></div></div>
+        <div class="head"><i class="icon code"></i> Despre <div class="green"></div><div class="red"></div></div>
         <div class="ui segment">
             <p>Proiectul dorește ca participanții să valorifice <strong>abilitățile</strong> (și să dezvolte competențe), prin intermediul competiției: <strong>g&acirc;ndirea algoritmică</strong> și <strong>analitică</strong>, modelarea și implementarea, <strong>dezvoltarea</strong> de noi tehnologii, creativitatea, adaptabilitatea, precum&nbsp; și capacitatea de a susține &icirc;n public a unei lucrări proprii. Cele 3 secțiuni, <strong>Algoritmică</strong>, <strong>Web/Mobile</strong> și <strong>GameDev</strong>, sunt concepute special pentru acest lucru, fiecare acoperind o anumită arie din domeniul IT aflată &icirc;n acest moment &icirc;n plină expansiune. Modul de organizare al competiției implică cunoașterea at&acirc;t de noțiuni practice c&acirc;t și teoretice.
                 <br>
