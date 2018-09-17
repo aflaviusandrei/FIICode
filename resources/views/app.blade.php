@@ -36,10 +36,6 @@
                 <i class="icon home"></i>
                 Pagina de start
             </a>
-            <a href="/despre">
-                <i class="icon info"></i>
-                Despre
-            </a>
             <a href="/parteneri">
                 <i class="icon star"></i>
                 Parteneri
