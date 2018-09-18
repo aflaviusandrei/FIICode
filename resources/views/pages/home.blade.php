@@ -48,9 +48,6 @@
                             <a href="/"><i class="icon home"></i>Pagină de start</a>
                         </div>
                         <div class="item">
-                            <a href="/despre"><i class="icon info"></i>Despre</a>
-                        </div>
-                        <div class="item">
                             <a href="/parteneri"><i class="icon star"></i>Parteneri</a>
                         </div>
                         <div class="item">
