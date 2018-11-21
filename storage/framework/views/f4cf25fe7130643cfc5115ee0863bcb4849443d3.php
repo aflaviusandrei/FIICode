@@ -1,6 +1,4 @@
-@extends('appHome')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <header>
         <div class="ui container">
             <nav>
@@ -29,17 +27,17 @@
                     <i class="icon mail"></i>
                     Contact
                 </a>
-                @if (Auth::check())
+                <?php if(Auth::check()): ?>
                     <a href="/logout">
                         <i class="icon sign out"></i>
                         Logout
                     </a>
-                @else
+                <?php else: ?>
                     <a href="/login">
                         <i class="icon sign in"></i>
                         Login
                     </a>
-                @endif
+                <?php endif; ?>
             </nav>
             <div class="mobile">
                 <div class="ui icon top right pointing dropdown button white">
@@ -58,21 +56,21 @@
                         <div class="item">
                             <a href="/algoritmica"><i class="icon cubes"></i>Algoritmica</a>
                         </div>
-                        @if (Auth::check())
+                        <?php if(Auth::check()): ?>
                             <div class="item">
                                 <a href="/logout">
                                     <i class="icon sign out"></i>
                                     Logout
                                 </a>
                             </div>
-                        @else
+                        <?php else: ?>
                             <div class="item">
                                 <a href="/login">
                                     <i class="icon sign in"></i>
                                     Login
                                 </a>
                             </div>
-                        @endif
+                        <?php endif; ?>
                         <div class="item">
                             <a href="/finala">
                                 <i class="icon checkered flag"></i>
@@ -90,7 +88,7 @@
     <section id="homecover">
         <div class="ui container">
             <div class="logo home">
-                <img src="{{ asset('img/logohome.png') }}" alt="Logo FIICode" />
+                <img src="<?php echo e(asset('img/logohome.png')); ?>" alt="Logo FIICode" />
             </div>
             <h2>Exact ca în orice altă artă, încredera vine odată cu experiența,</h2>
             <h2>Atât pentru voi, cât și pentru noi.</h2>
@@ -118,9 +116,9 @@
                     </div>
                 </a>
             </div>
-            <img class="backgroundhome web" src="{{ asset('img/web.svg') }}" alt="web tehnology background" />
-            <img class="backgroundhome gamedev" src="{{ asset('img/gamedev.jpg') }}" alt="game dev background" />
-            <img class="backgroundhome algo" src="{{ asset('img/algo.svg') }}" alt="algorithm background" />
+            <img class="backgroundhome web" src="<?php echo e(asset('img/web.svg')); ?>" alt="web tehnology background" />
+            <img class="backgroundhome gamedev" src="<?php echo e(asset('img/gamedev.jpg')); ?>" alt="game dev background" />
+            <img class="backgroundhome algo" src="<?php echo e(asset('img/algo.svg')); ?>" alt="algorithm background" />
         </div>
     </section>
     <section id="content">
@@ -142,26 +140,28 @@
                 Newsfeed
             </div>
             <br />
-            @foreach($news as $new)
+            <?php foreach($news as $new): ?>
                 <div class="ui fluid card newsfeed">
                     <div class="content">
-                        <div class="header">{{ $new['title'] }}</div>
+                        <div class="header"><?php echo e($new['title']); ?></div>
                         <div class="meta">
                         </div>
-                        <p>{!! $new['content'] !!}</p>
+                        <p><?php echo $new['content']; ?></p>
                     </div>
                     <div class="extra content">
-                    <span data-id="{{ $new['id'] }}" class="left floated like apreciaza">
+                    <span data-id="<?php echo e($new['id']); ?>" class="left floated like apreciaza">
                         <i class="like icon"></i>
                         Apreciaza
                     </span>
                 <span class="right floated star">
-                    {{ $new['aprecieri'] }} aprecieri
+                    <?php echo e($new['aprecieri']); ?> aprecieri
                 </span>
                     </div>
                 </div>
-            @endforeach
+            <?php endforeach; ?>
             <div class="ui container"></div>
         </div>
     </section>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('appHome', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

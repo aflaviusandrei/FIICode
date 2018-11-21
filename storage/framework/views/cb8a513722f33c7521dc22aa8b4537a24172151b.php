@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    <meta name="csrf-token" content="{!! csrf_token() !!}">
+    <meta name="csrf-token" content="<?php echo csrf_token(); ?>">
     <meta name="description" content="FII Code este un concurs national de algoritmica si tehnologii web pentru studenti si elevi organizat de ASII si Facultatea de Informatica Iasi.">
     <meta name="keywords" content="concurs, algoritmica, tehnologii, web, tehnologii web, concurs de algoritmica, concurs de tehnologii web">
-    <meta property="og:image" content="{{ asset('img/cover-2018.png') }}">
+    <meta property="og:image" content="<?php echo e(asset('img/cover-2018.png')); ?>">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <title>{{ $title }} | FIICode 2018 - Concurs de algoritmică, game development și tehnologii web</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('semantic/semantic.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/style.css?v=1.1')}}" />
-    <link rel="stylesheet" href="{{ asset('css/animate.css')}}" />
+    <title><?php echo e($title); ?> | FIICode 2018 - Concurs de algoritmică, game development și tehnologii web</title>
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('semantic/semantic.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('css/style.css?v=1.1')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/animate.css')); ?>" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <script>
@@ -29,7 +29,7 @@
 <header class="nonHome">
     <div class="ui container">
         <a class="logo" href="/">
-            <img src="{{ asset('img/logo.png') }}" alt="Logo FIICode" />
+            <img src="<?php echo e(asset('img/logo.png')); ?>" alt="Logo FIICode" />
         </a>
         <nav>
             <a href="/">
@@ -57,17 +57,17 @@
                 <i class="icon mail"></i>
                 Contact
             </a>
-            @if (Auth::check())
+            <?php if(Auth::check()): ?>
                 <a href="/logout">
                     <i class="icon sign out"></i>
                     Logout
                 </a>
-            @else
+            <?php else: ?>
                 <a href="/login">
                     <i class="icon sign in"></i>
                     Login
                 </a>
-            @endif
+            <?php endif; ?>
         </nav>
         <div class="mobile">
             <div class="ui icon top right pointing dropdown button white">
@@ -86,30 +86,30 @@
                     <div class="item">
                         <a href="/algoritmica"><i class="icon cubes"></i>Algotitmica</a>
                     </div>
-                    @if (Auth::check())
+                    <?php if(Auth::check()): ?>
                         <div class="item">
                             <a href="/logout">
                                 <i class="icon sign out"></i>
                                 Logout
                             </a>
                         </div>
-                    @else
-                        @if (Auth::check())
+                    <?php else: ?>
+                        <?php if(Auth::check()): ?>
                             <div class="item">
                                 <a href="/logout">
                                     <i class="icon sign out"></i>
                                     Logout
                                 </a>
                             </div>
-                        @else
+                        <?php else: ?>
                             <div class="item">
                                 <a href="/login">
                                     <i class="icon sign in"></i>
                                     Login
                                 </a>
                             </div>
-                        @endif
-                    @endif
+                        <?php endif; ?>
+                    <?php endif; ?>
                     <div class="item">
                         <a href="/finala">
                             <i class="icon checkered flag"></i>
@@ -127,16 +127,17 @@
 </header>
 <section id="bread">
     <div class="ui container">
-        FII Code <i class="icon angle right"></i> {{ $title }}
+        FII Code <i class="icon angle right"></i> <?php echo e($title); ?>
+
     </div>
 </section>
-@yield('content')
+<?php echo $__env->yieldContent('content'); ?>
 <footer>
     <div class="ui container">
         <div class="ui stackable grid">
             <div class="five wide column">
                 <div class="content">
-                    <img src="{{ asset('img/logo.png') }}" alt="Logo FIICode"/>
+                    <img src="<?php echo e(asset('img/logo.png')); ?>" alt="Logo FIICode"/>
                     <p>FII Code este un concurs la nivel național pentru elevi și studenți în care aceștia își pot etala cunoștințele în algoritmică sau tehnologii web. Sună bine? Atunci înscrie-te chiar acum și dovedește-le tuturor că ești cel mai bun!</p>
                 </div>
             </div>
@@ -169,7 +170,7 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="{{ asset('semantic/semantic.min.js') }}"></script>
-<script src="{{ asset('js/front.js?v=1.2') }}"></script>
+<script src="<?php echo e(asset('semantic/semantic.min.js')); ?>"></script>
+<script src="<?php echo e(asset('js/front.js?v=1.2')); ?>"></script>
 </body>
 </html>
