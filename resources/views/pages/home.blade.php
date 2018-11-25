@@ -24,7 +24,7 @@
                     <i class="icon calendar"></i>
                     Calendar
                 </a>
-                <a href="/editia2016">
+                <a href="/editii">
                     <i class="icon trophy"></i>
                     Ediții anterioare
                 </a>
