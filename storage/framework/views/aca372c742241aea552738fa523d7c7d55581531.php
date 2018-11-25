@@ -6,10 +6,12 @@
     <meta name="csrf-token" content="<?php echo csrf_token(); ?>">
     <meta name="description" content="FII Code este un concurs national de algoritmica si tehnologii web pentru studenti si elevi organizat de ASII si Facultatea de Informatica Iasi.">
     <meta name="keywords" content="concurs, algoritmica, tehnologii, web, tehnologii web, concurs de algoritmica, concurs de tehnologii web">
+    <meta property="og:image" content="<?php echo e(asset('img/cover-2018.png')); ?>">
+
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <title><?php echo e($title); ?> | FIICode 2018 - Concurs de algoritmică, game development și tehnologii web</title>
     <link rel="stylesheet" type="text/css" href="<?php echo e(asset('semantic/semantic.min.css')); ?>">
-    <link rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/style.css?v=1.1')); ?>" />
     <link rel="stylesheet" href="<?php echo e(asset('css/animate.css')); ?>" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -34,21 +36,18 @@
                 <i class="icon home"></i>
                 Pagina de start
             </a>
-            <a href="/despre">
-                <i class="icon info"></i>
-                Despre
+            
+            <a href="/webmobile">
+                <i class="icon code"></i>
+                Web/Mobile
             </a>
-            <a href="/parteneri">
-                <i class="icon star"></i>
-                Parteneri
+            <a href="/gamedev">
+                <i class="icon rocket"></i>
+                GameDev
             </a>
-            <a href="/regulament">
-                <i class="icon legal"></i>
-                Regulament
-            </a>
-            <a href="/calendar">
-                <i class="icon calendar"></i>
-                Calendar
+            <a href="/algoritmica">
+                <i class="icon cubes"></i>
+                Algoritmica
             </a>
             <a href="/editia2016">
                 <i class="icon trophy"></i>
@@ -77,23 +76,23 @@
                     <div class="item active">
                         <a href="/"><i class="icon home"></i>Pagina de start</a>
                     </div>
+                    
                     <div class="item">
-                        <a href="/despre"><i class="icon info"></i>Despre</a>
+                        <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                     </div>
                     <div class="item">
-                        <a href="/parteneri"><i class="icon star"></i>Partenri</a>
+                        <a href="/"><i class="icon rocket"></i>GameDev </a>
                     </div>
                     <div class="item">
-                        <a href="/regulament"><i class="icon legal"></i>Regulament</a>
-                    </div>
-                    <div class="item">
-                        <a href="/calendar"><i class="icon calendar"></i>Calendar</a>
+                        <a href="/algoritmica"><i class="icon cubes"></i>Algotitmica</a>
                     </div>
                     <?php if(Auth::check()): ?>
-                        <a href="/logout">
-                            <i class="icon sign out"></i>
-                            Logout
-                        </a>
+                        <div class="item">
+                            <a href="/logout">
+                                <i class="icon sign out"></i>
+                                Logout
+                            </a>
+                        </div>
                     <?php else: ?>
                         <?php if(Auth::check()): ?>
                             <div class="item">
@@ -147,7 +146,7 @@
                     <h3 class="ui header divided">Ediţia 2018</h3>
                     <div class="ui list">
                         <a href="/" class="item">Pagina de start</a>
-                        <a href="/regulament" class="item">Regulament</a>
+                        
                         <a href="/sitemap.xml" class="item">Sitemap</a>
                         <span>Website gazduit de <a href="https://rohost.com/">RoHost</a></span>
                     </div>
@@ -172,6 +171,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="<?php echo e(asset('semantic/semantic.min.js')); ?>"></script>
-<script src="<?php echo e(asset('js/front.js')); ?>"></script>
+<script src="<?php echo e(asset('js/front.js?v=1.2')); ?>"></script>
 </body>
 </html>

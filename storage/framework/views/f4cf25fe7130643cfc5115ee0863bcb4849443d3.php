@@ -6,23 +6,19 @@
                     <i class="icon home"></i>
                     Pagina de start
                 </a>
-                <a href="/despre">
-                    <i class="icon info"></i>
-                    Despre
+                <a href="webmobile">
+                    <i class="icon code"></i>
+                    Web/Mobile
                 </a>
-                <a href="/parteneri">
-                    <i class="icon star"></i>
-                    Parteneri
+                <a href="/gamedev">
+                    <i class="icon rocket"></i>
+                    GameDev
                 </a>
-                <a href="/regulament">
-                    <i class="icon legal"></i>
-                    Regulament
+                <a href="/algoritmica">
+                    <i class="icon cubes"></i>
+                    Algoritmica
                 </a>
-                <a href="/calendar">
-                    <i class="icon calendar"></i>
-                    Calendar
-                </a>
-                <a href="/editii">
+                <a href="/editia2016">
                     <i class="icon trophy"></i>
                     Ediții anterioare
                 </a>
@@ -50,16 +46,13 @@
                             <a href="/"><i class="icon home"></i>Pagină de start</a>
                         </div>
                         <div class="item">
-                            <a href="/despre"><i class="icon info"></i>Despre</a>
+                            <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                         </div>
                         <div class="item">
-                            <a href="/parteneri"><i class="icon star"></i>Parteneri</a>
+                            <a href="/gamedev"><i class="icon rocket"></i>GamDev</a>
                         </div>
                         <div class="item">
-                            <a href="/regulament"><i class="icon legal"></i>Regulament</a>
-                        </div>
-                        <div class="item">
-                            <a href="/calendar"><i class="icon calendar"></i>Calendar</a>
+                            <a href="/algoritmica"><i class="icon cubes"></i>Algoritmica</a>
                         </div>
                         <?php if(Auth::check()): ?>
                             <div class="item">
@@ -95,8 +88,12 @@
             <div class="logo home">
                 <img src="<?php echo e(asset('img/logohome.png')); ?>" alt="Logo FIICode" />
             </div>
-            <h2>Dacă ești priceput în algoritmică, tehnologii web/mobile, sau dezvoltare de jocuri, atunci află că...</h2>
-            <p>Se zvonește că în regatul Iașului, în lunile Martie, Aprilie si Mai, o mare competiție de Algoritmică, Web-Mobile și Game Dev urmează să înceapă. În Facultatea de Informatică Iași încep să se strângă fel de fel de probleme, grele și ușoare, dar pline de capcane și provocări. Totodată, undeva în clădire se caută în secret teme îndrăznețe pentru toți pasionații dezvoltatori prin care aceștia să etaleze tehnologiile stăpânite precum și creativitatea cu care se mândresc.</p>
+            <h2>Exact ca în orice altă artă, încredera vine odată cu experiența,</h2>
+            <h2>Atât pentru voi, cât și pentru noi.</h2>
+            <p>FII Code este un proiect organizat de ASII și de Facultatea de Informatică din Iași, ce are la bază dezvoltarea abilităților pe partea de programare la nivel competitiv. 
+                Fiind la a 4-a ediție, acesta are o arie largă ce cuprinde web&mobile development, game developmen și algoritmică. 
+                Tema, la fel ca și cele din ultimii 4 ani, va fi una îndrăzneață, creativă, menită să scoată tot ce este mai bun din voi.
+                Ambiția și spiritul competitiv vor fi calitătile esențiale de care veți avea nevoie pentru a vă număra printre învingători.</p>
             <div class="buttons">
                 <a href="/inscrie-te/web">
                     <div class="ui labeled icon blue massive button web">
@@ -123,6 +120,19 @@
         </div>
     </section>
     <section id="content">
+        <div class="ui container">
+            <div class="head"><i class="icon code"></i> Despre <div class="green"></div><div class="red"></div></div>
+            <div class="ui segment">
+                <p>Proiectul dorește ca participanții să valorifice <strong>abilitățile</strong> (și să dezvolte competențe), prin intermediul competiției: <strong>g&acirc;ndirea algoritmică</strong> și <strong>analitică</strong>, modelarea și implementarea, <strong>dezvoltarea</strong> de noi tehnologii, creativitatea, adaptabilitatea, precum&nbsp; și capacitatea de a susține &icirc;n public a unei lucrări proprii. Cele 3 secțiuni, <strong>Algoritmică</strong>, <strong>Web/Mobile</strong> și <strong>GameDev</strong>, sunt concepute special pentru acest lucru, fiecare acoperind o anumită arie din domeniul IT aflată &icirc;n acest moment &icirc;n plină expansiune. Modul de organizare al competiției implică cunoașterea at&acirc;t de noțiuni practice c&acirc;t și teoretice.
+                    <br>
+                    <br>
+                    Subiectele și soluțiile sunt propuse de o comisie formată din reprezentanți ai unor companii de prestigiu din industrie, de profesori universitari, preuniversitari și de studenți ai Facultății de Informatică. Evaluarea la secțiunea de algoritmică va fi  făcută online, iar evaluarea în cadrul probelor Web/Mobile și GameDev va fi realizată de către comisie, fiecare secțiune având un regulament propriu.
+                    <br>
+                    <br>
+                    De asemenea, se dorește o apropriere a celor două medii universitar și preuniversitar, fiecare dintre concurenți fiind invitat să împărtășească din experiența lor.</p>
+            </div>
+            <div class="ui container"></div>
+        </div>
         <div class="ui container">
             <div class="ui horizontal divider">
                 Newsfeed

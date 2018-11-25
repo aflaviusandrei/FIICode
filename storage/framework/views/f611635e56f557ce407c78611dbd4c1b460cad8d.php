@@ -4,12 +4,12 @@
             <div class="head"><i class="icon code"></i> <?php echo e($title); ?> <div class="green"></div><div class="red"></div></div>
             <div class="ui segment">
                 <p>
-                    Pentru orice intrebare legata de FIICode te rugam sa completezi formularul de mai jos.
+                    Pentru orice întrebare legată de FIICode te rugăm să completezi formularul de mai jos.
                 </p>
                 <div class="ui form contactForm">
                     <div class="field">
-                        <label>Numele tau<span>*</span></label>
-                        <input type="text" name="nume" placeholder="Nume si prenume" />
+                        <label>Numele tău<span>*</span></label>
+                        <input type="text" name="nume" placeholder="Nume și prenume" />
                     </div>
                     <div class="field">
                         <label>Email<span>*</span></label>
@@ -28,11 +28,11 @@
                     </div>
                     <div class="ui success message">
                         <div class="header">Mesaj trimis cu success!</div>
-                        <p>Mesajul tau a ajuns la noi si iti vom raspunde in cel mai scurt timp posibil.</p>
+                        <p>Mesajul tău a ajuns la noi și îți vom răspunde în cel mai scurt timp posibil.</p>
                     </div>
                     <div class="ui warning message">
-                        <div class="header">Mesajul nu a putut fii trimis.</div>
-                        <p>Aparent acest mesaj nu poate fii trimis catre noi, te rugam sa incerci iar.</p>
+                        <div class="header">Mesajul nu a putut fi trimis.</div>
+                        <p>Aparent acest mesaj nu poate fi trimis către noi, te rugăm sa încerci iar.</p>
                     </div>
                 </div>
             </div>
@@ -40,4 +40,5 @@
         </div>
     </section>
 <?php $__env->stopSection(); ?>
+
 <?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

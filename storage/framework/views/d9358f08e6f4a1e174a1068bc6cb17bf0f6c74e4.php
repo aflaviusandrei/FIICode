@@ -1,16 +1,17 @@
-@extends('app')@section('content')
+<?php $__env->startSection('content'); ?>
 <section id="content">
     <div class="ui container">
-        <div class="ui segment webDesc" {!! (isset($web) && $web==1) ? 'style="display:block;"' : '' !!}>
+        <div class="ui segment webDesc" <?php echo (isset($web) && $web==1) ? 'style="display:block;"' : ''; ?>>
             <h4 class="ui header">Tehnologii WEB</h4> "Toți pentru unul și unul pentru toți!" Acesta e motto-ul probei de Tehnologii WEB! Nu poți participa decât ca parte a unei echipe formată din 2 până la 4 membri! Prima probă te va întâmpina online pentru a-ți testa abilitățile și creativitatea urmând ca apoi, cei mai cei să se califice în finală! Nu ezita! Înscrie-te și creează aplicații uimitoare folosind orice tehnologie de pe acest Pământ!
             <br /> Pentru mai multe detalii vezi <a href="/webmobile">pagina ariei</a>. </div>
-        <div class="ui segment algoDesc" {!! (isset($algo) && $algo==1) ? 'style="display:block;"' : '' !!}>
+        <div class="ui segment algoDesc" <?php echo (isset($algo) && $algo==1) ? 'style="display:block;"' : ''; ?>>
             <h4 class="ui header">Algoritmică</h4> Un algoritm trebuie văzut pentru a fi crezut!" Acesta e motto-ul probei de Algoritmică! Trei probe de calificare te așteaptă cu brațele deschise pentru a-ți demonstra priceperea in lumea algoritmilor! Dar nu zi HOP până nu sari gardul căci dupa acestea te așteaptă "Algozilla"! Crezi că ești pregătit? Înscrie-te și arată-ne ce poți!
             <br /> Pentru mai multe detalii vezi <a href="/algoritmica">pagina ariei</a>. </div>
-        <div class="ui segment gamedevDesc" {!! (isset($gamedev) && $gamedev==1) ? 'style="display:block;"' : '' !!}>
+        <div class="ui segment gamedevDesc" <?php echo (isset($gamedev) && $gamedev==1) ? 'style="display:block;"' : ''; ?>>
             <h4 class="ui header">GameDev</h4> "Tot timpul e mai bine cu prietenii aproape!" De aceea în secțiune vei concura alături de ei în echipe de 2 pana la 4 oameni pentru a dezvolta cel mai grozav joc! La această probă puteți utiliza orice tehnologie atât timp cât aplicația finală v-a putea fi instalată și utilizată pe un device.
             <br /> Pentru mai multe detalii vezi <a href="/gamedev">pagina ariei</a>. </div>
-        <div class="head"><i class="icon code"></i> {{ $title }}
+        <div class="head"><i class="icon code"></i> <?php echo e($title); ?>
+
             <div class="green"></div>
             <div class="red"></div>
         </div>
@@ -23,7 +24,7 @@
                             <div class="ui segment"> <i class="icon code"></i>
                                 <p>Tehnologii web</p>
                                 <div class="ui fitted toggle checkbox">
-                                    <input name="sectiune" id="web" value="web" {!! (isset($web) && $web==1 ) ? 'checked' : '' !!} type="radio">
+                                    <input name="sectiune" id="web" value="web" <?php echo (isset($web) && $web==1 ) ? 'checked' : ''; ?> type="radio">
                                     <label></label>
                                 </div>
                             </div>
@@ -32,7 +33,7 @@
                             <div class="ui segment"> <i class="icon rocket"></i>
                                 <p>GameDev</p>
                                 <div class="ui fitted toggle checkbox">
-                                    <input name="sectiune" id="gamedev" value="gamedev" {!! (isset($gamedev) && $gamedev==1 ) ? 'checked' : '' !!} type="radio">
+                                    <input name="sectiune" id="gamedev" value="gamedev" <?php echo (isset($gamedev) && $gamedev==1 ) ? 'checked' : ''; ?> type="radio">
                                     <label></label>
                                 </div>
                             </div>
@@ -41,7 +42,7 @@
                             <div class="ui segment"> <i class="icon cubes"></i>
                                 <p>Algoritmică</p>
                                 <div class="ui fitted toggle checkbox">
-                                    <input name="sectiune" id="algo" value="algo" {!! (isset($algo) && $algo==1 ) ? 'checked' : '' !!} type="radio">
+                                    <input name="sectiune" id="algo" value="algo" <?php echo (isset($algo) && $algo==1 ) ? 'checked' : ''; ?> type="radio">
                                     <label></label>
                                 </div>
                             </div>
@@ -123,7 +124,8 @@
                 <div class="field webOnly gamedevOnly">
                     <label>Email Membru 4</label>
                     <input type="text" name="email4" placeholder="Adresa de email" /> </div>
-                 {!! Recaptcha::render() !!}
+                 <?php echo Recaptcha::render(); ?>
+
                 <div class="field">
                     <div class="ui blue labeled icon submit button"><i class="icon send"></i>Trimite</div>
                 </div>
@@ -144,4 +146,5 @@
         <div class="ui container"></div>
     </div>
 </section>
-<script src='https://www.google.com/recaptcha/api.js'></script>@endsection
+<script src='https://www.google.com/recaptcha/api.js'></script><?php $__env->stopSection(); ?>
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

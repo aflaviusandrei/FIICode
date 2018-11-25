@@ -8,17 +8,18 @@
                     <i class="icon home"></i>
                     Pagina de start
                 </a>
-                <a href="/parteneri">
-                    <i class="icon star"></i>
-                    Parteneri
+                
+                <a href="webmobile">
+                    <i class="icon code"></i>
+                    Web/Mobile
                 </a>
-                <a href="/regulament">
-                    <i class="icon legal"></i>
-                    Regulament
+                <a href="/gamedev">
+                    <i class="icon rocket"></i>
+                    GameDev
                 </a>
-                <a href="/calendar">
-                    <i class="icon calendar"></i>
-                    Calendar
+                <a href="/algoritmica">
+                    <i class="icon cubes"></i>
+                    Algoritmica
                 </a>
                 <a href="/editii">
                     <i class="icon trophy"></i>
@@ -47,14 +48,15 @@
                         <div class="item active">
                             <a href="/"><i class="icon home"></i>Pagină de start</a>
                         </div>
+                        
                         <div class="item">
-                            <a href="/parteneri"><i class="icon star"></i>Parteneri</a>
+                            <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                         </div>
                         <div class="item">
-                            <a href="/regulament"><i class="icon legal"></i>Regulament</a>
+                            <a href="/gamedev"><i class="icon rocket"></i>GamDev</a>
                         </div>
                         <div class="item">
-                            <a href="/calendar"><i class="icon calendar"></i>Calendar</a>
+                            <a href="/algoritmica"><i class="icon cubes"></i>Algoritmica</a>
                         </div>
                         @if (Auth::check())
                             <div class="item">
@@ -90,8 +92,12 @@
             <div class="logo home">
                 <img src="{{ asset('img/logohome.png') }}" alt="Logo FIICode" />
             </div>
-            <h2>Dacă ești priceput în algoritmică, tehnologii web/mobile, sau dezvoltare de jocuri, atunci află că...</h2>
-            <p>Se zvonește că în regatul Iașului, în lunile Martie, Aprilie si Mai, o mare competiție de Algoritmică, Web-Mobile și Game Dev urmează să înceapă. În Facultatea de Informatică Iași încep să se strângă fel de fel de probleme, grele și ușoare, dar pline de capcane și provocări. Totodată, undeva în clădire se caută în secret teme îndrăznețe pentru toți pasionații dezvoltatori prin care aceștia să etaleze tehnologiile stăpânite precum și creativitatea cu care se mândresc.</p>
+            <h2>Exact ca în orice altă artă, încredera vine odată cu experiența,</h2>
+            <h2>Atât pentru voi, cât și pentru noi.</h2>
+            <p>FII Code este un proiect organizat de ASII și de Facultatea de Informatică din Iași, ce are la bază dezvoltarea abilităților pe partea de programare la nivel competitiv. 
+                Fiind la a 4-a ediție, acesta are o arie largă ce cuprinde web&mobile development, game developmen și algoritmică. 
+                Tema, la fel ca și cele din ultimii 4 ani, va fi una îndrăzneață, creativă, menită să scoată tot ce este mai bun din voi.
+                Ambiția și spiritul competitiv vor fi calitătile esențiale de care veți avea nevoie pentru a vă număra printre învingători.</p>
             <div class="buttons">
                 <a href="/inscrie-te/web">
                     <div class="ui labeled icon blue massive button web">

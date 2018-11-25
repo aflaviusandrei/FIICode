@@ -6,11 +6,13 @@
     <meta name="csrf-token" content="<?php echo csrf_token(); ?>">
     <meta name="description" content="FII Code este un concurs national de algoritmica si tehnologii web pentru studenti si elevi organizat de ASII si Facultatea de Informatica Iasi.">
     <meta name="keywords" content="concurs, algoritmica, tehnologii, web, tehnologii web, concurs de algoritmica, concurs de tehnologii web">
+    <meta property="og:image" content="<?php echo e(asset('img/cover-2018.png')); ?>">
+    
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <title>FIICode 2018 - Concurs de algoritmică, game development și tehnologii web</title>
     <link rel="stylesheet" type="text/css" href="<?php echo e(asset('semantic/semantic.min.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('css/animate.css')); ?>" />
-    <link rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/style.css?v=1.1')); ?>" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <script>
@@ -39,7 +41,7 @@
                     <h3 class="ui header divided">Ediţia 2018</h3>
                     <div class="ui list">
                         <a href="/" class="item">Pagina de start</a>
-                        <a href="/regulament" class="item">Regulament</a>
+                        
                         <a href="/sitemap.xml" class="item">Sitemap</a>
                         <span>Website gazduit de <a href="https://rohost.com/">RoHost</a></span>
                     </div>
@@ -64,6 +66,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="<?php echo e(asset('semantic/semantic.min.js')); ?>"></script>
-<script src="<?php echo e(asset('js/front.js')); ?>"></script>
+<script src="<?php echo e(asset('js/front.js?v=1.2')); ?>"></script>
 </body>
 </html>
