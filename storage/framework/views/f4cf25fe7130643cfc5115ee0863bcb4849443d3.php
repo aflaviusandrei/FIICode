@@ -6,7 +6,6 @@
                     <i class="icon home"></i>
                     Pagina de start
                 </a>
-                
                 <a href="webmobile">
                     <i class="icon code"></i>
                     Web/Mobile
@@ -46,7 +45,6 @@
                         <div class="item active">
                             <a href="/"><i class="icon home"></i>Pagină de start</a>
                         </div>
-                        
                         <div class="item">
                             <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                         </div>

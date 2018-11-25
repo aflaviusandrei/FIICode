@@ -10,6 +10,7 @@
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <title>{{ $title }} | FIICode 2018 - Concurs de algoritmică, game development și tehnologii web</title>
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('semantic/semantic.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/style.css?v=1.1')}}" />
     <link rel="stylesheet" href="{{ asset('css/animate.css')}}" />
@@ -49,7 +50,7 @@
                 <i class="icon cubes"></i>
                 Algoritmica
             </a>
-            <a href="/editia2016">
+            <a href="/editii">
                 <i class="icon trophy"></i>
                 Ediții anterioare
             </a>
@@ -168,7 +169,8 @@
     </div>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('semantic/semantic.min.js') }}"></script>
 <script src="{{ asset('js/front.js?v=1.2') }}"></script>
 </body>

@@ -21,7 +21,7 @@
                     <i class="icon cubes"></i>
                     Algoritmica
                 </a>
-                <a href="/editia2016">
+                <a href="/editii">
                     <i class="icon trophy"></i>
                     Ediții anterioare
                 </a>

@@ -27,7 +27,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/', 'HomeController@showPage');
     Route::get('/regulament', 'RegulamentController@showPage');
     Route::get('/despre', 'DespreController@showPage');
-    Route::get('/editia2016', 'Editia2016@showPage');
+    Route::get('/editii', 'EditiiAnterioare@showPage');
     Route::get('/parteneri', 'ParteneriController@showPage');
     Route::get('/contact', 'ContactController@showPage');
     Route::get('/inscrie-te', 'InscrieteController@showPage');
