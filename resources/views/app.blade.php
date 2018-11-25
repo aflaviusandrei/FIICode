@@ -36,10 +36,6 @@
                 <i class="icon home"></i>
                 Pagina de start
             </a>
-            <a href="/despre">
-                <i class="icon info"></i>
-                Despre
-            </a>
             <a href="/parteneri">
                 <i class="icon star"></i>
                 Parteneri
@@ -78,9 +74,6 @@
                 <div class="menu">
                     <div class="item active">
                         <a href="/"><i class="icon home"></i>Pagina de start</a>
-                    </div>
-                    <div class="item">
-                        <a href="/despre"><i class="icon info"></i>Despre</a>
                     </div>
                     <div class="item">
                         <a href="/parteneri"><i class="icon star"></i>Partenri</a>
