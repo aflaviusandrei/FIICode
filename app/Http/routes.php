@@ -27,7 +27,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/', 'HomeController@showPage');
     Route::get('/regulament', 'RegulamentController@showPage');
     Route::get('/despre', 'DespreController@showPage');
-    Route::get('/editia2016', 'Editia2016@showPage');
+    Route::get('/editii', 'EditiiAnterioare@showPage');
     Route::get('/parteneri', 'ParteneriController@showPage');
     Route::get('/contact', 'ContactController@showPage');
     Route::get('/inscrie-te', 'InscrieteController@showPage');
@@ -38,8 +38,11 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/sectiunea-algoritmica', 'AuthController@showSectiuneAlgo');
     Route::get('/sectiunea-gamedev', 'AuthController@showSectiuneGamedev');
     Route::get('/changepass', 'AuthController@showChangePass');
-    Route::get('/algoritmica', 'ParteneriController@showAlgo');
+    //Route::get('/algoritmica', 'ParteneriController@showAlgo');
     Route::get('/pages/{page}', 'HomeController@showPages');
+    Route::get('/algoritmica', 'AlgoritmicaController@showPage');
+	Route::get('/webmobile', 'WebMobileController@showPage');
+	Route::get('/gamedev', 'GameDevController@showPage');
    // Route::get('/finala', 'HomeController@finala');
     Route::get('/logout', function() {
         Auth::logout();
