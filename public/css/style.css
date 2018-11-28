@@ -315,3 +315,12 @@ td:hover {
         width: 95%;
     }
 }
+
+.newsfeed .newsfeed-date{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    font-weight: 300;
+    font-size: 12px;
+    color: rgba(0,0,0,.4);
+} 
