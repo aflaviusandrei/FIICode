@@ -41,8 +41,8 @@ Route::group(['middleware' => ['web']], function () {
     //Route::get('/algoritmica', 'ParteneriController@showAlgo');
     Route::get('/pages/{page}', 'HomeController@showPages');
     Route::get('/algoritmica', 'AlgoritmicaController@showPage');
-	Route::get('/webmobile', 'WebMobileController@showPage');
-	Route::get('/gamedev', 'GameDevController@showPage');
+	Route::get('/webmobile', 'WebmobileController@showPage');
+	Route::get('/gamedev', 'GamedevController@showPage');
    // Route::get('/finala', 'HomeController@finala');
     Route::get('/logout', function() {
         Auth::logout();
