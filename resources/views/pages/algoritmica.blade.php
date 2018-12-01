@@ -5,7 +5,40 @@
         <div class="ui container">
             <div class="head"><i class="icon code"></i> {{ $title }} <div class="green"></div><div class="red"></div></div>
             <div class="ui segment algoritmica">
-            <h2><strong>Regulamentul secțiunii Algoritmică</strong></h2>
+            <div class="col-xs-12 ">
+                            <nav clas="ar">
+                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-anunt-tab" data-toggle="tab" href="#nav-anunt" role="tab" aria-controls="nav-anunt" aria-selected="true">Anunturi</a>
+                                    <a class="nav-item nav-link" id="nav-reg-tab" data-toggle="tab" href="#nav-reg" role="tab" aria-controls="nav-reg" aria-selected="false">Regulament</a>
+                                    <a class="nav-item nav-link" id="nav-rez-tab" data-toggle="tab" href="#nav-rez" role="tab" aria-controls="nav-rez" aria-selected="false">Editiile anterioare</a>
+                                </div>
+                            </nav>
+                            
+                            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-anunt" role="tabpanel" aria-labelledby="nav-anunt-tab">
+                                <br><center><h2>FII Code - Algoritmica</h2>
+	<br>
+	Aceasta pagina este dedicata sectiunii de algoritmica din cadrul concursului FII Code. Aici se vor posta informatiile utile participantilor la aceasta sectiune.
+
+	<br>
+	<br>
+	Proba de algoritmica va fi alcatuita din 3 probe online, la finalul carora se va stabili un clasament cumulat, dupa care se vor stabili finalistii onsite.
+	Rundele de calificare, cat si runda finala vor avea dificultate asemanatoare cu o runda CSAcademy div 2.
+	<br><br><br>
+
+
+	<b>Calendar proba Algoritmica</b><br><br>
+
+	
+		Runda 1 - 14 februarie 2019 		<br>
+		Runda 2 - 7 martie 2019 				<br>
+		Runda 3 - 28 martie 2019				<br>
+		Runda Finala - 6 aprilie 2019		<br>
+	</center>
+
+                                </div>
+                                <div class="tab-pane fade" id="nav-reg" role="tabpanel" aria-labelledby="nav-reg-tab">
+                                <br><center><h2><strong>Regulamentul secțiunii Algoritmică</strong></h2></center><br>
                 <p>Concursul național de informatică FIICode este organizat de către Facultatea de Informatică Iași și Asociația Studenților Informaticieni Ieșeni (ASII), în parteneriat cu Inspectoratul Școlar Județean Iași.</p>
                 <p><strong>Obiective</strong></p>
                 <p>În cadrul probei de Algoritmică se urmărește dezvoltarea:</p>
@@ -113,7 +146,36 @@
                 <p>Coordonatorii concursului își rezervă dreptul de a descalifica fără notificare prealabilă și fără drept de contestație participanții aflați într-o situație de descalificare identificată. Pentru a descalifica un concurent, este necesar acordul ambilor coordonatori ai concursului.</p>
                 <p><strong>Condiții</strong></p>
                 <p>Coordonatorii concursului își rezervă dreptul de a modifica fără notificare prealabilă acest regulament. Asigurăm participanții că nu se vor realiza modificări ale regulamentului în ce privește datele tehnice în perioada unei runde.</p>
-                <br>
+                
+
+                                </div>
+                                <div class="tab-pane fade" id="nav-rez" role="tabpanel" aria-labelledby="nav-rez-tab">
+                                <br><center>
+                                    <h3>
+                                        Probleme de algoritmica de la editia 2018:<br><br>
+                                        
+                                    </h3>
+                                        
+                                
+                                            <h3>Probleme de algoritmică de la ediția 2016:</h3><br>
+                                            <a href="https://www.hackerrank.com/fiicode-runda-1" alt="Runda 1">Runda 1</a><br>
+                                            <a href="https://www.hackerrank.com/fiicode-runda-2" alt="Runda 2">Runda 2</a><br>
+                                            <a href="https://www.hackerrank.com/fiicode-runda-3" alt="Runda 3">Runda 3</a><br>
+                                            <a href="https://www.hackerrank.com/fiicode-runda-finala-online-mirror" alt="Runda finală">Runda finală</a><br><br>
+                                        
+                                        <b>Rezultate:</b><br>
+                                        Locul I: Horia Turcuman <br>
+                                        Locul II: Vlad Coteanu<br>
+                                        Locul III: Denis Banu<br>
+                                        Mențiuni:  Diana Ghinea & Nicolae Bodea & Cristian Vantur<br>
+                                        
+                                        </center>
+
+                                </div>
+
+                
+                </div>
+
             </div>
             <div class="ui container"></div>
         </div>

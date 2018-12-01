@@ -3,13 +3,13 @@
 @section('content')
     <header>
         <div class="ui container">
-            <nav>
+            <nav class="nav-head">
                 <a href="/">
                     <i class="icon home"></i>
                     Pagina de start
                 </a>
                 
-                <a href="webmobile">
+                <a href="/webmobile">
                     <i class="icon code"></i>
                     Web/Mobile
                 </a>
@@ -92,10 +92,10 @@
             <div class="logo home">
                 <img src="{{ asset('img/logohome.png') }}" alt="Logo FIICode" />
             </div>
-            <h2>Exact ca în orice altă artă, încredera vine odată cu experiența,</h2>
+            <h2>Exact ca în orice altă artă, încrederea vine odată cu experiența,</h2>
             <h2>Atât pentru voi, cât și pentru noi.</h2>
             <p>FII Code este un proiect organizat de ASII și de Facultatea de Informatică din Iași, ce are la bază dezvoltarea abilităților pe partea de programare la nivel competitiv. 
-                Fiind la a 4-a ediție, acesta are o arie largă ce cuprinde web&mobile development, game developmen și algoritmică. 
+                Fiind la a 4-a ediție, acesta are o arie largă ce cuprinde web&mobile development, game development și algoritmică. 
                 Tema, la fel ca și cele din ultimii 4 ani, va fi una îndrăzneață, creativă, menită să scoată tot ce este mai bun din voi.
                 Ambiția și spiritul competitiv vor fi calitătile esențiale de care veți avea nevoie pentru a vă număra printre învingători.</p>
             <div class="buttons">

@@ -32,7 +32,7 @@
         <a class="logo" href="/">
             <img src="{{ asset('img/logo.png') }}" alt="Logo FIICode" />
         </a>
-        <nav>
+        <nav class="nav-head">
             <a href="/">
                 <i class="icon home"></i>
                 Pagina de start
@@ -82,7 +82,7 @@
                         <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                     </div>
                     <div class="item">
-                        <a href="/"><i class="icon rocket"></i>GameDev </a>
+                        <a href="/gamedev"><i class="icon rocket"></i>GameDev </a>
                     </div>
                     <div class="item">
                         <a href="/algoritmica"><i class="icon cubes"></i>Algotitmica</a>

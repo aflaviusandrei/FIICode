@@ -288,9 +288,10 @@ td:hover {
     }
 }
 @media(max-width: 980px) {
-    nav {
+    .nav-head {
         display: none;
     }
+    
     .mobile {
         display: inline-block;
     }

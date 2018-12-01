@@ -5,7 +5,32 @@
         <div class="ui container">
             <div class="head"><i class="icon code"></i> {{ $title }} <div class="green"></div><div class="red"></div></div>
             <div class="ui segment">
-            <h2><strong>Regulamentul secțiunii GameDev</strong></h2>
+            <div class="col-xs-12 ">
+                            <nav>
+                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-anunt-tab" data-toggle="tab" href="#nav-anunt" role="tab" aria-controls="nav-anunt" aria-selected="true">Anunturi</a>
+                                    <a class="nav-item nav-link" id="nav-reg-tab" data-toggle="tab" href="#nav-reg" role="tab" aria-controls="nav-reg" aria-selected="false">Regulament</a>
+                                    <a class="nav-item nav-link" id="nav-rez-tab" data-toggle="tab" href="#nav-rez" role="tab" aria-controls="nav-rez" aria-selected="false">Editia anterioara</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-anunt" role="tabpanel" aria-labelledby="nav-anunt-tab">
+                                <br><center><h2>FII Code - GameDev</h2>
+	<br>
+	Aceasta pagina este dedicata sectiunii de gamedev din cadrul concursului FII Code. Aici se vor posta informatiile utile participantilor la aceasta sectiune.
+
+	<br>
+	<br>
+    <b>Calendar proba GameDev</b><br><br>
+
+	
+		Runda online - 15 ianuarie - 29 martie 2019 		<br>
+		Runda Finala - 6 aprilie 2019		<br>
+	</center>
+
+                                </div>
+                                <div class="tab-pane fade" id="nav-reg" role="tabpanel" aria-labelledby="nav-reg-tab">
+                                <br><center><h2><strong>Regulamentul secțiunii GameDev</strong></h2></center><br>
                 <p>Concursul național de informatică FIICode este organizat de către Facultatea de Informatică Iași și Asociația Studenților Informaticieni Ieșeni (ASII), în parteneriat cu Inspectoratul Școlar Județean Iași.</p>
                 <br>
                 <p><strong>Obiective</strong><strong>:</strong></p>
@@ -21,7 +46,7 @@
                 <ul>
                     <li>Participarea la concurs se face în echipe formate dintr-un număr de 2-4 concurenți, înscriși la momentul începerii concursului la un liceu sau facultate din România, indiferent de naționalitate.</li>
                     <li>Fiecare echipă va fi identificată printr-un număr unic de concurs.</li>
-                    <li>Este interzisă participarea la proba de Game Development a membrilor comisiei!</li>
+                    <li>Este interzisă participarea la proba de Game Development membrilor comisiei și voluntarilor asignați la categoria de Game Development !</li>
                 </ul>
                 <br>
                 <p><strong>Etape:</strong></p>
@@ -58,7 +83,7 @@
                     <li>design</li>
                 </ul>
                 <p>Baremul final pentru etapa finală, care conține procentele și criteriile evaluărilor va fi publicat la începutul acesteia.</p>
-                <p>Fiecare membru al echipei trebuie să contriubie prin dezvoltarea de cod, iar de asemenea, fiecare membru va trebui să știe în detaliu ce face codul dezvoltat de acesta, dar să aibă o idee despre codul celorlalți membri ai echipei.</p>
+                
                 <p><strong>Rezultate</strong></p>
                 <p>Ordonarea echipelor pentru clasamentul de calificare la runda finală ține cont, în această ordine, de:</p>
                 <ul>
@@ -91,7 +116,26 @@
                 </ul>
                 <p><strong>Condiții</strong></p>
                 <p>Coordonatorii concursului își rezervă dreptul de a modifica fără notificare prealabilă acest regulament. Asigurăm participanții că nu se vor realiza modificări ale regulamentului în ce privește datele tehnice în perioada unei runde.</li></p>
-            </div>
+
+
+                                </div>
+                                <div class="tab-pane fade" id="nav-rez" role="tabpanel" aria-labelledby="nav-rez-tab">
+                                    <br>
+                                    <center><h2><strong>Tema din editia 2018:</strong></h2><br>
+                                    <h3>Securitatea informatiei</h3><br>
+                                    <b>Clasament:</b><br><br>
+                                    1.<b>Compound</b> - Runda online: <b>8</b> - Runda finala: <b>9,38</b> <br>
+                                    2.<b>Tidbit-Zenith</b> - Runda online: <b>9,5</b> - Runda finala: <b>9,35</b><br>
+                                    3.<b>Malware Warfare</b> - Runda online: <b>7</b> - Runda finala: <b>8,84</b><br>
+                                    4.<b>Edodciif</b> - Runda online: <b>8</b> - Runda finala: <b>7,46</b><br>
+                                    5.<b>Potato Game</b> - Runda online: <b>6,5</b> - Runda finala: <b>7,17</b><br>
+                                    6.<b>WCKD</b> - Runda online: <b>4,5</b> - Necalificata pentru runda finala.
+                                    </center>
+
+                                </div>
+
+                
+                </div></div>
             <div class="ui container"></div>
         </div>
     </section>

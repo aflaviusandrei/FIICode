@@ -52,6 +52,27 @@
                                         <span class="sr-only">Next</span>
                                         </a>
                                     </div>
+                                    <div style="padding-top: 50px;">
+                                        <h3>Coordonator : Andreea Dascălu</h3>
+        
+                                        <h3>Coordonator sectiune WEB: David Vultur </h3>
+                                        <h3>Coordonator sectiune GameDev: Emanuel Andrei Păiuș</h3>
+                                        <h3>Coordonator sectiune Algoritmica: Alexandru Ioniță</h3>
+                                            </div>
+                                            <div class="ui segment parteneri">
+                <h2 class="ui header">Organizatori</h2>
+                <a class="partener" href="http://asii.ro/"><img src="/img/parteneri/asii.png" alt="ASII" /></a>
+                <a class="partener" href="http://www.info.uaic.ro/bin/Main/"><img src="/img/parteneri/fii.png" alt="FII" /></a>
+                <h2 class="ui header">Platinum</h2>
+                <a class="partener" href="http://www.camline.com/"><img src="/img/parteneri/camline.png" alt="CamLine" /></a>
+                <a class="partener" href="https://www.jpmorgan.com/" style="margin:20px;margin-right:0;"><img src="/img/parteneri/jpmorgan.png" alt="J.P.Morgan" /></a>
+                <a class="partener" href="http://www.ness.ro/"><img src="/img/parteneri/ness.png" alt="Ness" /></a>
+                <h2 class="ui header">Silver</h2>
+                <a class="partener" href="https://www.tivo.com/"><img src="/img/parteneri/tivo.png" alt="Tivo" /></a>
+                <a class="partener" href="http://tss-yonder.com/"><img src="/img/parteneri/yonder.png" alt="Yonder" /></a>
+                <h2>Parteneri eveniment</h2>
+                <a class="partener" href="http://it-st.ro/"><img src="/img/parteneri/itst.png" alt="IT'ist" /></a>
+            </div>
                                 </div>
                                 <div class="tab-pane fade" id="nav-2017" role="tabpanel" aria-labelledby="nav-2017-tab">
                                     <div id="carousel2017" class="carousel slide" data-ride="carousel">
@@ -83,7 +104,15 @@
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="sr-only">Next</span>
                                         </a>
+                                        
                                     </div>
+                                    <div style="padding-top: 50px;">
+                                        <h3>Coordonator : Vlad Minuti</h3>
+        
+                                        <h3>Coordonator sectiune WEB: Serediuc Constantin </h3>
+                                        
+                                        <h3>Coordonator sectiune Algoritmica: Alexandru Ioniță</h3>
+                                            </div>
                                 </div>
                                 <div class="tab-pane fade" id="nav-2016" role="tabpanel" aria-labelledby="nav-2016-tab">
                                     <div id="carousel2016" class="carousel slide" data-ride="carousel">
@@ -123,26 +152,8 @@
                                         <h3>Coordonator sectiune Algoritmica: Alexandru Ioniță</h3>
                                         <a class="partener" href="http://asii.ro/"><img src="/img/parteneri/asii.png" alt="ASII" /></a>
                                         <a class="partener" href="http://www.info.uaic.ro/bin/Main/"><img src="/img/parteneri/fii.png" alt="FII" /></a>
-                                        <h2 class="ui header">Câștigători</h2>
-                                        <h3>
-                                        <u>Algoritmică:</u></br><br>
-                                        Locul I: Horia Turcuman <br>
-                                        Locul II: Vlad Coteanu<br>
-                                        Locul III: Denis Banu<br>
-                                        Mențiuni:  Diana Ghinea & Nicolae Bodea & Cristian Vantur<br>
-                                        <h3>
-                                            <u>Web:</u><br><br>
-                                            Locul I: echipa Literalmente: Ștefan Moraru și Gabriel Stufliuc<br>
-                                            Locul II: echipa The Eagles: David Vultur și Iulian Vultur<br>
-                                            Locul III: echipa Chronic2: Carmen Mitru și Dan Diaconu<br>
-                                        </h3>
-                                        <h3>
-                                            <u>Probleme de algoritmică de la ediția 2016:</u><br><br>
-                                            <a href="https://www.hackerrank.com/fiicode-runda-1" alt="Runda 1">Runda 1</a><br>
-                                            <a href="https://www.hackerrank.com/fiicode-runda-2" alt="Runda 2">Runda 2</a><br>
-                                            <a href="https://www.hackerrank.com/fiicode-runda-3" alt="Runda 3">Runda 3</a><br>
-                                            <a href="https://www.hackerrank.com/fiicode-runda-finala-online-mirror" alt="Runda finală">Runda finală</a>
-                                        </h3>
+                                        
+                                        
                                         <h2>Parteneri eveniment</h2>
                                         <a class="partener" href="http://it-st.ro/"><img src="/img/parteneri/itst.png" alt="IT'ist" /></a>
                                         <div class="ui segment parteneri">
