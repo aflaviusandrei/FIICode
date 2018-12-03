@@ -25,7 +25,7 @@
 
 	
 		Runda online - 15 ianuarie - 29 martie 2019 		<br>
-		Runda Finala - 6 aprilie 2019		<br>
+		Runda Finala - 13 aprilie 2019		<br>
 	</center>
 
                                 </div>

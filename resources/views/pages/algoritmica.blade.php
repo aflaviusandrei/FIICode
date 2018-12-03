@@ -30,10 +30,10 @@
 	<b>Calendar proba Algoritmica</b><br><br>
 
 	
-		Runda 1 - 14 februarie 2019 		<br>
-		Runda 2 - 7 martie 2019 				<br>
-		Runda 3 - 28 martie 2019				<br>
-		Runda Finala - 6 aprilie 2019		<br>
+		Runda 1 - 6 februarie 2019 		<br>
+		Runda 2 - 27 februarie 2019 				<br>
+		Runda 3 - 20 martie 2019				<br>
+		Runda Finala - 13 aprilie 2019		<br>
 	</center>
 
                                 </div>
@@ -54,15 +54,15 @@
                 <p>Participarea la concurs se face individual, concurenții fiind înscriși la momentul începerii concursului la liceu sau facultate, indiferent de naționalitate. Fiecare concurent va fi identificat printr-un număr de concurs unic. Etapa online a concursului va fi formată din 3 runde de calificare formate din 3 până la 5 probleme ce vor fi evaluate automat. În urma celor 3 runde, se vor stabili concurenții care vor participa la etapa finală. Este interzisă participarea la proba de Algoritmică a membrilor comisiei!</p>
                 <p>Condiții privitoare la statutul de mentor:</p>
                 <ul>
-                    <li>trebuie sa aibă împlinită vârsta de 18 ani la data de 1 Martie 2018</li>
+                    <li>trebuie sa aibă împlinită vârsta de 18 ani la data de 1 Februarie 2019</li>
                     <li>poate să-i însoțească pe participanți la etapa finală, în cazul calificării</li>
                 </ul>
                 <p><strong>Etape</strong></p>
                 <ul>
-                    <li>Runda 1: 16 - 18 martie</li>
-                    <li>Runda 2: 1 - 2 aprilie</li>
-                    <li>Runda 3: 20 - 22 aprilie</li>
-                    <li>Runda finală: 4 - 6 mai</li>
+                    <li>Runda 1: 6 februarie </li>
+                    <li>Runda 2: 27 februarie</li>
+                    <li>Runda 3: 20 martie</li>
+                    <li>Runda finală: 13 aprilie</li>
                 </ul>
                 <p>Cele 3 runde online constau în rezolvarea unor seturi de 3-5 probleme. Soluțiile sunt evaluate automat și punctajele participanților se cumulează după fiecare rundă.</p>
                 <p>Etapa de calificare constă în selectarea participanților ce vor lua parte la etapa finala, în urma rundelor online.</p>

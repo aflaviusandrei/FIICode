@@ -28,7 +28,7 @@
 
 	
 		Runda online - 25 ianuarie - 29 martie 2019 		<br>
-		Runda Finala - 6 aprilie 2019		<br>
+		Runda Finala - 13 aprilie 2019		<br>
 	</center>
 
                                 </div>
@@ -52,7 +52,7 @@
                 <ul>
                     <li>Etapa online: 25 Ianuarie - 29 Martie</li>
                     
-                    <li>Etapa finală: 6 Aprilie</li>
+                    <li>Etapa finală: 13 Aprilie</li>
                 </ul>
                 <p>Etapa online constă în realizarea unui proiect la alegere, în conformitate cu tema și specificațiile Comisiei de la secțiunea de Tehnologii Web &amp; Mobile. Proiectul va fi încărcat pe una din platformele GitHub, GitLab sau BitBucket pana pe data de 29 martie, astfel încât comisia să aibe acces la codul sursă. După această etapă, proiectele vor fi jurizate de către Comisie urmând să se anunțe cele 3 echipe finaliste.</p>
                 <p>Etapa finală constă într-o probă practică în strânsă legătură cu proiectul creat în cadrul etapei de dezvoltare. Așadar, în această probă la prima vedere, echipele vor trebui să aducă îmbunătățiri propriilor proiecte, conform specificațiilor Comisiei.</p>
