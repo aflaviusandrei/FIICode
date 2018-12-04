@@ -40,21 +40,14 @@
                                 <div class="tab-pane fade" id="nav-reg" role="tabpanel" aria-labelledby="nav-reg-tab">
                                 <br><center><h2><strong>Regulamentul secțiunii Algoritmică</strong></h2></center><br>
                 <p>Concursul național de informatică FIICode este organizat de către Facultatea de Informatică Iași și Asociația Studenților Informaticieni Ieșeni (ASII), în parteneriat cu Inspectoratul Școlar Județean Iași.</p>
-                <p><strong>Obiective</strong></p>
-                <p>În cadrul probei de Algoritmică se urmărește dezvoltarea:</p>
-                <ul>
-                    <li>pasiunii și interesul pentru Informatică și Tehnologia Informației și Comunicării</li>
-                    <li>competențelor în rezolvarea problemelor folosind calculatorul</li>
-                    <li>abilităților de prezentare și promovare a proiectelor realizate</li>
-                    <li>gândirii algoritmice</li>
-                    <li>abilităților de programare</li>
-                    <li>spiritului competitiv</li>
-                </ul>
+                
                 <p><strong>Participanți</strong></p>
-                <p>Participarea la concurs se face individual, concurenții fiind înscriși la momentul începerii concursului la liceu sau facultate, indiferent de naționalitate. Fiecare concurent va fi identificat printr-un număr de concurs unic. Etapa online a concursului va fi formată din 3 runde de calificare formate din 3 până la 5 probleme ce vor fi evaluate automat. În urma celor 3 runde, se vor stabili concurenții care vor participa la etapa finală. Este interzisă participarea la proba de Algoritmică a membrilor comisiei!</p>
+                <p>Participarea la concurs se face individual, statutul concursului fiind Open (oricine poate participa la runda finală - elevi, studenți, etc.). </p>
+                <p>Etapa online a concursului va fi formată din 3 runde de calificare formate din 5-6 probleme ce vor fi evaluate automat. În urma celor 3 runde, se vor stabili concurenții care vor participa la etapa finală. Din motive logistice, doar primii 5 participanți din afara Romaniei si a Republicii Moldova vor fi invitați la runda finală.</p>
+                <p>Este interzisă participarea la proba de Algoritmică a membrilor comisiei!</p>
                 <p>Condiții privitoare la statutul de mentor:</p>
                 <ul>
-                    <li>trebuie sa aibă împlinită vârsta de 18 ani la data de 1 Februarie 2019</li>
+                    <li>trebuie sa aibă împlinită vârsta de 18 ani la data de 1 Martie 2019</li>
                     <li>poate să-i însoțească pe participanți la etapa finală, în cazul calificării</li>
                 </ul>
                 <p><strong>Etape</strong></p>
@@ -62,62 +55,32 @@
                     <li>Runda 1: 6 februarie </li>
                     <li>Runda 2: 27 februarie</li>
                     <li>Runda 3: 20 martie</li>
-                    <li>Runda finală: 13 aprilie</li>
+                    <li>Runda finală: 11-12 aprilie</li>
                 </ul>
-                <p>Cele 3 runde online constau în rezolvarea unor seturi de 3-5 probleme. Soluțiile sunt evaluate automat și punctajele participanților se cumulează după fiecare rundă.</p>
-                <p>Etapa de calificare constă în selectarea participanților ce vor lua parte la etapa finala, în urma rundelor online.</p>
-                <p>Runda final constă în rezolvarea unui set de 5 probleme.</p>
+                
                 <p><strong>Înscriere</strong></p>
-                <p>Etapa online se desfășoară pe site-ul concursului FIICode. Soluțiile vor fi evaluate online, pe platforma CMS hostată pe serverul FIICode.</p>
-                <p><strong>Limbaje</strong></p>
-                <p>Limbajele de programare admise sunt Pascal, C, C++, Haskell și Java. Compilatoarele și mediile de lucru necesare rezolvării problemelor algoritmice vor fi instalate pe discurile stațiilor de lucru. Folosirea de resurse de orice fel, altele decât cele indicate de comisie este strict interzisă.</p>
+                <p>To be announced</p>
                 <p><strong>Comisie</strong></p>
                 <p>Comisia de la proba de Algoritmică este formată din:</p>
                 <ul>
                     <li>Președintele comisiei de algoritmică</li>
                     <li>coordonatorul probei de algoritmică</li>
                     <li>cadre didactice sau colaboratori ai Facultății de Informatică</li>
+                    <li>Studenți ai Facultății de Informatică</li>
                     <li>reprezentanți ai companiilor partenere Platinum</li>
                 </ul>
                 <p>Opțional, vor face parte din Comisie:</p>
                 <ul>
                     <li>cadre didactice ale liceelor si colegiilor din Iași</li>
-                </ul>
+                </ul><br>
                 <p><strong>Evaluare</strong></p>
-                <p>Este recomandat să instalați pe calculatorul vostru aceleași versiuni pentru compilatoare ca și cele specificate în regulament, deoarece există diferențe între versiuni.</p>
-                <p>Fiți deosebit de atenți la fișierele antet utilizate. Evaluatorul testează dacă programul nu returnează un cod de eroare.</p>
-                <p>Concurenții sunt invitați să încadreze programele în limitele de spațiu și timp ale problemei. În caz contrar, nu vor obține puncte pe testele respective. Soluțiile vor fi evaluate online, pe platforma CMS hostată pe serverul FIICode.</p>
+                <p>Evaluarea va fi realizata pe site-ul CSAcademy. Mai multe detalii despre sistemul de punctare, cat si configuratia sistemului de evaluare gasiti aici: </p>
+                <ul>
+                <li><a href="https://csacademy.com/about/environment/">https://csacademy.com/about/environment/</a></li>
+                <li><a href="https://csacademy.com/about/contests/">https://csacademy.com/about/contests/</a></li>
+                </ul>
+                <p>Folosirea de resurse de orice fel, altele decât cele indicate de comisie este strict interzisă.</p>
                 <p><strong>Rezultate</strong></p>
-                <p>Fiecare problemă va avea un punctaj între 200 și 3000.</p>
-                <p>Formula de calcul a scorului, pe scurt:</p>
-                <p>Score = min (MaxScore - AcceptedTime * MaxScore * 0.005 - WrongSubmissions * 20, MaxScore * 3 / 10), unde:</p>
-                <p>Score = Scorul participantului pentru submisia curentă </p>
-                <p>MaxScore = Scorul maxim alocat problemei</p>
-                <p>AcceptedTime = Timpul (în minute) de la începutul rundei până la momentul primei submisii accepted a soluției</p>
-                <p>WrongSubmissions = numărul de submisii greșite</p>
-                <p>Explicație:</p>
-                <p>Pentru fiecare minut trecut se va scade 1/200 din valoarea problemei (0.5%). De asemenea, se va scade și câte 20 de puncte pentru fiecare submisie greșită la acea problemă.</p>
-                <p>De exemplu:</p>
-                <p>Pentru o problemă ce valorează 200 puncte, prima submisie corectă:</p>
-                <ul>
-                    <li>la minutul 1 va valora 200 - 1 = 199 puncte</li>
-                    <li>la minutul 2: 200 - 2 =198 puncte</li>
-                    <li>etc.</li>
-                </ul>
-                <br>
-                <p>Pentru o problemă ce valorează 400 puncte, prima submisie corectă:</p>
-                <ul>
-                    <li>la minutul 1 va valora 400 - (400/200) = 400 - 2 = 398 puncte</li>
-                    <li>la minutul 2: 400 - 4 = 396 puncte</li>
-                    <li>etc.</li>
-                </ul>
-                <br>
-                <p>Pentru o problemă ce valorează 400 de puncte, acceptată după 2 submisii greșite, după 5 minute, punctajul obținut va fi calculat astfel:</p>
-                <p>400 - 2*5 - 20*2 = 400 - 10 - 40 = 350 puncte.</p>
-                <p>Punctajul minim pentru o problemă va fi 30% din punctajul alocat respectivei probleme.</p>
-                <p>Punctajul final se obține însumând punctajele obținute la fiecare problemă, iar ordinea în clasament va fi obținută descrescător după punctaj.</p>
-                <p>Atenție! Se va lua în calcul doar ultima voastră submisie! Scorul calculat după această formulă va apărea doar în clasament. La evaluare, va apărea punctajul obținut pentru soluția respectivă, neaplicând formula de calcul de mai sus. Submisia corectă este cea care obține punctajul maxim alocat problemei la evaluare, asupra căruia se va aplica mai apoi formula, pentru clasament, luând în calcul timpul și numărul submisiilor greșite de până atunci.</p>
-                <p>În acest mod, se asigură unicitatea rezultatelor și se pot stabili de la început procentele din totalul disponibil. În comun acord cu partenerii, se pot stabili premii speciale, dar nu mai târziu de festivitatea de premiere. Fiecare concurent va primi o diplomă de participare. Premiile vor fi oferite în cadrul festivității de premiere.</p>
                 <p>Premiile obținute sunt:</p>
                 <ul>
                     <li>Premiul I: 45% din totalul disponibil,</li>
@@ -127,6 +90,7 @@
                     <li>Mențiunea a II &ndash; a: 5% din totalul disponibil.</li>
                 </ul>
                 <br>
+                <p>În comun acord cu partenerii, se pot stabili premii speciale, dar nu mai târziu de festivitatea de premiere. Fiecare concurent va primi o diplomă de participare. Premiile vor fi oferite în cadrul festivității de premiere.</p>
                 <p>Fiecare dintre concurenți va primi o diplomă de participare.</p>
                 <p>Premiile vor fi oferite participanților în cadrul festivității de premiere.</p>
                 <p><strong>Descalificare</strong></p>
@@ -155,6 +119,8 @@
                                         Probleme de algoritmica de la editia 2018:<br><br>
                                         
                                     </h3>
+                                    <b>Rezultate:</b><br>
+                                    <a href="https://drive.google.com/file/d/1WTTVn4c9C_w1nv_jGwkxjUTfCszelfrS/view">Runde online</a>
                                         
                                 
                                             <h3>Probleme de algoritmică de la ediția 2016:</h3><br>
