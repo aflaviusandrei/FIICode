@@ -138,6 +138,7 @@ $(document).on("change", ".dropdown select[name=has_team]", function(){
 $(document).on('submit', '.formularDeInscriere', function() {
     if (web || gamedev) {
         if ($('.formularDeInscriere input[name=bitbucket]').val() == "") {
+			alert('da')
             $('.formularDeInscriere input[name=bitbucket]').parent().addClass('error');
         } else {
             $('.formularDeInscriere input[name=bitbucket]').parent().removeClass('error');

@@ -173,7 +173,9 @@ CREATE TABLE `users` (
   `repogithub` varchar(255) NOT NULL,
   `created_at` date NOT NULL,
   `updated_at` date NOT NULL,
-  `remember_token` varchar(255) NOT NULL
+  `remember_token` varchar(255) NOT NULL,
+  `email_confirmation_token` varchar(255) NULL,
+  `email_confirmed` tinyint(4) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --

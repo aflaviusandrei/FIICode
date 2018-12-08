@@ -57,6 +57,8 @@ class UsersController extends CrudController{
 		$this->edit->add('oras', 'Oraș', 'text');
 		$this->edit->add('varsta', 'Vârsta', 'text');
 		$this->edit->add('telefon', 'Telefon', 'text');
+		$this->edit->add('email_confirmation_token', 'Email Confirmation Token', 'text');
+		$this->edit->add('email_confirmed', 'Email Confirmed', 'number');
 		$this->edit->add('scoala', 'Școala', 'text');
 		$this->edit->add('web', 'Web', 'radiogroup')->option('1', 'Participă')->option('0', 'Nu participă');
 		$this->edit->add('gamedev', 'GameDev', 'radiogroup')->option('1', 'Participă')->option('0', 'Nu participă');

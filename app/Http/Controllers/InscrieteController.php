@@ -68,21 +68,27 @@ class InscrieteController extends Controller
         $user->telefon = htmlentities($request->input('telefon'));
         $user->scoala = htmlentities($request->input('scoala'));
         $user->numeproiect = htmlentities($request->input('numeproiect'));
-        $user->tehnologii = htmlentities($request->input('tehnologii'));
+		$user->tehnologii = htmlentities($request->input('tehnologii'));
+		$user->email_confirmation_token = str_random(25);
+
         $user->nume2 = htmlentities($request->input('nume2'));
-        $user->email2 = htmlentities($request->input('email2'));
+		$user->email2 = htmlentities($request->input('email2'));
+		
         $user->nume3 = htmlentities($request->input('nume3'));
-        $user->email3 = htmlentities($request->input('email3'));
+		$user->email3 = htmlentities($request->input('email3'));
+		
         $user->nume4 = htmlentities($request->input('nume4'));
-        $user->email4 = htmlentities($request->input('email4'));
+		$user->email4 = htmlentities($request->input('email4'));
+		
         if ($request->input('sectiune') == "web")
             $user->web = 1;
         if ($request->input('sectiune') == "algo")
             $user->algoritmica = 1;
-        if ($request->input('sectiune') == "gamedev") {
+        if ($request->input('sectiune') == "gamedev")
             $user->gamedev = 1;
-        }
-        $user->save();
+		
+		$user->save();
+		
         return "1";
     }
 }
