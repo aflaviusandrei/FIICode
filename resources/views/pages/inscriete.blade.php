@@ -1,4 +1,6 @@
 @extends('app')@section('content')
+
+
 <section id="content">
     <div class="ui container">
         <div class="ui segment webDesc" {!! (isset($web) && $web==1) ? 'style="display:block;"' : '' !!}>
@@ -54,10 +56,10 @@
                     <label class="gamedevOnly">Numele complet al liderului<span>*</span></label>
                     <input type="text" name="nume" placeholder="Nume si prenume" /> </div>
                 <div class="field">
-                    <label class="algoOnly">Adresa de email<span>*</span></label>
-                    <label class="webOnly">Adresa de email a liderului<span>*</span></label>
-                    <label class="gamedevOnly">Adresa de email a liderului<span>*</span></label>
-                    <input type="text" name="email" placeholder="Email" /> </div>
+                    <label>Adresa de email a liderului<span>*</span></label>
+                    <input type="text" name="email" placeholder="Email" /> 
+					<span class="error-message"></span>
+				</div>
                 <div class="field">
                     <label>Parola<span>*</span></label>
                     <input type="password" name="password" placeholder="Parola"> </div>
@@ -65,8 +67,7 @@
                     <label>Confirma Parola<span>*</span></label>
                     <input type="password" name="password_conf" placeholder="Confirmă Parola"> </div>
                 <div class="field">
-                    <label class="webOnly">Cont Git (Oricare din GitHub, GitLab, Bitbucket, etc. - obligatoriu pentru tehnologii web)<span>*</span></label>
-                    <label class="gamedevOnly">Cont Git (Oricare din GitHub, GitLab, Bitbucket, etc. - obligatoriu pentru mobile)<span>*</span></label>
+                    <label class="webOnly">Cont Git (Oricare din GitHub, GitLab, Bitbucket, etc.)<span>*</span></label>
                     <input class="webOnly gamedevOnly" type="text" name="bitbucket" placeholder="Contul Git unde va fi salvat codul sursă" /> </div>
                 <div class="field">
                     <label>Orașul in care locuiești<span>*</span></label>
@@ -88,10 +89,27 @@
                 </div>
                 <div class="field">
                     <label>Numărul de telefon<span>*</span></label>
-                    <input type="text" name="telefon" placeholder="Numărul de telefon" /> </div>
+                    <input type="text" name="telefon" placeholder="Numărul de telefon" /> 
+				</div>
+				<div class="field">
+                    <label>Facebook<span>*</span></label>
+                    <input type="text" name="facebook" placeholder="Facebook" /> 
+				</div>
+				<div class="field">
+                    <label>Mărime tricou<span>*</span></label>
+                    <select name="marime_tricou" class="ui dropdown">
+                        <option value="">Marime</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                        <option value="xxl">XXL</option>
+                    </select>
+                </div>
                 <div class="field">
                     <label>Liceul sau facultatea la care sunteți<span>*</span></label>
-                    <input type="text" name="scoala" placeholder="Liceu / Facultate" /> </div>
+                    <input type="text" name="scoala" placeholder="Liceu / Facultate" />
+				</div>
                 <div class="field webOnly">
                     <label>Vreau să particip la sesiunea de organizare de echipe, pentru că nu am reușit să-mi găsesc un coechipier?</label>
                     <select name="has_team" class="ui dropdown">
@@ -101,36 +119,77 @@
                 </div>
                 <div class="field webOnly gamedevOnly">
                     <label>Nume Echipă<span>*</span></label>
-                    <input type="text" name="numeproiect" placeholder="Nume Echipă" /> </div>
+                    <input type="text" name="numeproiect" placeholder="Nume Echipă" /> 
+				</div>
                 <div class="field webOnly gamedevOnly">
                     <label>Ce tehnologii veți folosi<span>*</span></label>
-                    <input type="text" name="tehnologii" placeholder="Tehnologii" /> </div>
+                    <input type="text" name="tehnologii" placeholder="Tehnologii" /> 
+				</div>
                 <div class="field webOnly gamedevOnly">
                     <label>Nume Membru 2<span>*</span></label>
-                    <input type="text" name="nume2" placeholder="Nume și Prenume" /> </div>
+                    <input type="text" name="nume2" placeholder="Nume și Prenume" /> 
+				</div>
                 <div class="field webOnly gamedevOnly">
                     <label>Email Membru 2<span>*</span></label>
-                    <input type="text" name="email2" placeholder="Adresa de email" /> </div>
+                    <input type="text" name="email2" placeholder="Adresa de email" /> 
+				</div>
+				<div class="field webOnly gamedevOnly">
+                    <label>Numărul de telefon Membru 2<span>*</span></label>
+                    <input type="text" name="telefon2" placeholder="Numărul de telefon" /> 
+				</div>
+				<div class="field webOnly gamedevOnly">
+                    <label>Facebook Membru 2<span>*</span></label>
+                    <input type="text" name="facebook2" placeholder="Facebook" /> 
+				</div>
+				<div class="field webOnly gamedevOnly">
+                    <label>Mărime tricou Membru 2<span>*</span></label>
+                    <select name="marime_tricou2" class="ui dropdown">
+                        <option value="">Marime</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                        <option value="xxl">XXL</option>
+                    </select>
+                </div>
                 <div class="field webOnly gamedevOnly">
                     <label>Nume Membru 3</label>
-                    <input type="text" name="nume3" placeholder="Nume și Prenume" /> </div>
+                    <input type="text" name="nume3" placeholder="Nume și Prenume" /> 
+				</div>
                 <div class="field webOnly gamedevOnly">
                     <label>Email Membru 3</label>
-                    <input type="text" name="email3" placeholder="Adresa de email" /> </div>
-                <div class="field webOnly gamedevOnly">
-                    <label>Nume Membru 4</label>
-                    <input type="text" name="nume4" placeholder="Nume și Prenume" /> </div>
-                <div class="field webOnly gamedevOnly">
-                    <label>Email Membru 4</label>
-                    <input type="text" name="email4" placeholder="Adresa de email" /> </div>
+                    <input type="text" name="email3" placeholder="Adresa de email" /> 
+				</div>
+				<div class="field webOnly gamedevOnly">
+                    <label>Numărul de telefon Membru 3</label>
+                    <input type="text" name="telefon3" placeholder="Numărul de telefon" /> 
+				</div>
+				<div class="field webOnly gamedevOnly">
+                    <label>Facebook Membru 3</label>
+                    <input type="text" name="facebook3" placeholder="Facebook" /> 
+				</div>
+				<div class="field webOnly gamedevOnly">
+                    <label>Mărime tricou Membru 3</label>
+                    <select name="marime_tricou3" class="ui dropdown">
+                        <option value="">Marime</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                        <option value="xxl">XXL</option>
+                    </select>
+                </div>
+
                  {!! Recaptcha::render() !!}
+
                 <div class="field">
                     <div class="ui blue labeled icon submit button"><i class="icon send"></i>Trimite</div>
                 </div>
                 <div class="ui warning message erroareTehnica">
                     <div class="header">Eroare la aplicare.</div>
                     <p>Aparent nu ai completat întocmai cum trebuie câmpurile de mai sus. Te rugam să verifici și să încerci înca odată.</p>
-                </div>
+					<p class="error-message"></p>
+				</div>
                 <div class="ui warning message selectCategorie">
                     <div class="header">Categoria nu a fost selectată.</div>
                     <p>Nu ai selectat nici o categorie pentru care vrei să te inscrii. Te rugăm să selectezi una din cele 3 categorii și să încerci iar.</p>
