@@ -24,18 +24,9 @@ $('.contactForm').form({
         mesaj: 'empty'
     }
 });
-$('.formularDeInscriere').form({
-    fields: {
-        nume: 'empty',
-        email: 'email',
-        password: 'minLength[6]',
-        password_conf: 'match[password]',
-        oras: 'empty',
-        varsta: 'empty',
-        telefon: ['minLength[10]', 'maxLength[13]'],
-        scoala: 'empty'
-    }
-});
+
+$('.formularDeInscriere').form();
+
 $(document).ready(function() {
     algo = false;
     web = false;
@@ -120,48 +111,19 @@ $(document).on("change", ".dropdown select[name=has_team]", function(){
 		$(".field input[name=numeproiect]").parent().slideUp();
 		$(".field input[name=nume2]").parent().slideUp();
 		$(".field input[name=nume3]").parent().slideUp();
-		$(".field input[name=nume4]").parent().slideUp();
 		$(".field input[name=email2]").parent().slideUp();
 		$(".field input[name=email3]").parent().slideUp();
-		$(".field input[name=email4]").parent().slideUp();
 	}else{
 		$(".field input[name=numeproiect]").parent().slideDown();
 		$(".field input[name=nume2]").parent().slideDown();
 		$(".field input[name=nume3]").parent().slideDown();
-		$(".field input[name=nume4]").parent().slideDown();
 		$(".field input[name=email2]").parent().slideDown();
 		$(".field input[name=email3]").parent().slideDown();
-		$(".field input[name=email4]").parent().slideDown();
 	}
 });
 
 $(document).on('submit', '.formularDeInscriere', function() {
-    if (web || gamedev) {
-        if ($('.formularDeInscriere input[name=bitbucket]').val() == "") {
-            $('.formularDeInscriere input[name=bitbucket]').parent().addClass('error');
-        } else {
-            $('.formularDeInscriere input[name=bitbucket]').parent().removeClass('error');
-        }
-        if(web){
-            if(parseInt($(".formularDeInscriere [name=has_team]").val()) === 1){
-                if($(".formularDeInscriere input[name=nume2]").val().trim().length === 0){
-                    $('.formularDeInscriere input[name=nume2]').parent().addClass('error');
-                }else{
-                    $('.formularDeInscriere input[name=nume2]').parent().removeClass('error');
-                }
-                if($(".formularDeInscriere input[name=email2]").val().trim().length === 0){
-                    $('.formularDeInscriere input[name=email2]').parent().addClass('error');
-                }else{
-                    $('.formularDeInscriere input[name=email2]').parent().removeClass('error');
-                }
-           }else{
-               $('.formularDeInscriere input[name=nume2]').parent().removeClass('error');
-               $('.formularDeInscriere input[name=email2]').parent().removeClass('error');
-           }
-       }
-    } else {
-        $('.formularDeInscriere input[name=bitbucket]').parent().removeClass('error');
-    }
+
     if (web || algo || gamedev) {
         if ($('.error').length == 0) {
             $('.ui.message').hide();
@@ -186,7 +148,15 @@ $(document).on('submit', '.formularDeInscriere', function() {
                 // gamedev = false;
                 $('.formularDeInscriere').find("input[type=text], input[type=password], textarea").val("");
 
-            }).fail(function() {
+            }).fail(function(response) {
+				const result = response.responseJSON;
+				Object.keys(result).forEach(function(key,index) {
+					$("input[name="+key+"]").parent().addClass('error');
+					$("select[name="+key+"]").parent().addClass('error');
+
+					$("input[name="+key+"]").parent().append("<span class='error-message'>"+result[key][0]+"</span>");
+
+				});
                 $('.erroareTehnica').show();
             }).always(function() {
                 $('.formularDeInscriere .submit').removeClass('loading');
@@ -196,6 +166,19 @@ $(document).on('submit', '.formularDeInscriere', function() {
         $('.selectCategorie').show();
     }
 });
+
+$('select').on('change', function() {
+	if(this.value !== "") {
+		$(this).parent().removeClass('error');
+		$(this).parent().find('.error-message').remove();
+	}
+});
+
+$('input').on('change', function() {
+	$(this).parent().removeClass('error');
+	$(this).parent().find('.error-message').remove();
+});
+
 $.ajaxSetup({
     headers: {
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')

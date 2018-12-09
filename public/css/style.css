@@ -324,4 +324,9 @@ td:hover {
     font-weight: 300;
     font-size: 12px;
     color: rgba(0,0,0,.4);
-} 
+}
+
+.error-message {
+	font-size: 12px;
+	color:#9f3a38;
+}
