@@ -80,6 +80,12 @@ class UsersController extends CrudController{
 		$this->edit->add('facebook3', 'Facebook 3', 'text');
 		$this->edit->add('marime_tricou3', 'Marime tricou 3', 'text');
 
+		$this->edit->add('nume4', 'Nume 4', 'text');
+		$this->edit->add('telefon4', 'Telefon 4', 'text');
+		$this->edit->add('email4', 'Email 4', 'text');
+		$this->edit->add('facebook4', 'Facebook 4', 'text');
+		$this->edit->add('marime_tricou4', 'Marime tricou 4', 'text');
+
 		return $this->returnEditView();
 	}
 }

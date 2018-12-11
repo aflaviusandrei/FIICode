@@ -1,6 +1,26 @@
 @extends('app')@section('content')
 
+<section id="content">
+	<div class="ui container">
+		<div class="ui segment webDesc" {!! (isset($web) && $web==1) ? 'style="display:block;"' : '' !!}>
+			<h4 class="ui header">Tehnologii WEB</h4>
+			Inscrierile incep pe 17 Decembrie!
+			<br /> Pentru mai multe detalii vezi <a href="/webmobile">pagina ariei</a>. 
+		</div>
+		<div class="ui segment algoDesc" {!! (isset($algo) && $algo==1) ? 'style="display:block;"' : '' !!}>
+			<h4 class="ui header">Algoritmică</h4> 
+			Inscrierile incep pe 17 Decembrie!            
+			<br /> Pentru mai multe detalii vezi <a href="/algoritmica">pagina ariei</a>. 
+		</div>
+		<div class="ui segment gamedevDesc" {!! (isset($gamedev) && $gamedev==1) ? 'style="display:block;"' : '' !!}>
+			<h4 class="ui header">GameDev</h4> 
+			Inscrierile incep pe 17 Decembrie!      
+			<br /> Pentru mai multe detalii vezi <a href="/gamedev">pagina ariei</a>. 
+		</div>
+	</div>
+</section>
 
+@if(1==2)
 <section id="content">
     <div class="ui container">
         <div class="ui segment webDesc" {!! (isset($web) && $web==1) ? 'style="display:block;"' : '' !!}>
@@ -67,8 +87,8 @@
                     <label>Confirma Parola<span>*</span></label>
                     <input type="password" name="password_conf" placeholder="Confirmă Parola"> </div>
                 <div class="field">
-                    <label class="webOnly">Cont Git (Oricare din GitHub, GitLab, Bitbucket, etc.)<span>*</span></label>
-                    <input class="webOnly gamedevOnly" type="text" name="bitbucket" placeholder="Contul Git unde va fi salvat codul sursă" /> </div>
+                    <label class="webOnly gamedevOnly">Cont Git (Oricare din GitHub, GitLab, Bitbucket, etc.)<span>*</span></label>
+                    <input class="webOnly gamedevOnly" type="text" name="repogithub" placeholder="Contul Git unde va fi salvat codul sursă" /> </div>
                 <div class="field">
                     <label>Orașul in care locuiești<span>*</span></label>
                     <input type="text" name="oras" placeholder="Oraș" /> </div>
@@ -125,60 +145,100 @@
                     <label>Ce tehnologii veți folosi<span>*</span></label>
                     <input type="text" name="tehnologii" placeholder="Tehnologii" /> 
 				</div>
-                <div class="field webOnly gamedevOnly">
-                    <label>Nume Membru 2<span>*</span></label>
-                    <input type="text" name="nume2" placeholder="Nume și Prenume" /> 
+				<div class="member webOnly gamedevOnly">
+					<div class="field">
+						<label>Nume Membru 2<span>*</span></label>
+						<input type="text" name="nume2" placeholder="Nume și Prenume" /> 
+					</div>
+					<div class="field">
+						<label>Email Membru 2<span>*</span></label>
+						<input type="text" name="email2" placeholder="Adresa de email" /> 
+					</div>
+					<div class="field">
+						<label>Numărul de telefon Membru 2<span>*</span></label>
+						<input type="text" name="telefon2" placeholder="Numărul de telefon" /> 
+					</div>
+					<div class="field">
+						<label>Facebook Membru 2<span>*</span></label>
+						<input type="text" name="facebook2" placeholder="Facebook" /> 
+					</div>
+					<div class="field">
+						<label>Mărime tricou Membru 2<span>*</span></label>
+						<select name="marime_tricou2" class="ui dropdown">
+							<option value="">Marime</option>
+							<option value="s">S</option>
+							<option value="m">M</option>
+							<option value="l">L</option>
+							<option value="xl">XL</option>
+							<option value="xxl">XXL</option>
+						</select>
+					</div>
 				</div>
-                <div class="field webOnly gamedevOnly">
-                    <label>Email Membru 2<span>*</span></label>
-                    <input type="text" name="email2" placeholder="Adresa de email" /> 
+				<div class="member webOnly gamedevOnly">
+					<div class="field">
+						<label>Nume Membru 3</label>
+						<input type="text" name="nume3" placeholder="Nume și Prenume" /> 
+					</div>
+					<div class="field">
+						<label>Email Membru 3</label>
+						<input type="text" name="email3" placeholder="Adresa de email" /> 
+					</div>
+					<div class="field">
+						<label>Numărul de telefon Membru 3</label>
+						<input type="text" name="telefon3" placeholder="Numărul de telefon" /> 
+					</div>
+					<div class="field">
+						<label>Facebook Membru 3</label>
+						<input type="text" name="facebook3" placeholder="Facebook" /> 
+					</div>
+					<div class="field">
+						<label>Mărime tricou Membru 3</label>
+						<select name="marime_tricou3" class="ui dropdown">
+							<option value="">Marime</option>
+							<option value="s">S</option>
+							<option value="m">M</option>
+							<option value="l">L</option>
+							<option value="xl">XL</option>
+							<option value="xxl">XXL</option>
+						</select>
+					</div>
 				</div>
-				<div class="field webOnly gamedevOnly">
-                    <label>Numărul de telefon Membru 2<span>*</span></label>
-                    <input type="text" name="telefon2" placeholder="Numărul de telefon" /> 
+				<div class="member gamedevOnly">
+					<div class="field">
+						<label>Nume Membru 4</label>
+						<input type="text" name="nume4" placeholder="Nume și Prenume" /> 
+					</div>
+					<div class="field">
+						<label>Email Membru 4</label>
+						<input type="text" name="email4" placeholder="Adresa de email" /> 
+					</div>
+					<div class="field">
+						<label>Numărul de telefon Membru 4</label>
+						<input type="text" name="telefon4" placeholder="Numărul de telefon" /> 
+					</div>
+					<div class="field">
+						<label>Facebook Membru 4</label>
+						<input type="text" name="facebook4" placeholder="Facebook" /> 
+					</div>
+					<div class="field">
+						<label>Mărime tricou Membru 4</label>
+						<select name="marime_tricou4" class="ui dropdown">
+							<option value="">Marime</option>
+							<option value="s">S</option>
+							<option value="m">M</option>
+							<option value="l">L</option>
+							<option value="xl">XL</option>
+							<option value="xxl">XXL</option>
+						</select>
+					</div>
 				</div>
-				<div class="field webOnly gamedevOnly">
-                    <label>Facebook Membru 2<span>*</span></label>
-                    <input type="text" name="facebook2" placeholder="Facebook" /> 
+				
+				<div class="field">
+					<div class="ui checkbox">
+						<input type="checkbox" name="terms_and_conditions">
+						<label>Am citit si sunt de acord cu <a href="/termeni-si-conditii" target="_blank">Termenii si conditiile</a>.</label>
+					</div>
 				</div>
-				<div class="field webOnly gamedevOnly">
-                    <label>Mărime tricou Membru 2<span>*</span></label>
-                    <select name="marime_tricou2" class="ui dropdown">
-                        <option value="">Marime</option>
-                        <option value="s">S</option>
-                        <option value="m">M</option>
-                        <option value="l">L</option>
-                        <option value="xl">XL</option>
-                        <option value="xxl">XXL</option>
-                    </select>
-                </div>
-                <div class="field webOnly gamedevOnly">
-                    <label>Nume Membru 3</label>
-                    <input type="text" name="nume3" placeholder="Nume și Prenume" /> 
-				</div>
-                <div class="field webOnly gamedevOnly">
-                    <label>Email Membru 3</label>
-                    <input type="text" name="email3" placeholder="Adresa de email" /> 
-				</div>
-				<div class="field webOnly gamedevOnly">
-                    <label>Numărul de telefon Membru 3</label>
-                    <input type="text" name="telefon3" placeholder="Numărul de telefon" /> 
-				</div>
-				<div class="field webOnly gamedevOnly">
-                    <label>Facebook Membru 3</label>
-                    <input type="text" name="facebook3" placeholder="Facebook" /> 
-				</div>
-				<div class="field webOnly gamedevOnly">
-                    <label>Mărime tricou Membru 3</label>
-                    <select name="marime_tricou3" class="ui dropdown">
-                        <option value="">Marime</option>
-                        <option value="s">S</option>
-                        <option value="m">M</option>
-                        <option value="l">L</option>
-                        <option value="xl">XL</option>
-                        <option value="xxl">XXL</option>
-                    </select>
-                </div>
 
                  {!! Recaptcha::render() !!}
 
@@ -203,4 +263,5 @@
         <div class="ui container"></div>
     </div>
 </section>
+@endif
 <script src='https://www.google.com/recaptcha/api.js'></script>@endsection

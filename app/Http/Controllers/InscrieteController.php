@@ -41,11 +41,12 @@ class InscrieteController extends Controller
     }
     public function inscrie(Request $request) {
         $this->validate($request, [
+			'terms_and_conditions' => 'accepted',
 			'nume' => 'required',
 			'email' => 'email|required|unique:users,email',
 			'password' => 'required|min:6|required_with:password_conf',
 			'password_conf' => 'required|same:password',
-            'bitbucket' => 'required_if:sectiune,web|required_if:sectiune,gamedev',
+            'repogithub' => 'required_if:sectiune,web|required_if:sectiune,gamedev',
             'oras' => 'required',
             'varsta' => 'required|in:<15,16,17,18,19,20,21,22,>22',
 			'telefon' => 'required|min:10|max:13',
@@ -63,15 +64,21 @@ class InscrieteController extends Controller
 
 			'email3' => 'email',
 			'telefon3' => 'min:10|max:13',
-			'marime_tricou3' => 'in:s,m,l,xl,xxl'
+			'marime_tricou3' => 'in:s,m,l,xl,xxl',
+
+			'email4' => 'email',
+			'telefon4' => 'min:10|max:13',
+			'marime_tricou4' => 'in:s,m,l,xl,xxl'
 		],
 		[	
 			'*.required' => 'Va rog sa completati acest camp.',
+			'*.accepted' => 'Pentru a putea continua trebuie sa fiti de acord cu termenii si conditiile.',
 
 			'email.email' => 'Va rog sa introduceti o adresa valida de email.',
 			'email.unique' => 'Acest email este deja folosit de cineva.',
 			'email2.email' => 'Va rog sa introduceti o adresa valida de email.',
 			'email3.email' => 'Va rog sa introduceti o adresa valida de email.',
+			'email4.email' => 'Va rog sa introduceti o adresa valida de email.',
 
 			'password.min' => 'Parola trebuie sa contina o lungime minima de 6 caractere.',
 			'password_conf.same' => 'Parola de confirmare nu se potriveste cu parola.',
@@ -81,12 +88,14 @@ class InscrieteController extends Controller
 			'telefon2.min' => 'Numarul de telefon trebuie sa contina minim 10 caractere.',
 			'telefon2.max' => 'Numarul de telefon trebuie sa contina maxim 13 caractere.',
 			'telefon3.min' => 'Numarul de telefon trebuie sa contina minim 10 caractere.',
-			'telefon3.max' => 'Numarul de telefon trebuie sa contina maxim 13 caractere.'
+			'telefon3.max' => 'Numarul de telefon trebuie sa contina maxim 13 caractere.',
+			'telefon4.min' => 'Numarul de telefon trebuie sa contina minim 10 caractere.',
+			'telefon4.max' => 'Numarul de telefon trebuie sa contina maxim 13 caractere.'
 		]);
 		
         $user = new User();
         $user->password = Hash::make($request->input('password'));
-        $user->bitbucket = htmlentities($request->input('bitbucket'));
+        $user->repogithub = htmlentities($request->input('repogithub'));
         $user->oras = htmlentities($request->input('oras'));
         $user->varsta = htmlentities($request->input('varsta'));
         $user->scoala = htmlentities($request->input('scoala'));
@@ -116,8 +125,15 @@ class InscrieteController extends Controller
             $user->web = 1;
         if ($request->input('sectiune') == "algo")
             $user->algoritmica = 1;
-        if ($request->input('sectiune') == "gamedev")
-            $user->gamedev = 1;
+        if ($request->input('sectiune') == "gamedev") {
+			$user->nume4 = htmlentities($request->input('nume4'));
+			$user->telefon4 = htmlentities($request->input('telefon4'));		
+			$user->email4 = htmlentities($request->input('email4'));
+			$user->facebook4 = htmlentities($request->input('facebook4'));
+			$user->marime_tricou4 = htmlentities($request->input('marime_tricou4'));
+			
+			$user->gamedev = 1;
+		}
 		
 		$user->save();
 		
