@@ -43,7 +43,7 @@
                 Web/Mobile
             </a>
             <a href="/gamedev">
-                <i class="icon rocket"></i>
+                <i class="icon game"></i>
                 GameDev
             </a>
             <a href="/algoritmica">
@@ -82,7 +82,7 @@
                         <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                     </div>
                     <div class="item">
-                        <a href="/gamedev"><i class="icon rocket"></i>GameDev </a>
+                        <a href="/gamedev"><i class="icon game"></i>GameDev </a>
                     </div>
                     <div class="item">
                         <a href="/algoritmica"><i class="icon cubes"></i>Algotitmica</a>

@@ -14,7 +14,7 @@
                     Web/Mobile
                 </a>
                 <a href="/gamedev">
-                    <i class="icon rocket"></i>
+                    <i class="icon game"></i>
                     GameDev
                 </a>
                 <a href="/algoritmica">
@@ -53,7 +53,7 @@
                             <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                         </div>
                         <div class="item">
-                            <a href="/gamedev"><i class="icon rocket"></i>GamDev</a>
+                            <a href="/gamedev"><i class="icon game"></i>GamDev</a>
                         </div>
                         <div class="item">
                             <a href="/algoritmica"><i class="icon cubes"></i>Algoritmica</a>
@@ -97,18 +97,12 @@
             <p>FII Code este un proiect organizat de ASII și de Facultatea de Informatică din Iași, ce are la bază dezvoltarea abilităților pe partea de programare la nivel competitiv. 
                 Fiind la a 4-a ediție, acesta are o arie largă ce cuprinde web&mobile development, game development și algoritmică. 
                 Tema, la fel ca și cele din ultimii 4 ani, va fi una îndrăzneață, creativă, menită să scoată tot ce este mai bun din voi.
-                Ambiția și spiritul competitiv vor fi calitătile esențiale de care veți avea nevoie pentru a vă număra printre învingători.</p>
+                Ambiția și spiritul competitiv vor fi calitățile esențiale de care veți avea nevoie pentru a vă număra printre învingători.<br><br></p>
             <div class="buttons">
                 <a href="/inscrie-te/web">
                     <div class="ui labeled icon blue massive button web">
                         <i class="icon code"></i>
                         Web/Mobile
-                    </div>
-                </a>
-                <a href="/inscrie-te/gamedev">
-                    <div class="ui labeled icon teal massive button gamedev">
-                        <i class="icon rocket"></i>
-                        Game Dev
                     </div>
                 </a>
                 <a href="/inscrie-te/algo">
@@ -117,10 +111,18 @@
                         Algoritmică
                     </div>
                 </a>
+                <a href="/inscrie-te/gamedev">
+                    <div class="ui labeled icon purple massive button gamedev">
+                        <i class="icon game"></i>
+                        Game Dev
+                    </div>
+                </a>
+                
             </div>
             <img class="backgroundhome web" src="{{ asset('img/web.svg') }}" alt="web tehnology background" />
             <img class="backgroundhome gamedev" src="{{ asset('img/gamedev.jpg') }}" alt="game dev background" />
             <img class="backgroundhome algo" src="{{ asset('img/algo.svg') }}" alt="algorithm background" />
+            <img class="backgroundhome cover show1" src="{{ asset('img/cover.jpg') }}" alt="background" />
         </div>
     </section>
     <section id="content">

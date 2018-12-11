@@ -53,7 +53,7 @@ header nav a:hover {
 }
 #homecover {
     width: 100%;
-    min-height: 600px;
+    min-height: 625px;
     padding-top: 30px;
     background:#21394f;
     position:relative;
@@ -134,6 +134,11 @@ header .logo img {
     animation-name: show;
     animation-duration: .6s;
     opacity: 0.2;
+}
+#homecover .backgroundhome.show1 {
+    animation-name: show;
+    animation-duration: .6s;
+    opacity: 0.6;
 }
 #content {
     width: 100%;
