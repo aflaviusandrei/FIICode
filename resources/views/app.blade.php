@@ -9,7 +9,7 @@
     <meta property="og:image" content="{{ asset('img/cover-2018.png') }}">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <title>{{ $title }} | FIICode 2018 - Concurs de algoritmică, game development și tehnologii web</title>
+    <title>{{ $title }} | FIICode 2019 - Concurs de algoritmică, game development și tehnologii web</title>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('semantic/semantic.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/style.css?v=1.1')}}" />
@@ -43,7 +43,7 @@
                 Web/Mobile
             </a>
             <a href="/gamedev">
-                <i class="icon rocket"></i>
+                <i class="icon game"></i>
                 GameDev
             </a>
             <a href="/algoritmica">
@@ -82,7 +82,7 @@
                         <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                     </div>
                     <div class="item">
-                        <a href="/gamedev"><i class="icon rocket"></i>GameDev </a>
+                        <a href="/gamedev"><i class="icon game"></i>GameDev </a>
                     </div>
                     <div class="item">
                         <a href="/algoritmica"><i class="icon cubes"></i>Algotitmica</a>

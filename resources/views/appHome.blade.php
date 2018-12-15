@@ -9,7 +9,7 @@
     <meta property="og:image" content="{{ asset('img/cover-2018.png') }}">
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <title>FIICode 2018 - Concurs de algoritmică, game development și tehnologii web</title>
+    <title>FIICode 2019 - Concurs de algoritmică, game development și tehnologii web</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('semantic/semantic.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/animate.css')}}" />
     <link rel="stylesheet" href="{{ asset('css/style.css?v=1.1')}}" />
