@@ -116,9 +116,13 @@
                                 <div class="tab-pane fade" id="nav-rez" role="tabpanel" aria-labelledby="nav-rez-tab">
                                 <br><center>
                                     <h3>
-                                        Probleme de algoritmica de la editia 2018:<br><br>
+                                        Probleme de algoritmica de la editia 2018:<br><br></h3>
+                                        <a href="https://drive.google.com/open?id=1sxGpFFgRIsaU7LwvHUAp3tlOHt-vhzlc">Runda 1</a><br>
+                                        <a href="https://drive.google.com/open?id=1Sp84VqfU3C2PO13BXo1DFlkowlZBrwx_">Runda 2</a><br>
+                                        <a href="https://drive.google.com/open?id=1Ty5-39Rn0QzkOEDzMCZQgwK0yyVALHRG">Runda 3</a><br>
+                                        <a href="https://drive.google.com/open?id=13HPXDU8j0Nr9PgAAq_i7NIfjQWliTzKh">Runda finala</a><br>
                                         
-                                    </h3>
+                                    <br>
                                     <b>Rezultate:</b><br>
                                     <a href="https://drive.google.com/file/d/1WTTVn4c9C_w1nv_jGwkxjUTfCszelfrS/view">Runde online</a>
                                         

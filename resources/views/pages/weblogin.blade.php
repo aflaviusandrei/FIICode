@@ -14,7 +14,7 @@
                     <!-- Tema 2017 //!De păstrat, nenea care mai editezi, să lași aici, că oricum blade-ul ascunde de tot comentariile :)
                     <p>Să se conceapă o aplicație Web, de dorit oferind o interacțiune conversațională, care identifică - pe baza copertei, codului de bare sau a altui semn numeric/grafic fizic (i.e. beacon) ori electronic (URL, DOI) - diverse (categorii de) obiecte. Folosind această identificare, se pot recomanda resurse alternative de interes. Aceste recomandări pot fi realizate în funcție de mai mulți factori, precum disponibilitatea în alt format (varianta ca document PDF ori ePub a unui volum tipărit, eventual tradus în limba maternă a utilizatorului), preț (ofertă mai avantajoasă pentru un articol alimentar), calitate (procentaj mai mare de vitamine), similaritate (alt CD al aceleași formații), preferințe ale utilizatorului (doar recipientele de o anumită culoare sau formă). A se consulta și <a href="https://world.openfoodfacts.org/">Open Food Facts</a>, <a href="https://www.wikidata.org/">Wikidata</a>,<a href="https://viaf.org/">Virtual International Authority File</a>, <a href="https://www.opensemanticsearch.org/">Open Semantic Search</a>, <a href="https://thereisabotforthat.com/">There is a bot for that</a>.</p>
                     -->
-                    <p>
+                   <!-- <p>
                         <strong>Tema probei Web/Mobile:</strong><br>
                         Să se realizeze o aplicație Web/Mobile care să ofere o interfață prietenoasă ce să asiste persoanele cu diverse alergii.
                         Aplicația va fi capabilă să gestioneze (tipuri de) alergii și să notifice o persoană sau un grup de utilizatori asupra apariției unei alergii sezoniere (ex.: la polen, expunere directă la soare sau la praf, etc.), eventual în conjuncție cu anumite fructe sau compuși alimentari, și/sau conform unor condiții de mediu (ex.: temperatură, umezeală, etc.). Notificările vor fi semnalate, inclusiv cu o anumită prioritate/frecvență, atât în cadrul aplicației cât și pe un dispozitiv mobil (telefon, tabletă) al utilizatorului sau a unei persoane de contact. Se vor pune la dispoziție, de asemenea, sfaturi referitoare la preîntâmpinarea unei/unor alergii, plus tratamentul și/sau medicația.
@@ -65,7 +65,7 @@
                             <h2>Success!</h2>
                             <p>Link-ul a fost salvat cu success!</p>
                         </div>
-                    </div>
+                    </div> -->
 				@endif
 			</div>
 		</div>

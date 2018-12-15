@@ -8,7 +8,7 @@
 				Bună ziua {{ $user->nume }},<br /><br />
                 @if(strtotime("18.03.2018 21:59:00") - time() > 0)
                     Aceasta pagină va conține tema probei de GameDev alături de o variantă <b>"pe-scurt"</b> a regulamentului la această secțiune!<br>
-                    Informațiile și tema vor apărea la începutul probei, pe <strong>19 Martie</strong>.
+                    Informațiile și tema vor apărea la începutul probei, pe <strong>15 Ianuarie</strong>.
                     <br /> <br />
                     <!-- 
                     <p>Creaţi o aplicaţie interactivă cu scop educaţional pentru mobil care va fi folosită pentru a ajuta predarea disciplinelor STEM.</p>
@@ -33,7 +33,7 @@
                     -->
                 @else
                     
-                    <p><strong>Tema probei GameDev:</strong><br></p>
+                    <!--<p><strong>Tema probei GameDev:</strong><br></p>
                     <p>Să se realizeze un joc ce abordează tematica „securității informatice”, conform regulamentului concursului FIICode.</p>
                     <p>Criterii minime admitere proiect:<br>
                     Proiectul va fi o aplicație de tip joc, ceea ce înseamnă că utilizatorul trebuie să interacționeze cu aplicația (evitarea jocurilor de tip telltale games).<br>
@@ -66,7 +66,7 @@
                             <h2>Success!</h2>
                             <p>Link-ul a fost salvat cu success!</p>
                         </div>
-                    </div>
+                    </div> -->
                  @endif
 			</div>
 		</div>
