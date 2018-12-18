@@ -4,17 +4,17 @@
 	<div class="ui container">
 		<div class="ui segment webDesc" {!! (isset($web) && $web==1) ? 'style="display:block;"' : '' !!}>
 			<h4 class="ui header">Tehnologii WEB</h4>
-			Inscrierile incep pe 17 Decembrie!
+			Inscrierile incep pe 20 Decembrie!
 			<br /> Pentru mai multe detalii vezi <a href="/webmobile">pagina ariei</a>. 
 		</div>
 		<div class="ui segment algoDesc" {!! (isset($algo) && $algo==1) ? 'style="display:block;"' : '' !!}>
 			<h4 class="ui header">Algoritmică</h4> 
-			Inscrierile incep pe 17 Decembrie!            
+			Inscrierile incep pe 20 Decembrie!            
 			<br /> Pentru mai multe detalii vezi <a href="/algoritmica">pagina ariei</a>. 
 		</div>
 		<div class="ui segment gamedevDesc" {!! (isset($gamedev) && $gamedev==1) ? 'style="display:block;"' : '' !!}>
 			<h4 class="ui header">GameDev</h4> 
-			Inscrierile incep pe 17 Decembrie!      
+			Inscrierile incep pe 20 Decembrie!      
 			<br /> Pentru mai multe detalii vezi <a href="/gamedev">pagina ariei</a>. 
 		</div>
 	</div>

@@ -38,11 +38,9 @@
             </div>
             <div class="five wide column">
                 <div class="content">
-                    <h3 class="ui header divided">Ediţia 2018</h3>
+                    
                     <div class="ui list">
-                        <a href="/" class="item">Pagina de start</a>
-                        <a href="/regulament" class="item">Regulament</a>
-                        <a href="/sitemap.xml" class="item">Sitemap</a>
+                        
                         <span>Website gazduit de <a href="https://rohost.com/">RoHost</a></span>
                     </div>
                 </div>
@@ -56,7 +54,7 @@
         </div>
         <div class="ui horizontal divider"></div>
         <div class="copyright">
-            Copyright &copy; <b>FII Code</b> 2018
+            Copyright &copy; <b>FII Code</b> 2019
         </div>
         <div class="makeby">
             Proiect organizat de <a target="_blank" href="http://www.info.uaic.ro">FII</a> și <a target="_blank" href="http://asii.ro">ASII</a>
