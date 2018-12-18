@@ -122,7 +122,8 @@
             <img class="backgroundhome web" src="{{ asset('img/web.svg') }}" alt="web tehnology background" />
             <img class="backgroundhome gamedev" src="{{ asset('img/gamedev.jpg') }}" alt="game dev background" />
             <img class="backgroundhome algo" src="{{ asset('img/algo.svg') }}" alt="algorithm background" />
-            <img class="backgroundhome cover show1" src="{{ asset('img/cover.jpg') }}" alt="background" />
+            <img class="backgroundhome cover show1" src="{{ asset('img/covermobile.jpg') }}" alt="background" />
+            <img class="backgroundhome planete show2" src="{{ asset('img/cover.jpg') }}" alt="background" />
             <img class="backgroundhome cover  mobile " src="{{ asset('img/covermobile.jpg') }}" alt="background" />
         </div>
     </section>

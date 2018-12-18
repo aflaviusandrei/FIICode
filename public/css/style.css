@@ -109,9 +109,11 @@ header .logo img {
 #homecover .backgroundhome {
   width: 100%;
   height: auto;
-    position:absolute;
+    position: absolute;
     top:0;
-    right: 0;
+   
+   right:0;
+    
     opacity: 0;
     z-index: -1;
     transition: 1s all ease;
@@ -119,7 +121,7 @@ header .logo img {
 }
 #homecover .backgroundhome.cover{
     width: 100%;
-    height: 100%;
+    height:100%;
     position:absolute;
     top:0;
     right: 0;
@@ -127,6 +129,23 @@ header .logo img {
     z-index: -1;
     transition: 1s all ease;
      object-fit: fill;
+    
+}
+#homecover .backgroundhome.planete{
+    width: auto;
+    height: 100%;
+    
+    background-position: center center;
+   
+    top:0;
+    left:0;
+    
+    opacity: 0;
+    z-index: -1;
+    transition: 1s all ease;
+    
+  
+     
     
 }
 #homecover .ui.button:hover + img {
@@ -151,12 +170,17 @@ header .logo img {
 #homecover .backgroundhome.show1 {
     animation-name: show;
     animation-duration: .6s;
+    opacity: 1;
+}
+#homecover .backgroundhome.show2 {
+    animation-name: show;
+    animation-duration: .6s;
     opacity: 0.6;
 }
 #content {
     width: 100%;
     color:#111a22;
-    padding: 40px;
+    padding: 0px;
 }
 .ui.segment {
     box-shadow: none !important;
@@ -283,7 +307,8 @@ label span {
     color:#434d56;
 }
 #content ul {
-    margin-left: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
     color:#434d56;
 }
 .webDesc, .algoDesc{
@@ -302,7 +327,7 @@ td:hover {
 }
 @media(max-width:768px){
     #homecover .backgroundhome.cover {
-        width: 100%;
+        width: auto;
         height: 100%;
         opacity: 1;
         position: absolute;
@@ -313,12 +338,23 @@ td:hover {
         display:none;
         
     }
+    #homecover .backgroundhome.show2 {
+        display:none;
+        
+    }
     
 
 }
-@media(min-width: 768px) and (max-width: 991px) {
+
+@media(min-width: 768px) and (max-width: 1250px) {
     .ui.container {
         width: auto;
+    }
+    #homecover .backgroundhome.planete{
+        height:auto;
+        width:100%;
+        bottom: 0px;
+
     }
 }
 @media(max-width: 980px) {

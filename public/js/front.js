@@ -3,24 +3,30 @@ $('.mobile .button.dropdown').dropdown();
 $(document).on('mouseover', '#homecover .ui.button.web', function() {
     $('.backgroundhome.web').addClass('show');
     $('.backgroundhome.cover').removeClass('show1');
+    $('.backgroundhome.planete').removeClass('show2');
 
 }).on('mouseleave', '#homecover .ui.button', function() {
     $('.backgroundhome.web').removeClass('show');
     $('.backgroundhome.cover').addClass('show1');
+    $('.backgroundhome.planete').addClass('show2');
 });
 $(document).on('mouseover', '#homecover .ui.button.gamedev', function() {
     $('.backgroundhome.gamedev').addClass('show');
     $('.backgroundhome.cover').removeClass('show1');
+    $('.backgroundhome.planete').removeClass('show2');
 }).on('mouseleave', '#homecover .ui.button', function() {
     $('.backgroundhome.gamedev').removeClass('show');
     $('.backgroundhome.cover').addClass('show1');
+    $('.backgroundhome.planete').addClass('show2');
 });
 $(document).on('mouseover', '#homecover .ui.button.algo', function() {
     $('.backgroundhome.algo').addClass('show');
     $('.backgroundhome.cover').removeClass('show1');
+    $('.backgroundhome.planete').removeClass('show2');
 }).on('mouseleave', '#homecover .ui.button', function() {
     $('.backgroundhome.algo').removeClass('show');
     $('.backgroundhome.cover').addClass('show1');
+    $('.backgroundhome.planete').addClass('show2');
 });
 $('.ui.dropdown').dropdown();
 $('.contactForm').form({
