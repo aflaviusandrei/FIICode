@@ -36,10 +36,7 @@
                     <p>FII Code este un concurs la nivel național pentru elevi și studenți în care aceștia își pot etala cunoștințele în algoritmică sau tehnologii web. Sună bine? Atunci înscrie-te chiar acum și dovedește-le tuturor că ești cel mai bun!</p>
                 </div>
             </div>
-            <div class="five wide column">
-                <div class="content">
-                </div>
-            </div>
+           
             <div class="five wide column">
                 <div class="content social">
                     <h3 class="ui header divided">Social</h3>

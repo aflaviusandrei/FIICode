@@ -180,7 +180,8 @@ header .logo img {
 #content {
     width: 100%;
     color:#111a22;
-    padding: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .ui.segment {
     box-shadow: none !important;
