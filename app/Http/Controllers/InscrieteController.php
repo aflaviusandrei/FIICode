@@ -41,7 +41,8 @@ class InscrieteController extends Controller
     }
     public function inscrie(Request $request) {
         $this->validate($request, [
-			'terms_and_conditions' => 'accepted',
+			'terms_and_conditions1' => 'accepted',
+			'terms_and_conditions2' => 'accepted',
 			'nume' => 'required',
 			'email' => 'email|required|unique:users,email',
 			'password' => 'required|min:6|required_with:password_conf',
@@ -55,6 +56,7 @@ class InscrieteController extends Controller
             'scoala' => 'required',
 			'numeproiect' => 'required_if:sectiune,web|required_if:sectiune,gamedev',
 			'tehnologii'=>'required_if:sectiune,web|required_if:sectiune,gamedev',
+			'csacademy' => 'required_if:sectiune,algo',
 
 			'nume2' => 'required_if:sectiune,web|required_if:sectiune,gamedev',
 			'email2' => 'email|required_if:sectiune,web|required_if:sectiune,gamedev',
@@ -72,7 +74,8 @@ class InscrieteController extends Controller
 		],
 		[	
 			'*.required' => 'Va rog sa completati acest camp.',
-			'*.accepted' => 'Pentru a putea continua trebuie sa fiti de acord cu termenii si conditiile.',
+			'*.required_if' => 'Va rog sa completati acest camp.',
+			'*.accepted' => 'Pentru a putea continua trebuie sa bifati aceasta casuta.',
 
 			'email.email' => 'Va rog sa introduceti o adresa valida de email.',
 			'email.unique' => 'Acest email este deja folosit de cineva.',
@@ -95,36 +98,47 @@ class InscrieteController extends Controller
 		
         $user = new User();
         $user->password = Hash::make($request->input('password'));
-        $user->repogithub = htmlentities($request->input('repogithub'));
         $user->oras = htmlentities($request->input('oras'));
         $user->varsta = htmlentities($request->input('varsta'));
         $user->scoala = htmlentities($request->input('scoala'));
-        $user->numeproiect = htmlentities($request->input('numeproiect'));
-		$user->tehnologii = htmlentities($request->input('tehnologii'));
 		$user->email_confirmation_token = str_random(25);
+
+		$user->terms_and_conditions1 = htmlentities($request->input('terms_and_conditions1'));
+		$user->terms_and_conditions2 = htmlentities($request->input('terms_and_conditions2'));
 
         $user->nume = htmlentities($request->input('nume'));
         $user->telefon = htmlentities($request->input('telefon'));
         $user->email = htmlentities($request->input('email'));
         $user->facebook = htmlentities($request->input('facebook'));
-        $user->marime_tricou = htmlentities($request->input('marime_tricou'));		
+        $user->marime_tricou = htmlentities($request->input('marime_tricou'));
 
-		$user->nume2 = htmlentities($request->input('nume2'));
-        $user->telefon2 = htmlentities($request->input('telefon2'));
-		$user->email2 = htmlentities($request->input('email2'));
-		$user->facebook2 = htmlentities($request->input('facebook2'));
-		$user->marime_tricou2 = htmlentities($request->input('marime_tricou2'));		
-		
-		$user->nume3 = htmlentities($request->input('nume3'));
-        $user->telefon3 = htmlentities($request->input('telefon3'));		
-		$user->email3 = htmlentities($request->input('email3'));
-		$user->facebook3 = htmlentities($request->input('facebook3'));
-		$user->marime_tricou3 = htmlentities($request->input('marime_tricou3'));		
-		
-        if ($request->input('sectiune') == "web")
-            $user->web = 1;
-        if ($request->input('sectiune') == "algo")
+		if ($request->input('sectiune') == "web" || $request->input('sectiune') == "gamedev") {
+			$user->tehnologii = htmlentities($request->input('tehnologii'));
+			$user->numeproiect = htmlentities($request->input('numeproiect'));
+			$user->repogithub = htmlentities($request->input('repogithub'));
+
+			$user->nume2 = htmlentities($request->input('nume2'));
+			$user->telefon2 = htmlentities($request->input('telefon2'));
+			$user->email2 = htmlentities($request->input('email2'));
+			$user->facebook2 = htmlentities($request->input('facebook2'));
+			$user->marime_tricou2 = htmlentities($request->input('marime_tricou2'));		
+			
+			$user->nume3 = htmlentities($request->input('nume3'));
+			$user->telefon3 = htmlentities($request->input('telefon3'));		
+			$user->email3 = htmlentities($request->input('email3'));
+			$user->facebook3 = htmlentities($request->input('facebook3'));
+			$user->marime_tricou3 = htmlentities($request->input('marime_tricou3'));		
+		}
+
+        if ($request->input('sectiune') == "web") {
+			$user->web = 1;
+		}
+			
+        if ($request->input('sectiune') == "algo") {
+			$user->csacademy = htmlentities($request->input('csacademy'));
             $user->algoritmica = 1;
+		}
+		
         if ($request->input('sectiune') == "gamedev") {
 			$user->nume4 = htmlentities($request->input('nume4'));
 			$user->telefon4 = htmlentities($request->input('telefon4'));		

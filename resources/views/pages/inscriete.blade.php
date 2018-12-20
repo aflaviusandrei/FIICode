@@ -1,27 +1,6 @@
 @extends('app')@section('content')
 
 <section id="content">
-	<div class="ui container">
-		<div class="ui segment webDesc" {!! (isset($web) && $web==1) ? 'style="display:block;"' : '' !!}>
-			<h4 class="ui header">Tehnologii WEB</h4>
-			Inscrierile incep pe 20 Decembrie!
-			<br /> Pentru mai multe detalii vezi <a href="/webmobile">pagina ariei</a>. 
-		</div>
-		<div class="ui segment algoDesc" {!! (isset($algo) && $algo==1) ? 'style="display:block;"' : '' !!}>
-			<h4 class="ui header">Algoritmică</h4> 
-			Inscrierile incep pe 20 Decembrie!            
-			<br /> Pentru mai multe detalii vezi <a href="/algoritmica">pagina ariei</a>. 
-		</div>
-		<div class="ui segment gamedevDesc" {!! (isset($gamedev) && $gamedev==1) ? 'style="display:block;"' : '' !!}>
-			<h4 class="ui header">GameDev</h4> 
-			Inscrierile incep pe 20 Decembrie!      
-			<br /> Pentru mai multe detalii vezi <a href="/gamedev">pagina ariei</a>. 
-		</div>
-	</div>
-</section>
-
-@if(1==2)
-<section id="content">
     <div class="ui container">
         <div class="ui segment webDesc" {!! (isset($web) && $web==1) ? 'style="display:block;"' : '' !!}>
             <h4 class="ui header">Tehnologii WEB</h4> "Toți pentru unul și unul pentru toți!" Acesta e motto-ul probei de Tehnologii WEB! Nu poți participa decât ca parte a unei echipe formată din 2 până la 4 membri! Prima probă te va întâmpina online pentru a-ți testa abilitățile și creativitatea urmând ca apoi, cei mai cei să se califice în finală! Nu ezita! Înscrie-te și creează aplicații uimitoare folosind orice tehnologie de pe acest Pământ!
@@ -74,9 +53,10 @@
                     <label class="algoOnly">Nume și prenume<span>*</span></label>
                     <label class="webOnly">Numele complet al liderului<span>*</span></label>
                     <label class="gamedevOnly">Numele complet al liderului<span>*</span></label>
-                    <input type="text" name="nume" placeholder="Nume si prenume" /> </div>
-                <div class="field">
-                    <label>Adresa de email a liderului<span>*</span></label>
+                    <input type="text" name="nume" placeholder="Nume si prenume" />
+				</div>
+				<div class="field">
+                    <label>Adresa de email<span>*</span></label>
                     <input type="text" name="email" placeholder="Email" /> 
 					<span class="error-message"></span>
 				</div>
@@ -129,6 +109,10 @@
                 <div class="field">
                     <label>Liceul sau facultatea la care sunteți<span>*</span></label>
                     <input type="text" name="scoala" placeholder="Liceu / Facultate" />
+				</div>
+				<div class="field">
+                    <label>Username CS Academy<span>*</span></label>
+                    <input type="text" name="csacademy" placeholder="CS Academy" />
 				</div>
                 <div class="field webOnly">
                     <label>Vreau să particip la sesiunea de organizare de echipe, pentru că nu am reușit să-mi găsesc un coechipier?</label>
@@ -235,8 +219,15 @@
 				
 				<div class="field">
 					<div class="ui checkbox">
-						<input type="checkbox" name="terms_and_conditions">
-						<label>Am citit si sunt de acord cu <a href="/termeni-si-conditii" target="_blank">Termenii si conditiile</a>.</label>
+						<input type="checkbox" name="terms_and_conditions1" value="1">
+						<label>Bifand aceasta casuta, confirm ca am citit aceasta <a href="/documente/Data-privacy-consent_Recruitment-US-IT-ro.pdf" target="_blank">Declaratie</a> privind Confidentialitatea Datelor si sunt de acord cu prelucrarea datelor mele cu caracter personal in scopul inscrierii actuale.</label>
+					</div>
+				</div>
+
+				<div class="field">
+					<div class="ui checkbox">
+						<input type="checkbox" name="terms_and_conditions2" value="1">
+						<label>Sunt de acord ca Asociatia sa stocheze si sa prelucreze ulterior datele mele cu caracter personal in scopul gestionarii viitoarelor scopuri ale Asociatiei, astfel cum prevede aceasta <a href="/documente/Data-privacy-consent_Recruitment-US-IT-ro.pdf" target="_blank">Declaratie</a> privind Confidentialitatea Datelor.</label>
 					</div>
 				</div>
 
@@ -263,5 +254,5 @@
         <div class="ui container"></div>
     </div>
 </section>
-@endif
+
 <script src='https://www.google.com/recaptcha/api.js'></script>@endsection
