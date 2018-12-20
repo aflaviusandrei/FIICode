@@ -114,7 +114,8 @@
 
                                 </div>
                                 <div class="tab-pane fade" id="nav-rez" role="tabpanel" aria-labelledby="nav-rez-tab">
-                                <br><center>
+                                <br>
+								<center>
                                     <h3>
                                         Probleme de algoritmica de la editia 2018:<br><br></h3>
                                         <a href="https://drive.google.com/open?id=1sxGpFFgRIsaU7LwvHUAp3tlOHt-vhzlc">Runda 1</a><br>
@@ -124,6 +125,13 @@
                                         
                                     <br>
                                     <b>Rezultate:</b><br>
+                                        Premiul I: Lucian Bicsi <br>
+                                        Premiul II: Laura Georgescu<br>
+                                        Premiul III: Horia Turcuman<br>
+                                        Mentiune: Felix Puscasu<br>
+                                        Mentiune: Mihail Chihai<br>
+                                        Mentiune: Bogdan Burcea<br>
+										<br>
                                     <a href="https://drive.google.com/file/d/1WTTVn4c9C_w1nv_jGwkxjUTfCszelfrS/view">Runde online</a>
                                         
                                 
@@ -139,7 +147,7 @@
                                         Locul III: Denis Banu<br>
                                         Mențiuni:  Diana Ghinea & Nicolae Bodea & Cristian Vantur<br>
                                         
-                                        </center>
+                                 </center>
 
                                 </div>
 

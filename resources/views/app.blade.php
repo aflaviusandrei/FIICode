@@ -143,11 +143,6 @@
             </div>
             <div class="five wide column">
                 <div class="content">
-                    
-                    <div class="ui list">
-                        
-                        <span>Website gazduit de <a href="https://rohost.com/">RoHost</a></span>
-                    </div>
                 </div>
             </div>
             <div class="five wide column">

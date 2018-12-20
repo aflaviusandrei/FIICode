@@ -53,10 +53,15 @@ class UsersController extends CrudController{
 		$this->edit->add('facebook', 'Facebook', 'text');
 		$this->edit->add('marime_tricou', 'Marime tricou', 'text');
 
+		$this->edit->add('terms_and_conditions1', 'Accepted first terms and conditions ', 'radiogroup')->option('1', 'Da')->option('0', 'Nu');
+		$this->edit->add('terms_and_conditions2', 'Accepted second terms and conditions', 'radiogroup')->option('1', 'Da')->option('0', 'Nu');
+	
+
 		$this->edit->add('prezentare', 'Prezentare', 'text');
 		$this->edit->add('changepass', 'Can change pass?', 'text');
 		$this->edit->add('infoarena', 'InfoArena', 'text');
 		$this->edit->add('repogithub', 'Repository', 'text');
+		$this->edit->add('csacademy', 'Username CS Academy', 'text');
 		$this->edit->add('oras', 'Oraș', 'text');
 		$this->edit->add('varsta', 'Vârsta', 'text');
 		$this->edit->add('email_confirmation_token', 'Email Confirmation Token', 'text');
