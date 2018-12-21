@@ -116,7 +116,6 @@
                     <label>Liceul sau facultatea la care sunteți<span>*</span></label>
                     <input type="text" name="scoala" placeholder="Liceu / Facultate" />
 				</div>
-				
                 <div class="field webOnly">
                     <label>Vreau să particip la sesiunea de organizare de echipe, pentru că nu am reușit să-mi găsesc un coechipier?</label>
                     <select name="has_team" class="ui dropdown">
