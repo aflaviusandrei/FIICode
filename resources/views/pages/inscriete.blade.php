@@ -110,7 +110,7 @@
                     <label>Liceul sau facultatea la care sunteți<span>*</span></label>
                     <input type="text" name="scoala" placeholder="Liceu / Facultate" />
 				</div>
-				<div class="field">
+				<div class="field algoOnly">
                     <label>Username CS Academy<span>*</span></label>
                     <input type="text" name="csacademy" placeholder="CS Academy" />
 				</div>
