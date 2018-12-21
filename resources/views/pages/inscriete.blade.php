@@ -56,7 +56,9 @@
                     <input type="text" name="nume" placeholder="Nume si prenume" />
 				</div>
 				<div class="field">
-                    <label>Adresa de email<span>*</span></label>
+					<label class="algoOnly">Adresa de email<span>*</span></label>
+                    <label class="webOnly">Adresa de email a liderului<span>*</span></label>
+                    <label class="gamedevOnly">Adresa de email a liderului<span>*</span></label>
                     <input type="text" name="email" placeholder="Email" /> 
 					<span class="error-message"></span>
 				</div>
@@ -95,6 +97,10 @@
                     <label>Facebook<span>*</span></label>
                     <input type="text" name="facebook" placeholder="Facebook" /> 
 				</div>
+				<div class="field algoOnly">
+                    <label>Username CS Academy<span>*</span></label>
+                    <input type="text" name="csacademy" placeholder="CS Academy" />
+				</div>
 				<div class="field">
                     <label>Mărime tricou<span>*</span></label>
                     <select name="marime_tricou" class="ui dropdown">
@@ -109,10 +115,6 @@
                 <div class="field">
                     <label>Liceul sau facultatea la care sunteți<span>*</span></label>
                     <input type="text" name="scoala" placeholder="Liceu / Facultate" />
-				</div>
-				<div class="field algoOnly">
-                    <label>Username CS Academy<span>*</span></label>
-                    <input type="text" name="csacademy" placeholder="CS Academy" />
 				</div>
                 <div class="field webOnly">
                     <label>Vreau să particip la sesiunea de organizare de echipe, pentru că nu am reușit să-mi găsesc un coechipier?</label>
