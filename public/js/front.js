@@ -100,6 +100,8 @@ $(document).on('change', 'input[name=sectiune]', function() {
         $('.algoOnly').hide();
         $('.gamedevOnly').hide();
         $('.webOnly').show();
+        $('.inactive').hide();
+        
         algo = false;
         gamedev = false;
         $('.algoDesc').attr('style', 'display:none;');
@@ -112,26 +114,60 @@ $(document).on('change', 'input[name=sectiune]', function() {
         $('.algoOnly').hide();
         $('.webOnly').hide();
         $('.gamedevOnly').show();
+        $('.inactive').hide();
+        
         algo = false;
         web = false;
         $('.algoDesc').attr('style', 'display:none;');
         $('.webDesc').attr('style', 'display:none;');
+        
     }
 
 });
 $(document).on("change", ".dropdown select[name=has_team]", function(){
-	if(web && parseInt(this.value) == 0){
+    if(parseInt(this.value) == 0)
+	{
 		$(".field input[name=numeproiect]").parent().slideUp();
-		$(".field input[name=nume2]").parent().slideUp();
-		$(".field input[name=nume3]").parent().slideUp();
+		/*$(".field input[name=nume2]").parent().slideUp();
+        $(".field input[name=nume3]").parent().slideUp();
+        $(".field input[name=nume4]").parent().slideUp();
 		$(".field input[name=email2]").parent().slideUp();
-		$(".field input[name=email3]").parent().slideUp();
+        $(".field input[name=email3]").parent().slideUp();
+        $(".field input[name=email4]").parent().slideUp();
+        $(".field input[name=telefon2]").parent().slideUp();
+        $(".field input[name=telefon3]").parent().slideUp();
+        $(".field input[name=telefon4]").parent().slideUp();
+        $(".field input[name=facebook2]").parent().slideUp();
+        $(".field input[name=facebook3]").parent().slideUp();
+        $(".field input[name=facebook4]").parent().slideUp();
+        $(".field select[name=marime_tricou2]").parent().slideUp();
+        $(".field select[name=marime_tricou3]").parent().slideUp();
+        $(".field select[name=marime_tricou4]").parent().slideUp();*/
+        $(".proiect").addClass('inactive');
+        $(".member").addClass('inactive');
+        $('.inactive').hide();
+        
 	}else{
 		$(".field input[name=numeproiect]").parent().slideDown();
-		$(".field input[name=nume2]").parent().slideDown();
-		$(".field input[name=nume3]").parent().slideDown();
+		/*$(".field input[name=nume2]").parent().slideDown();
+        $(".field input[name=nume3]").parent().slideDown();
+        $(".field input[name=nume4]").parent().slideDown();
 		$(".field input[name=email2]").parent().slideDown();
-		$(".field input[name=email3]").parent().slideDown();
+        $(".field input[name=email3]").parent().slideDown();
+        $(".field input[name=email4]").parent().slideDown();
+        $(".field input[name=telefon2]").parent().slideDown();
+        $(".field input[name=telefon3]").parent().slideDown();
+        $(".field input[name=telefon4]").parent().slideUDown();
+        $(".field input[name=facebook2]").parent().slideDown();
+        $(".field input[name=facebook3]").parent().slideDown();
+        $(".field input[name=facebook4]").parent().slideDown();
+        $(".field select[name=marime_tricou2]").parent().slideDown();
+        $(".field select[name=marime_tricou3]").parent().slideDown();
+        $(".field select[name=marime_tricou4]").parent().slideDown();*/
+        $(".member").removeClass('inactive');
+        $(".proiect").removeClass('inactive');
+        if (gamedev==true)  $('.gamedevOnly').show();
+        if (web==true)  $('.webOnly').show();
 	}
 });
 
