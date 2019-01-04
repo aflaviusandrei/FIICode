@@ -41,6 +41,7 @@
                 <div class="content social">
                     <h3 class="ui header divided">Social</h3>
                     <a href="https://www.facebook.com/FIICode"><i class="icon facebook"></i></a>
+                    <a href="https://www.instagram.com/fiicode/"><i class="icon instagram"></i></a>
                 </div>
             </div>
         </div>

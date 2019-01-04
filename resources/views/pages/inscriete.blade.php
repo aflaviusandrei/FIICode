@@ -3,7 +3,7 @@
 <section id="content">
     <div class="ui container">
         <div class="ui segment webDesc" {!! (isset($web) && $web==1) ? 'style="display:block;"' : '' !!}>
-            <h4 class="ui header">Tehnologii WEB</h4> "Toți pentru unul și unul pentru toți!" Acesta e motto-ul probei de Tehnologii WEB! Nu poți participa decât ca parte a unei echipe formată din 2 până la 4 membri! Prima probă te va întâmpina online pentru a-ți testa abilitățile și creativitatea urmând ca apoi, cei mai cei să se califice în finală! Nu ezita! Înscrie-te și creează aplicații uimitoare folosind orice tehnologie de pe acest Pământ!
+            <h4 class="ui header">Tehnologii WEB</h4> "Toți pentru unul și unul pentru toți!" Acesta e motto-ul probei de Tehnologii WEB! Nu poți participa decât ca parte a unei echipe formată din 2 până la 3 membri! Prima probă te va întâmpina online pentru a-ți testa abilitățile și creativitatea urmând ca apoi, cei mai cei să se califice în finală! Nu ezita! Înscrie-te și creează aplicații uimitoare folosind orice tehnologie de pe acest Pământ!
             <br /> Pentru mai multe detalii vezi <a href="/webmobile">pagina ariei</a>. </div>
         <div class="ui segment algoDesc" {!! (isset($algo) && $algo==1) ? 'style="display:block;"' : '' !!}>
             <h4 class="ui header">Algoritmică</h4> Un algoritm trebuie văzut pentru a fi crezut!" Acesta e motto-ul probei de Algoritmică! Trei probe de calificare te așteaptă cu brațele deschise pentru a-ți demonstra priceperea in lumea algoritmilor! Dar nu zi HOP până nu sari gardul căci dupa acestea te așteaptă "Algozilla"! Crezi că ești pregătit? Înscrie-te și arată-ne ce poți!
