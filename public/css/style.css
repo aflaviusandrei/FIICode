@@ -407,3 +407,6 @@ td:hover {
 	padding: 20px 20px;
 	margin-bottom: 20px;
 }
+.inactive{
+    display:none;
+}

@@ -3,7 +3,7 @@
 <section id="content">
     <div class="ui container">
         <div class="ui segment webDesc" {!! (isset($web) && $web==1) ? 'style="display:block;"' : '' !!}>
-            <h4 class="ui header">Tehnologii WEB</h4> "Toți pentru unul și unul pentru toți!" Acesta e motto-ul probei de Tehnologii WEB! Nu poți participa decât ca parte a unei echipe formată din 2 până la 4 membri! Prima probă te va întâmpina online pentru a-ți testa abilitățile și creativitatea urmând ca apoi, cei mai cei să se califice în finală! Nu ezita! Înscrie-te și creează aplicații uimitoare folosind orice tehnologie de pe acest Pământ!
+            <h4 class="ui header">Tehnologii WEB</h4> "Toți pentru unul și unul pentru toți!" Acesta e motto-ul probei de Tehnologii WEB! Nu poți participa decât ca parte a unei echipe formată din 2 până la 3 membri! Prima probă te va întâmpina online pentru a-ți testa abilitățile și creativitatea urmând ca apoi, cei mai cei să se califice în finală! Nu ezita! Înscrie-te și creează aplicații uimitoare folosind orice tehnologie de pe acest Pământ!
             <br /> Pentru mai multe detalii vezi <a href="/webmobile">pagina ariei</a>. </div>
         <div class="ui segment algoDesc" {!! (isset($algo) && $algo==1) ? 'style="display:block;"' : '' !!}>
             <h4 class="ui header">Algoritmică</h4> Un algoritm trebuie văzut pentru a fi crezut!" Acesta e motto-ul probei de Algoritmică! Trei probe de calificare te așteaptă cu brațele deschise pentru a-ți demonstra priceperea in lumea algoritmilor! Dar nu zi HOP până nu sari gardul căci dupa acestea te așteaptă "Algozilla"! Crezi că ești pregătit? Înscrie-te și arată-ne ce poți!
@@ -94,7 +94,7 @@
                     <input type="text" name="telefon" placeholder="Numărul de telefon" /> 
 				</div>
 				<div class="field">
-                    <label>Facebook<span>*</span></label>
+                    <label>Link Facebook<span>*</span></label>
                     <input type="text" name="facebook" placeholder="Facebook" /> 
 				</div>
 				<div class="field algoOnly">
@@ -116,14 +116,14 @@
                     <label>Liceul sau facultatea la care sunteți<span>*</span></label>
                     <input type="text" name="scoala" placeholder="Liceu / Facultate" />
 				</div>
-                <div class="field webOnly">
+                <div class="field webOnly gamedevOnly">
                     <label>Vreau să particip la sesiunea de organizare de echipe, pentru că nu am reușit să-mi găsesc un coechipier?</label>
                     <select name="has_team" class="ui dropdown">
                         <option value="1">Nu</option>
-                        <option value="0">Da (Detalii în RegulamentWeb/Mobile#Participanți)</option>
+                        <option value="0">Da (Detalii în Regulament)</option>
                     </select>
                 </div>
-                <div class="field webOnly gamedevOnly">
+                <div class="field proiect webOnly gamedevOnly">
                     <label>Nume Echipă<span>*</span></label>
                     <input type="text" name="numeproiect" placeholder="Nume Echipă" /> 
 				</div>
@@ -145,7 +145,7 @@
 						<input type="text" name="telefon2" placeholder="Numărul de telefon" /> 
 					</div>
 					<div class="field">
-						<label>Facebook Membru 2<span>*</span></label>
+						<label>Link Facebook Membru 2<span>*</span></label>
 						<input type="text" name="facebook2" placeholder="Facebook" /> 
 					</div>
 					<div class="field">
@@ -174,7 +174,7 @@
 						<input type="text" name="telefon3" placeholder="Numărul de telefon" /> 
 					</div>
 					<div class="field">
-						<label>Facebook Membru 3</label>
+						<label>Link Facebook Membru 3</label>
 						<input type="text" name="facebook3" placeholder="Facebook" /> 
 					</div>
 					<div class="field">
@@ -203,7 +203,7 @@
 						<input type="text" name="telefon4" placeholder="Numărul de telefon" /> 
 					</div>
 					<div class="field">
-						<label>Facebook Membru 4</label>
+						<label>Link Facebook Membru 4</label>
 						<input type="text" name="facebook4" placeholder="Facebook" /> 
 					</div>
 					<div class="field">
