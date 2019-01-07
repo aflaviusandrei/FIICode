@@ -15,12 +15,14 @@ class InscrieteController extends Controller
         $title = "Inscriere";
         $web = 0;
         $algo = 0;
-        $gamedev = 0;
+		$gamedev = 0;
+		
         if ($tehno == "web") $web = 1;
         if ($tehno == "algo") $algo = 1;
         if ($tehno == "gamedev") $gamedev = 1;
         return view('pages.inscriete', ['title' => $title, 'web' => $web, 'algo' => $algo,'gamedev'=>$gamedev]);
-    }
+	}
+	
     public function showPage() {
         if (Auth::check()) {
             if (Auth::user()->web == 1)
@@ -54,15 +56,15 @@ class InscrieteController extends Controller
 			'facebook' => 'required',
 			'marime_tricou' => 'required|in:s,m,l,xl,xxl',
             'scoala' => 'required',
-			'numeproiect' => 'required_if:sectiune,web|required_if:sectiune,gamedev',
+			
 			'tehnologii'=>'required_if:sectiune,web|required_if:sectiune,gamedev',
 			'csacademy' => 'required_if:sectiune,algo',
 
-			'nume2' => 'required_if:sectiune,web|required_if:sectiune,gamedev',
-			'email2' => 'email|required_if:sectiune,web|required_if:sectiune,gamedev',
-			'telefon2' => 'required_if:sectiune,web|required_if:sectiune,gamedev|min:10|max:13',
-			'facebook2' => 'required_if:sectiune,web|required_if:sectiune,gamedev',
-			'marime_tricou2' => 'required_if:sectiune,web|required_if:sectiune,gamedev|in:s,m,l,xl,xxl',
+			
+			'email2' => 'email',
+			'telefon2' => 'min:10|max:13',
+			
+			'marime_tricou2' => 'in:s,m,l,xl,xxl',
 
 			'email3' => 'email',
 			'telefon3' => 'min:10|max:13',
@@ -114,9 +116,10 @@ class InscrieteController extends Controller
 
 		if ($request->input('sectiune') == "web" || $request->input('sectiune') == "gamedev") {
 			$user->tehnologii = htmlentities($request->input('tehnologii'));
-			$user->numeproiect = htmlentities($request->input('numeproiect'));
+			
 			$user->repogithub = htmlentities($request->input('repogithub'));
-
+			
+            $user->numeproiect = htmlentities($request->input('numeproiect'));
 			$user->nume2 = htmlentities($request->input('nume2'));
 			$user->telefon2 = htmlentities($request->input('telefon2'));
 			$user->email2 = htmlentities($request->input('email2'));
@@ -127,7 +130,8 @@ class InscrieteController extends Controller
 			$user->telefon3 = htmlentities($request->input('telefon3'));		
 			$user->email3 = htmlentities($request->input('email3'));
 			$user->facebook3 = htmlentities($request->input('facebook3'));
-			$user->marime_tricou3 = htmlentities($request->input('marime_tricou3'));		
+			$user->marime_tricou3 = htmlentities($request->input('marime_tricou3'));
+			
 		}
 
         if ($request->input('sectiune') == "web") {
