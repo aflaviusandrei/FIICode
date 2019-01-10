@@ -3,18 +3,18 @@
 @section('content')
     <header>
         <div class="ui container">
-            <nav class="nav-head">
+            <nav>
                 <a href="/">
                     <i class="icon home"></i>
                     Pagina de start
                 </a>
                 
-                <a href="/webmobile">
+                <a href="webmobile">
                     <i class="icon code"></i>
                     Web/Mobile
                 </a>
                 <a href="/gamedev">
-                    <i class="icon game"></i>
+                    <i class="icon rocket"></i>
                     GameDev
                 </a>
                 <a href="/algoritmica">
@@ -53,7 +53,7 @@
                             <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                         </div>
                         <div class="item">
-                            <a href="/gamedev"><i class="icon game"></i>GamDev</a>
+                            <a href="/gamedev"><i class="icon rocket"></i>GamDev</a>
                         </div>
                         <div class="item">
                             <a href="/algoritmica"><i class="icon cubes"></i>Algoritmica</a>
@@ -92,17 +92,27 @@
             <div class="logo home">
                 <img src="{{ asset('img/logohome.png') }}" alt="Logo FIICode" />
             </div>
-            <h2>Exact ca în orice altă artă, încrederea vine odată cu experiența,</h2>
-            <h2>Atât pentru voi, cât și pentru noi.</h2>
-            <p>FII Code este un proiect organizat de ASII și de Facultatea de Informatică din Iași, ce are la bază dezvoltarea abilităților pe partea de programare la nivel competitiv. 
-                Fiind la a 4-a ediție, acesta are o arie largă ce cuprinde web&mobile development, game development și algoritmică. 
+            <div class="language-box">
+                <a href="#ro" onclick="ro()"><img class="language-button" src="{{ asset('img/ro.png') }}" alt="Romana"/></a>
+                <a href="#en" onclick="eng()"><img class="language-button" src="{{ asset('img/eng.png') }}" alt="English"/></a>
+            </div>
+            <h2 id="head1">Exact ca în orice altă artă, încredera vine odată cu experiența,</h2>
+            <h2 id="head2">Atât pentru voi, cât și pentru noi.</h2>
+            <p id="p1">FII Code este un proiect organizat de ASII și de Facultatea de Informatică din Iași, ce are la bază dezvoltarea abilităților pe partea de programare la nivel competitiv. 
+                Fiind la a 4-a ediție, acesta are o arie largă ce cuprinde web&mobile development, game developmen și algoritmică. 
                 Tema, la fel ca și cele din ultimii 4 ani, va fi una îndrăzneață, creativă, menită să scoată tot ce este mai bun din voi.
-                Ambiția și spiritul competitiv vor fi calitățile esențiale de care veți avea nevoie pentru a vă număra printre învingători.<br><br></p>
+                Ambiția și spiritul competitiv vor fi calitătile esențiale de care veți avea nevoie pentru a vă număra printre învingători.</p>
             <div class="buttons">
                 <a href="/inscrie-te/web">
                     <div class="ui labeled icon blue massive button web">
                         <i class="icon code"></i>
                         Web/Mobile
+                    </div>
+                </a>
+                <a href="/inscrie-te/gamedev">
+                    <div class="ui labeled icon teal massive button gamedev">
+                        <i class="icon rocket"></i>
+                        Game Dev
                     </div>
                 </a>
                 <a href="/inscrie-te/algo">
@@ -111,27 +121,17 @@
                         Algoritmică
                     </div>
                 </a>
-                <a href="/inscrie-te/gamedev">
-                    <div class="ui labeled icon purple massive button gamedev">
-                        <i class="icon game"></i>
-                        Game Dev
-                    </div>
-                </a>
-                
             </div>
             <img class="backgroundhome web" src="{{ asset('img/web.svg') }}" alt="web tehnology background" />
             <img class="backgroundhome gamedev" src="{{ asset('img/gamedev.jpg') }}" alt="game dev background" />
             <img class="backgroundhome algo" src="{{ asset('img/algo.svg') }}" alt="algorithm background" />
-            <img class="backgroundhome cover show1" src="{{ asset('img/covermobile.jpg') }}" alt="background" />
-            <img class="backgroundhome planete show2" src="{{ asset('img/cover.jpg') }}" alt="background" />
-            <img class="backgroundhome cover  mobile " src="{{ asset('img/covermobile.jpg') }}" alt="background" />
         </div>
     </section>
     <section id="content">
         <div class="ui container">
             <div class="head"><i class="icon code"></i> Despre <div class="green"></div><div class="red"></div></div>
             <div class="ui segment">
-                <p>Proiectul dorește ca participanții să valorifice <strong>abilitățile</strong> (și să dezvolte competențe), prin intermediul competiției: <strong>g&acirc;ndirea algoritmică</strong> și <strong>analitică</strong>, modelarea și implementarea, <strong>dezvoltarea</strong> de noi tehnologii, creativitatea, adaptabilitatea, precum&nbsp; și capacitatea de a susține &icirc;n public a unei lucrări proprii. Cele 3 secțiuni, <strong>Algoritmică</strong>, <strong>Web/Mobile</strong> și <strong>GameDev</strong>, sunt concepute special pentru acest lucru, fiecare acoperind o anumită arie din domeniul IT aflată &icirc;n acest moment &icirc;n plină expansiune. Modul de organizare al competiției implică cunoașterea at&acirc;t de noțiuni practice c&acirc;t și teoretice.
+                <p id="p2">Proiectul dorește ca participanții să valorifice <strong>abilitățile</strong> (și să dezvolte competențe), prin intermediul competiției: <strong>g&acirc;ndirea algoritmică</strong> și <strong>analitică</strong>, modelarea și implementarea, <strong>dezvoltarea</strong> de noi tehnologii, creativitatea, adaptabilitatea, precum&nbsp; și capacitatea de a susține &icirc;n public a unei lucrări proprii. Cele 3 secțiuni, <strong>Algoritmică</strong>, <strong>Web/Mobile</strong> și <strong>GameDev</strong>, sunt concepute special pentru acest lucru, fiecare acoperind o anumită arie din domeniul IT aflată &icirc;n acest moment &icirc;n plină expansiune. Modul de organizare al competiției implică cunoașterea at&acirc;t de noțiuni practice c&acirc;t și teoretice.
                     <br>
                     <br>
                     Subiectele și soluțiile sunt propuse de o comisie formată din reprezentanți ai unor companii de prestigiu din industrie, de profesori universitari, preuniversitari și de studenți ai Facultății de Informatică. Evaluarea la secțiunea de algoritmică va fi  făcută online, iar evaluarea în cadrul probelor Web/Mobile și GameDev va fi realizată de către comisie, fiecare secțiune având un regulament propriu.
@@ -149,12 +149,7 @@
             @foreach($news as $new)
                 <div class="ui fluid card newsfeed">
                     <div class="content">
-                        <div class="header">
-                            {{ $new['title'] }}
-                            <div class="newsfeed-date">
-                                {{ date('l, d F Y \a\t h:m', strtotime($new['created_at'])) }}
-                            </div>
-                        </div>
+                        <div class="header">{{ $new['title'] }}</div>
                         <div class="meta">
                         </div>
                         <p>{!! $new['content'] !!}</p>
