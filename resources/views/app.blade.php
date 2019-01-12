@@ -9,7 +9,7 @@
     <meta property="og:image" content="{{ asset('img/cover-2018.png') }}">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <title>{{ $title }} | FIICode 2019 - Concurs de algoritmică, game development și tehnologii web</title>
+    <title>{{ $title }} | FIICode 2018 - Concurs de algoritmică, game development și tehnologii web</title>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('semantic/semantic.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/style.css?v=1.1')}}" />
@@ -32,7 +32,7 @@
         <a class="logo" href="/">
             <img src="{{ asset('img/logo.png') }}" alt="Logo FIICode" />
         </a>
-        <nav class="nav-head">
+        <nav>
             <a href="/">
                 <i class="icon home"></i>
                 Pagina de start
@@ -43,7 +43,7 @@
                 Web/Mobile
             </a>
             <a href="/gamedev">
-                <i class="icon game"></i>
+                <i class="icon rocket"></i>
                 GameDev
             </a>
             <a href="/algoritmica">
@@ -82,7 +82,7 @@
                         <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                     </div>
                     <div class="item">
-                        <a href="/gamedev"><i class="icon game"></i>GameDev </a>
+                        <a href="/"><i class="icon rocket"></i>GameDev </a>
                     </div>
                     <div class="item">
                         <a href="/algoritmica"><i class="icon cubes"></i>Algotitmica</a>
@@ -141,18 +141,27 @@
                     <p>FII Code este un concurs la nivel național pentru elevi și studenți în care aceștia își pot etala cunoștințele în algoritmică sau tehnologii web. Sună bine? Atunci înscrie-te chiar acum și dovedește-le tuturor că ești cel mai bun!</p>
                 </div>
             </div>
-            
+            <div class="five wide column">
+                <div class="content">
+                    <h3 class="ui header divided">Ediţia 2018</h3>
+                    <div class="ui list">
+                        <a href="/" class="item">Pagina de start</a>
+                        
+                        <a href="/sitemap.xml" class="item">Sitemap</a>
+                        <span>Website gazduit de <a href="https://rohost.com/">RoHost</a></span>
+                    </div>
+                </div>
+            </div>
             <div class="five wide column">
                 <div class="content social">
                     <h3 class="ui header divided">Social</h3>
                     <a href="https://www.facebook.com/FIICode"><i class="icon facebook"></i></a>
-                    <a href="https://www.instagram.com/fiicode/"><i class="icon instagram"></i></a>
                 </div>
             </div>
         </div>
         <div class="ui horizontal divider"></div>
         <div class="copyright">
-            Copyright &copy; <b>FII Code</b> 2019
+            Copyright &copy; <b>FII Code</b> 2018
         </div>
         <div class="makeby">
             Proiect organizat de <a target="_blank" href="http://www.info.uaic.ro">FII</a> și <a target="_blank" href="http://asii.ro">ASII</a>
