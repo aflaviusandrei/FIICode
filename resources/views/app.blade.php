@@ -85,7 +85,7 @@
                         <a href="/"><i class="icon rocket"></i>GameDev </a>
                     </div>
                     <div class="item">
-                        <a href="/algoritmica"><i class="icon cubes"></i>Algotitmica</a>
+                        <a href="/algoritmica"><i class="icon cubes"></i>Algoritmica</a>
                     </div>
                     @if (Auth::check())
                         <div class="item">

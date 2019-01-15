@@ -24,7 +24,7 @@
     <b>Calendar proba GameDev</b><br><br>
 
 	
-		Runda online - 15 ianuarie - 29 martie 2019 		<br>
+		Runda online - 25 ianuarie - 29 martie 2019 		<br>
 		Runda Finala - 13 aprilie 2019		<br>
 	</center>
 
