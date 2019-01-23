@@ -148,7 +148,6 @@
                         <a href="/" class="item">Pagina de start</a>
                         
                         <a href="/sitemap.xml" class="item">Sitemap</a>
-                        <span>Website gazduit de <a href="https://rohost.com/">RoHost</a></span>
                     </div>
                 </div>
             </div>

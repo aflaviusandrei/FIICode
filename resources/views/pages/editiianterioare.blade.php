@@ -157,13 +157,6 @@
                                         <h2>Parteneri eveniment</h2>
                                         <a class="partener" href="http://it-st.ro/"><img src="/img/parteneri/itst.png" alt="IT'ist" /></a>
                                         <div class="ui segment parteneri">
-                                            <h2 class="ui header">Platinium</h2>
-                                            <a class="partener" href="http://www.camline.com/en/home.html"><img src="img/parteneri/camline.png" alt="Yonder" /></a>
-                                            <h2 class="ui header">Gold</h2>
-                                            <a class="partener" href="http://tss-yonder.com/"><img src="img/parteneri/yonder.png" alt="Yonder" /></a>
-                                            <h2 class="ui header">Silver</h2>
-                                            <a class="partener" href="http://www.pimcopy.ro/"><img src="/img/parteneri/pim.png" alt="PIM" /></a>
-                                            <a class="partener" href="https://rohost.com/"><img src="/img/parteneri/rohost.png" alt="rohost" /></a>
                                         </div>
                                     </div>
                                 </div>
