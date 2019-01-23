@@ -8,7 +8,7 @@
                 Bună ziua {{ $user->nume }},<br /><br />
                 @if(strtotime("25.01.2019 00:00:00") - time() > 0)
                     Aceasta pagină va conține tema probei de Tehnologii Web alături de o variantă <b>"pe-scurt"</b> a regulamentului la această secțiune!<br>
-                    Informațiile și tema vor apărea la începutul probei, pe <strong>19 Martie</strong>.
+                    Informațiile și tema vor apărea la începutul probei, pe <strong>25 Ianuarie 2019</strong>.
                     <br /> <br />
 				@else
                     <!-- Tema 2017 //!De păstrat, nenea care mai editezi, să lași aici, că oricum blade-ul ascunde de tot comentariile :)
