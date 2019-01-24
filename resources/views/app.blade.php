@@ -9,7 +9,7 @@
     <meta property="og:image" content="{{ asset('img/cover-2018.png') }}">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <title>{{ $title }} | FIICode 2018 - Concurs de algoritmică, game development și tehnologii web</title>
+    <title>{{ $title }} | FIICode 2019 - Concurs de algoritmică, game development și tehnologii web</title>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('semantic/semantic.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/style.css?v=1.1')}}" />
@@ -43,7 +43,7 @@
                 Web/Mobile
             </a>
             <a href="/gamedev">
-                <i class="icon rocket"></i>
+                <i class="icon game"></i>
                 GameDev
             </a>
             <a href="/algoritmica">
@@ -82,7 +82,7 @@
                         <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                     </div>
                     <div class="item">
-                        <a href="/"><i class="icon rocket"></i>GameDev </a>
+                        <a href="/gamedev"><i class="icon game"></i>GameDev </a>
                     </div>
                     <div class="item">
                         <a href="/algoritmica"><i class="icon cubes"></i>Algoritmica</a>
@@ -143,24 +143,21 @@
             </div>
             <div class="five wide column">
                 <div class="content">
-                    <h3 class="ui header divided">Ediţia 2018</h3>
-                    <div class="ui list">
-                        <a href="/" class="item">Pagina de start</a>
-                        
-                        <a href="/sitemap.xml" class="item">Sitemap</a>
-                    </div>
+                    <h3 class="ui header divided">Ediţia 2019</h3>
+                    
                 </div>
             </div>
             <div class="five wide column">
                 <div class="content social">
                     <h3 class="ui header divided">Social</h3>
                     <a href="https://www.facebook.com/FIICode"><i class="icon facebook"></i></a>
+                    <a href="https://www.instagram.com/fiicode/"><i class="icon instagram"></i></a>
                 </div>
             </div>
         </div>
         <div class="ui horizontal divider"></div>
         <div class="copyright">
-            Copyright &copy; <b>FII Code</b> 2018
+            Copyright &copy; <b>FII Code</b> 2019
         </div>
         <div class="makeby">
             Proiect organizat de <a target="_blank" href="http://www.info.uaic.ro">FII</a> și <a target="_blank" href="http://asii.ro">ASII</a>
