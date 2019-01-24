@@ -5,7 +5,41 @@
         <div class="ui container">
             <div class="head"><i class="icon code"></i> {{ $title }} <div class="green"></div><div class="red"></div></div>
             <div class="ui segment algoritmica">
-            <div class="language-box" style="text-align: left !important;">
+            <div class="col-xs-12 ">
+                            <nav clas="ar">
+                                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-anunt-tab" data-toggle="tab" href="#nav-anunt" role="tab" aria-controls="nav-anunt" aria-selected="true">Anunturi</a>
+                                    <a class="nav-item nav-link" id="nav-reg-tab" data-toggle="tab" href="#nav-reg" role="tab" aria-controls="nav-reg" aria-selected="false">Regulament</a>
+                                    <a class="nav-item nav-link" id="nav-rez-tab" data-toggle="tab" href="#nav-rez" role="tab" aria-controls="nav-rez" aria-selected="false">Editiile anterioare</a>
+                                </div>
+                            </nav>
+                            
+                            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-anunt" role="tabpanel" aria-labelledby="nav-anunt-tab">
+                                <br><center><h2>FII Code - Algoritmica</h2>
+	<br>
+	Aceasta pagina este dedicata sectiunii de algoritmica din cadrul concursului FII Code. Aici se vor posta informatiile utile participantilor la aceasta sectiune.
+
+	<br>
+	<br>
+	Proba de algoritmica va fi alcatuita din 3 probe online, la finalul carora se va stabili un clasament cumulat, dupa care se vor stabili finalistii onsite.
+	Rundele de calificare, cat si runda finala vor avea dificultate asemanatoare cu o runda CSAcademy div 2.
+	<br><br><br>
+
+
+	<b>Calendar proba Algoritmica</b><br><br>
+
+	
+		Runda 1 - 6 februarie 2019 		<br>
+		Runda 2 - 27 februarie 2019 				<br>
+		Runda 3 - 20 martie 2019				<br>
+		Runda Finala - 13 aprilie 2019		<br>
+	</center>
+
+                                </div>
+            
+            <div class="tab-pane fade" id="nav-reg" role="tabpanel" aria-labelledby="nav-reg-tab">
+                <div class="language-box" style="text-align: left !important;">
                 <a href="#ro" onclick="ro()"><img class="language-button" src="{{ asset('img/ro.png') }}" alt="Romana"/></a>
                 <a href="#en" onclick="eng_algo()"><img class="language-button" src="{{ asset('img/eng.png') }}" alt="English"/></a>
             </div>
@@ -118,6 +152,36 @@
                 <p id="p56"><strong>Condiții</strong></p>
                 <p id="p57">Coordonatorii concursului își rezervă dreptul de a modifica fără notificare prealabilă acest regulament. Asigurăm participanții că nu se vor realiza modificări ale regulamentului în ce privește datele tehnice în perioada unei runde.</p>
                 <br>
+                </div>
+                <div class="tab-pane fade" id="nav-rez" role="tabpanel" aria-labelledby="nav-rez-tab">
+                                <br><center>
+                                    <h3>
+                                        Probleme de algoritmica de la editia 2018:<br><br></h3>
+                                        <a href="https://drive.google.com/open?id=1sxGpFFgRIsaU7LwvHUAp3tlOHt-vhzlc">Runda 1</a><br>
+                                        <a href="https://drive.google.com/open?id=1Sp84VqfU3C2PO13BXo1DFlkowlZBrwx_">Runda 2</a><br>
+                                        <a href="https://drive.google.com/open?id=1Ty5-39Rn0QzkOEDzMCZQgwK0yyVALHRG">Runda 3</a><br>
+                                        <a href="https://drive.google.com/open?id=13HPXDU8j0Nr9PgAAq_i7NIfjQWliTzKh">Runda finala</a><br>
+                                        
+                                    <br>
+                                    <b>Rezultate:</b><br>
+                                    <a href="https://drive.google.com/file/d/1WTTVn4c9C_w1nv_jGwkxjUTfCszelfrS/view">Runde online</a>
+                                        
+                                
+                                            <h3>Probleme de algoritmică de la ediția 2016:</h3><br>
+                                            <a href="https://www.hackerrank.com/fiicode-runda-1" alt="Runda 1">Runda 1</a><br>
+                                            <a href="https://www.hackerrank.com/fiicode-runda-2" alt="Runda 2">Runda 2</a><br>
+                                            <a href="https://www.hackerrank.com/fiicode-runda-3" alt="Runda 3">Runda 3</a><br>
+                                            <a href="https://www.hackerrank.com/fiicode-runda-finala-online-mirror" alt="Runda finală">Runda finală</a><br><br>
+                                        
+                                        <b>Rezultate:</b><br>
+                                        Locul I: Horia Turcuman <br>
+                                        Locul II: Vlad Coteanu<br>
+                                        Locul III: Denis Banu<br>
+                                        Mențiuni:  Diana Ghinea & Nicolae Bodea & Cristian Vantur<br>
+                                        
+                                        </center>
+
+                                </div>
             </div>
             <div class="ui container"></div>
         </div>

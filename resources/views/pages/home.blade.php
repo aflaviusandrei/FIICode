@@ -14,7 +14,7 @@
                     Web/Mobile
                 </a>
                 <a href="/gamedev">
-                    <i class="icon rocket"></i>
+                    <i class="icon game"></i>
                     GameDev
                 </a>
                 <a href="/algoritmica">
@@ -53,7 +53,7 @@
                             <a href="/webmobile"><i class="icon code"></i>Web/Mobile</a>
                         </div>
                         <div class="item">
-                            <a href="/gamedev"><i class="icon rocket"></i>GamDev</a>
+                            <a href="/gamedev"><i class="icon game"></i>GamDev</a>
                         </div>
                         <div class="item">
                             <a href="/algoritmica"><i class="icon cubes"></i>Algoritmica</a>
@@ -109,22 +109,25 @@
                         Web/Mobile
                     </div>
                 </a>
-                <a href="/inscrie-te/gamedev">
-                    <div class="ui labeled icon teal massive button gamedev">
-                        <i class="icon rocket"></i>
-                        Game Dev
-                    </div>
-                </a>
                 <a href="/inscrie-te/algo">
                     <div class="ui labeled icon green massive button algo">
                         <i class="icon cubes"></i>
                         Algoritmică
                     </div>
                 </a>
+                <a href="/inscrie-te/gamedev">
+                    <div class="ui labeled icon purple massive button gamedev">
+                        <i class="icon game"></i>
+                        Game Dev
+                    </div>
+                </a>
+                
             </div>
             <img class="backgroundhome web" src="{{ asset('img/web.svg') }}" alt="web tehnology background" />
             <img class="backgroundhome gamedev" src="{{ asset('img/gamedev.jpg') }}" alt="game dev background" />
             <img class="backgroundhome algo" src="{{ asset('img/algo.svg') }}" alt="algorithm background" />
+            <img class="backgroundhome cover show1" src="{{ asset('img/covermobile.jpg') }}" alt="background" />
+            <img class="backgroundhome planete show2" src="{{ asset('img/cover.jpg') }}" alt="background" />
         </div>
     </section>
     <section id="content">
