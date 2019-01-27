@@ -180,7 +180,8 @@ header .logo img {
 #content {
     width: 100%;
     color:#111a22;
-    padding: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .ui.segment {
     box-shadow: none !important;
@@ -404,5 +405,8 @@ td:hover {
 .member {
 	background-color: #F8F8F8;
 	padding: 20px 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+}
+.inactive{
+    display:none;
 }
