@@ -15,7 +15,7 @@ function eng_algo() {
 	document.getElementById("l11").innerHTML = "Has to be 18 years old as of 1st of March 2019"
 	document.getElementById("l12").innerHTML = "Has to accompany the participants in the final round, in case of qualification"
 	document.getElementById("p7").innerHTML = "<strong>Phases</strong>"
-	document.getElementById("l21").innerHTML = "Round 1: 7th of February"
+	document.getElementById("l21").innerHTML = "Round 1: 13rd of February"
 	document.getElementById("l22").innerHTML = "Round 2: 27th of February"
 	document.getElementById("l23").innerHTML = "Round 3: 20th of March"
 	document.getElementById("l24").innerHTML = "Final Round: 13rd of April"

@@ -30,7 +30,7 @@
 	<b>Calendar proba Algoritmica</b><br><br>
 
 	
-		Runda 1 - 7 februarie 2019 		<br>
+		Runda 1 - 13 februarie 2019 		<br>
 		Runda 2 - 27 februarie 2019 				<br>
 		Runda 3 - 20 martie 2019				<br>
 		Runda Finala - 13 aprilie 2019		<br>
@@ -64,7 +64,7 @@
                 </ul>
                 <p id="p7"><strong>Etape</strong></p>
                 <ul>
-                    <li id="l21">Runda 1: 7 februarie</li>
+                    <li id="l21">Runda 1: 13 februarie</li>
                     <li id="l22">Runda 2: 27 februarie</li>
                     <li id="l23">Runda 3: 20 martie</li>
                     <li id="l24">Runda finală: 13 aprilie</li>
