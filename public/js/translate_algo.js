@@ -1,4 +1,12 @@
 function eng_algo() {
+	document.getElementById("algohead").innerHTML = "FII Code - Algorithm Design";
+	document.getElementById("algodesc").innerHTML = "This page is reserved for the Algorithm Design section of FII Code. Here, news and information pertinent to this section will be posted periodically.";
+	document.getElementById("algohead").innerHTML = "The Algorithm Design section will be comprised of 3 online rounds, after which a ranking will be established, and then the finalists will be decided onsite." + "<br>" + "The qualification round, as well as the final round, will be of similar difficulty to a CSAcademy round div 2.";
+	document.getElementById("r1").innerHTML = "Round 1 - 13 February 2019";
+	document.getElementById("r2").innerHTML = "Round 2 - 27 February 2019";
+	document.getElementById("r3").innerHTML = "Round 3 - 20 March 2019";
+	document.getElementById("r4").innerHTML = "Final Round - 13 April 2019";
+	document.getElementById("cal").innerHTML = "Calendar for the Algorithm Design section";
 	document.getElementById("h1").innerHTML = "Regulations for the Algorithmic Section";
 	document.getElementById("p1").innerHTML = "The international competition <strong>FIICode</strong> is organized by The Faculty of Computer Science of Iasi and The Computer Science Students’ Association of Iasi, in partnership with the County Inspectorate."
 	document.getElementById("p2").innerHTML = "<strong>Objectives</strong>";

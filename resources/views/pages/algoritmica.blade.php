@@ -16,33 +16,37 @@
                             
                             <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-anunt" role="tabpanel" aria-labelledby="nav-anunt-tab">
-                                <br><center><h2>FII Code - Algoritmica</h2>
-	<br>
-	Aceasta pagina este dedicata sectiunii de algoritmica din cadrul concursului FII Code. Aici se vor posta informatiile utile participantilor la aceasta sectiune.
+                                                    <div class="language-box" style="text-align: left !important;">
+                    <a href="#ro" onclick="ro()"><img class="language-button" src="{{ asset('img/ro.png') }}" alt="Romana"/></a>
+                    <a href="#en" onclick="eng_algo()"><img class="language-button" src="{{ asset('img/eng.png') }}" alt="English"/></a>
+                </div>
+                                <br><center><h2 id="algohead">FII Code - Algoritmica</h2>
+    <br>
+    <p id="algodesc">Aceasta pagina este dedicata sectiunii de algoritmica din cadrul concursului FII Code. Aici se vor posta informatiile utile participantilor la aceasta sectiune.</p>
 
-	<br>
-	<br>
-	Proba de algoritmica va fi alcatuita din 3 probe online, la finalul carora se va stabili un clasament cumulat, dupa care se vor stabili finalistii onsite.
-	Rundele de calificare, cat si runda finala vor avea dificultate asemanatoare cu o runda CSAcademy div 2.
-	<br><br><br>
+    <br>
+    <br><p id="algodesc2">
+    Proba de algoritmica va fi alcatuita din 3 probe online, la finalul carora se va stabili un clasament cumulat, dupa care se vor stabili finalistii onsite.
+    Rundele de calificare, cat si runda finala vor avea dificultate asemanatoare cu o runda CSAcademy div 2.</p>
+    <br><br><br>
 
 
-	<b>Calendar proba Algoritmica</b><br><br>
+    <b><p id="cal">Calendar proba Algoritmica</p></b><br><br>
 
-	
-		Runda 1 - 13 februarie 2019 		<br>
-		Runda 2 - 27 februarie 2019 				<br>
-		Runda 3 - 20 martie 2019				<br>
-		Runda Finala - 13 aprilie 2019		<br>
-	</center>
+    
+        <p id="r1">Runda 1 - 13 februarie 2019</p>      <br>
+        <p id="r2">Runda 2 - 27 februarie 2019</p>              <br>
+        <p id="r3">Runda 3 - 20 martie 2019</p>             <br>
+        <p id="r4">Runda Finala - 13 aprilie 2019</p>       <br>
+    </center>
 
                                 </div>
             
             <div class="tab-pane fade" id="nav-reg" role="tabpanel" aria-labelledby="nav-reg-tab">
                 <div class="language-box" style="text-align: left !important;">
-                <a href="#ro" onclick="ro()"><img class="language-button" src="{{ asset('img/ro.png') }}" alt="Romana"/></a>
-                <a href="#en" onclick="eng_algo()"><img class="language-button" src="{{ asset('img/eng.png') }}" alt="English"/></a>
-            </div>
+                    <a href="#ro" onclick="ro()"><img class="language-button" src="{{ asset('img/ro.png') }}" alt="Romana"/></a>
+                    <a href="#en" onclick="eng_algo()"><img class="language-button" src="{{ asset('img/eng.png') }}" alt="English"/></a>
+                </div>
             <h2 id="h1"><strong>Regulamentul secțiunii Algoritmică</strong></h2>
                 <p id="p1">Concursul național de informatică FIICode este organizat de către Facultatea de Informatică Iași și Asociația Studenților Informaticieni Ieșeni (ASII), în parteneriat cu Inspectoratul Școlar Județean Iași.</p>
                 <p id="p2"><strong>Obiective</strong></p>

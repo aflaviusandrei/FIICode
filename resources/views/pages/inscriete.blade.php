@@ -59,33 +59,37 @@
                 <p>Inscrierile pentru <strong>editia 2019 FII Code</strong>, la sectiunea GameDev, s-au incheiat.</p><br>
                 <p><strong>Va asteptam la urmatoarea editie!</strong></p></center>
                 </div>
+                <div class="language-box" style="text-align: left !important;">
+                    <a href="#ro" onclick="ro()"><img class="language-button" src="{{ asset('img/ro.png') }}" alt="Romana"/></a>
+                    <a href="#en" onclick="eng_reg()"><img class="language-button" src="{{ asset('img/eng.png') }}" alt="English"/></a>
+				</div>
                 <div class="field algoOnly">
-                    <label class="algoOnly">Nume și prenume<span>*</span></label>
+                    <label id='lb1' class="algoOnly">Nume și prenume<span>*</span></label>
                     <!--<label class="webOnly">Numele complet al liderului<span>*</span></label>
                     <label class="gamedevOnly">Numele complet al liderului<span>*</span></label> -->
                     <input type="text" name="nume" placeholder="Nume si prenume" />
 				</div>
 				<div class="field algoOnly">
-					<label class="algoOnly">Adresa de email<span>*</span></label>
+					<label id='lb2' class="algoOnly">Adresa de email<span>*</span></label>
                     <!--<label class="webOnly">Adresa de email a liderului<span>*</span></label>
                     <label class="gamedevOnly">Adresa de email a liderului<span>*</span></label> -->
                     <input type="text" name="email" placeholder="Email" /> 
 					<span class="error-message"></span>
 				</div>
                 <div class="field algoOnly">
-                    <label>Parola<span>*</span></label>
+                    <label id='lb3'>Parola<span>*</span></label>
                     <input type="password" name="password" placeholder="Parola"> </div>
                 <div class="field algoOnly">
-                    <label>Confirma Parola<span>*</span></label>
+                    <label id='lb4'>Confirma Parola<span>*</span></label>
                     <input type="password" name="password_conf" placeholder="Confirmă Parola"> </div>
                 <div class="field algoOnly">
-                    <label class="webOnly gamedevOnly">Cont Git (Oricare din GitHub, GitLab, Bitbucket, etc.)<span>*</span></label>
+                    <label id='lb5' class="webOnly gamedevOnly">Cont Git (Oricare din GitHub, GitLab, Bitbucket, etc.)<span>*</span></label>
                     <input class="webOnly gamedevOnly" type="text" name="repogithub" placeholder="Contul Git unde va fi salvat codul sursă" /> </div>
                 <div class="field algoOnly">
-                    <label>Orașul in care locuiești<span>*</span></label>
+                    <label id='lb6'>Orașul in care locuiești<span>*</span></label>
                     <input type="text" name="oras" placeholder="Oraș" /> </div>
                 <div class="field algoOnly">
-                    <label>Ce vârstă ai?<span>*</span></label>
+                    <label id='lb7'>Ce vârstă ai?<span>*</span></label>
                     <select name="varsta" class="ui dropdown">
                         <option value="">Varsta</option>
                         <option value="<15">< 15</option>
@@ -100,19 +104,19 @@
                     </select>
                 </div>
                 <div class="field algoOnly">
-                    <label>Numărul de telefon<span>*</span></label>
+                    <label id='lb8'>Numărul de telefon<span>*</span></label>
                     <input type="text" name="telefon" placeholder="Numărul de telefon" /> 
 				</div>
 				<div class="field algoOnly">
-                    <label>Link profil Facebook<span>*</span></label>
+                    <label id='lb9'>Link profil Facebook<span>*</span></label>
                     <input type="text" name="facebook" placeholder="Facebook" /> 
 				</div>
 				<div class="field algoOnly">
-                    <label>Link profil CS Academy<span>*</span></label>
+                    <label id='lb10'>Link profil CS Academy<span>*</span></label>
                     <input type="text" name="csacademy" placeholder="CS Academy" />
 				</div>
 				<div class="field algoOnly">
-                    <label>Mărime tricou<span>*</span></label>
+                    <label id='lb11'>Mărime tricou<span>*</span></label>
                     <select name="marime_tricou" class="ui dropdown">
                         <option value="">Marime</option>
                         <option value="s">S</option>
@@ -123,7 +127,7 @@
                     </select>
                 </div>
                 <div class="field algoOnly">
-                    <label>Liceul sau facultatea la care sunteți<span>*</span></label>
+                    <label id='lb12'>Liceul sau facultatea la care sunteți<span>*</span></label>
                     <input type="text" name="scoala" placeholder="Liceu / Facultate" />
 				</div>
                 
@@ -226,21 +230,21 @@
 				<div class="field algoOnly">
 					<div class="ui checkbox">
 						<input type="checkbox" name="terms_and_conditions1" value="1">
-						<label>Bifand aceasta casuta, confirm ca am citit aceasta <a href="/documente/Data-privacy-consent_Recruitment-US-IT-ro.pdf" target="_blank">Declaratie</a> privind Confidentialitatea Datelor si sunt de acord cu prelucrarea datelor mele cu caracter personal in scopul inscrierii actuale.</label>
+						<label id="gdprlabel2">Bifand aceasta casuta, confirm ca am citit aceasta <a id="gdprlink2" href="/documente/Data-privacy-consent_Recruitment-US-IT-ro.pdf" target="_blank">Declaratie</a> privind Confidentialitatea Datelor si sunt de acord cu prelucrarea datelor mele cu caracter personal in scopul inscrierii actuale.</label>
 					</div>
 				</div>
 
 				<div class="field algoOnly">
 					<div class="ui checkbox">
 						<input type="checkbox" name="terms_and_conditions2" value="1">
-						<label>Sunt de acord ca Asociatia sa stocheze si sa prelucreze ulterior datele mele cu caracter personal in scopul gestionarii viitoarelor scopuri ale Asociatiei, astfel cum prevede aceasta <a href="/documente/Data-privacy-consent_Recruitment-US-IT-ro.pdf" target="_blank">Declaratie</a> privind Confidentialitatea Datelor.</label>
+						<label id="gdprlabel">Sunt de acord ca Asociatia sa stocheze si sa prelucreze ulterior datele mele cu caracter personal in scopul gestionarii viitoarelor scopuri ale Asociatiei, astfel cum prevede aceasta <a id="gdprlink" href="/documente/Data-privacy-consent_Recruitment-US-IT-ro.pdf" target="_blank">Declaratie</a> privind Confidentialitatea Datelor.</label>
 					</div>
 				</div>
 
                  {!! Recaptcha::render() !!}
 
                 <div class="field algoOnly">
-                    <div class="ui blue labeled icon submit button"><i class="icon send"></i>Trimite</div>
+                    <div class="ui blue labeled icon submit button"><i id="sendbt" class="icon send"></i>Trimite</div>
                 </div>
                 <div class="ui warning message erroareTehnica">
                     <div class="header">Eroare la aplicare.</div>
@@ -261,4 +265,5 @@
     </div>
 </section>
 
+<script src="{{ asset('js/translate_registration.js') }}"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>@endsection
