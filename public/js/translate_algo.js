@@ -1,9 +1,10 @@
 function eng_algo() {
 	document.getElementById("algohead").innerHTML = "FII Code - Algorithm Design";
 	document.getElementById("algodesc").innerHTML = "This page is reserved for the Algorithm Design section of FII Code. Here, news and information pertinent to this section will be posted periodically.";
-	document.getElementById("algohead").innerHTML = "The Algorithm Design section will be comprised of 3 online rounds, after which a ranking will be established, and then the finalists will be decided onsite." + "<br>" + "The qualification round, as well as the final round, will be of similar difficulty to a CSAcademy round div 2.";
-	document.getElementById("r1").innerHTML = "Round 1 - 13 February 2019";
-	document.getElementById("r2").innerHTML = "Round 2 - 27 February 2019";
+	document.getElementById("algodesc2").innerHTML = "The Algorithm Design section will be comprised of 3 online rounds, after which a ranking will be established, and then the finalists will be decided onsite." + "<br>" + "The qualification round, as well as the final round, will be of similar difficulty to a CSAcademy round div 2.";
+	document.getElementById("algodesc3").innerHTML = "For the final round, the accomodation and the food will be provided by us, but we won't provide the transport.";
+	document.getElementById("r1").innerHTML = "Round 1 - 6 February 2019";
+	document.getElementById("r2").innerHTML = "Round 2 - 20 March 2019";
 	document.getElementById("r3").innerHTML = "Round 3 - 20 March 2019";
 	document.getElementById("r4").innerHTML = "Final Round - 13 April 2019";
 	document.getElementById("cal").innerHTML = "Calendar for the Algorithm Design section";
@@ -23,8 +24,8 @@ function eng_algo() {
 	document.getElementById("l11").innerHTML = "Has to be 18 years old as of 1st of March 2019"
 	document.getElementById("l12").innerHTML = "Has to accompany the participants in the final round, in case of qualification"
 	document.getElementById("p7").innerHTML = "<strong>Phases</strong>"
-	document.getElementById("l21").innerHTML = "Round 1: 13rd of February"
-	document.getElementById("l22").innerHTML = "Round 2: 27th of February"
+	document.getElementById("l21").innerHTML = "Round 1: 20rd of February"
+	document.getElementById("l22").innerHTML = "Round 2: 6th of March"
 	document.getElementById("l23").innerHTML = "Round 3: 20th of March"
 	document.getElementById("l24").innerHTML = "Final Round: 13rd of April"
 	document.getElementById("p8").innerHTML = "The first 3 online rounds involve solving a set of 3-5 problems. The solutions are assessed automatically and the score of the participants is updated after each round."

@@ -29,13 +29,16 @@
     Proba de algoritmica va fi alcatuita din 3 probe online, la finalul carora se va stabili un clasament cumulat, dupa care se vor stabili finalistii onsite.
     Rundele de calificare, cat si runda finala vor avea dificultate asemanatoare cu o runda CSAcademy div 2.</p>
     <br><br><br>
+    <p id="algodesc3">
+    Pentru runda finala, vor fi asigurate cazarea si mesele, dar nu si transportul.</p>
+    <br><br><br>
 
 
     <b><p id="cal">Calendar proba Algoritmica</p></b><br><br>
 
     
-        <p id="r1">Runda 1 - 13 februarie 2019</p>      <br>
-        <p id="r2">Runda 2 - 27 februarie 2019</p>              <br>
+        <p id="r1">Runda 1 - 20 februarie 2019</p>      <br>
+        <p id="r2">Runda 2 - 6 martie 2019</p>              <br>
         <p id="r3">Runda 3 - 20 martie 2019</p>             <br>
         <p id="r4">Runda Finala - 13 aprilie 2019</p>       <br>
     </center>
@@ -68,8 +71,8 @@
                 </ul>
                 <p id="p7"><strong>Etape</strong></p>
                 <ul>
-                    <li id="l21">Runda 1: 13 februarie</li>
-                    <li id="l22">Runda 2: 27 februarie</li>
+                    <li id="l21">Runda 1: 20 februarie</li>
+                    <li id="l22">Runda 2: 6 martie</li>
                     <li id="l23">Runda 3: 20 martie</li>
                     <li id="l24">Runda finală: 13 aprilie</li>
                 </ul>
