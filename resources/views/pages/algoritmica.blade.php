@@ -32,14 +32,17 @@
     <p id="algodesc3">
     Pentru runda finala, vor fi asigurate cazarea si mesele, dar nu si transportul.</p>
     <br><br><br>
-
-
+    <p id="algodesc4">La runda finala se vor califica primii 25 de participanti din Romania si Moldova si primii 5 din alte tari, dupa clasamentul cumulat.</p>
+    <br><br><br>
+    <p id="algodesc5">Reamintim faptul ca pentru a fi eligibili pentru calificarea la finala, participantii trebuie sa fie inscrisi si pe site la adresa <a href="/inscrie-te/algo">https://fiicode.asii.ro/inscrie-te/algo</a>, nu doar pe <a href="https://www.csacademy.com">CSAcademy</a>, pana la sfarsitul rundei 3, adica pana pe 20 martie, ora 20.</p>
+    <br><br><br>
     <b><p id="cal">Calendar proba Algoritmica</p></b><br><br>
 
     
-        <p id="r1">Runda 1 - 20 februarie 2019</p>      <br>
-        <p id="r2">Runda 2 - 6 martie 2019</p>              <br>
-        <p id="r3">Runda 3 - 20 martie 2019</p>             <br>
+        <p id="r1"><a href="https://csacademy.com/contest/fii-code-2019-round-1">Runda 1 - 20 februarie 2019</a></p>      <br>
+       
+        <p id="r2"><a href="https://csacademy.com/contest/fii-code-2019-round-2">Runda 2 - 6 martie 2019</a></p>              <br>
+        <p id="r3"><a href="ul https://csacademy.com/contest/fii-code-2019-round-3">Runda 3 - 20 martie 2019</a></p>             <br>
         <p id="r4">Runda Finala - 13 aprilie 2019</p>       <br>
     </center>
 

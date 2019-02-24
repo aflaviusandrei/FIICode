@@ -3,6 +3,8 @@ function eng_algo() {
 	document.getElementById("algodesc").innerHTML = "This page is reserved for the Algorithm Design section of FII Code. Here, news and information pertinent to this section will be posted periodically.";
 	document.getElementById("algodesc2").innerHTML = "The Algorithm Design section will be comprised of 3 online rounds, after which a ranking will be established, and then the finalists will be decided onsite." + "<br>" + "The qualification round, as well as the final round, will be of similar difficulty to a CSAcademy round div 2.";
 	document.getElementById("algodesc3").innerHTML = "For the final round, the accomodation and the food will be provided by us, but we won't provide the transport.";
+	document.getElementById("algodesc4").innerHTML = "At the final round, the first 25 participants from Romania and Republic of Moldova and the first 5 from the other countries will qualify.";
+	document.getElementById("algodesc5").innerHTML = "We remind you that, in order to be eligible to qualify for the final round, you need to register at <a href=\"/inscrie-te/algo\">https://fiicode.asii.ro/inscrie-te/algo</a>, not only on <a href=\"https://www.csacademy.com\">CSAcademy</a>, until the end of Round 3, which means until 20th of March, at 8pm.";
 	document.getElementById("r1").innerHTML = "Round 1 - 20 February 2019";
 	document.getElementById("r2").innerHTML = "Round 2 - 6 March 2019";
 	document.getElementById("r3").innerHTML = "Round 3 - 20 March 2019";
