@@ -101,11 +101,10 @@
                 <p>În acest mod, se asigură unicitatea rezultatelor și se pot stabili de la început procentele din totalul disponibil. În comun acord cu partenerii, se pot stabili premii speciale, dar nu mai târziu de festivitatea de premiere. Concurenții ce vor ajunge în finală vor primi diplome. Premiile vor fi oferite în cadrul festivității de premiere.</p>
                 <p>Premiile obținute sunt:</p>
                 <ul>
-                    <li>Premiul I: 45% din totalul disponibil,</li>
+                    <li>Premiul I: 60% din totalul disponibil,</li>
                     <li>Premiul al II &ndash; lea: 25% din totalul disponibil,</li>
                     <li>Premiul al III &ndash; lea: 15% din totalul disponibil,</li>
-                    <li>Mențiunea I: 10% din totalul disponibil,</li>
-                    <li>Mențiunea a II &ndash; a: 5% din totalul disponibil.</li>
+                    
                 </ul>
                 <p><strong>Descalificare</strong></p>
                 <p>O echipă care:</p>

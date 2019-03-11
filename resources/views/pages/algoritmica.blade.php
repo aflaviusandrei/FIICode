@@ -42,7 +42,7 @@
         <p id="r1"><a href="https://csacademy.com/contest/fii-code-2019-round-1">Runda 1 - 20 februarie 2019</a></p>      <br>
        
         <p id="r2"><a href="https://csacademy.com/contest/fii-code-2019-round-2">Runda 2 - 6 martie 2019</a></p>              <br>
-        <p id="r3"><a href="ul https://csacademy.com/contest/fii-code-2019-round-3">Runda 3 - 20 martie 2019</a></p>             <br>
+        <p id="r3"><a href="https://csacademy.com/contest/fii-code-2019-round-3">Runda 3 - 20 martie 2019</a></p>             <br>
         <p id="r4">Runda Finala - 13 aprilie 2019</p>       <br>
     </center>
 
