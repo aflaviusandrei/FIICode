@@ -49,6 +49,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="algoOnly">
+                <center><br><h2>Ne pare rau...</h2><br>
+                <p>Inscrierile pentru <strong>editia 2019 FII Code</strong>, la sectiunea Algoritmica, s-au incheiat.</p><br>
+                <p><strong>Va asteptam la urmatoarea editie!</strong></p></center>
+                </div>
                 <div class="webOnly">
                 <center><br><h2>Ne pare rau...</h2><br>
                 <p>Inscrierile pentru <strong>editia 2019 FII Code</strong>, la sectiunea Tehnologii Web, s-au incheiat.</p><br>
@@ -59,20 +64,20 @@
                 <p>Inscrierile pentru <strong>editia 2019 FII Code</strong>, la sectiunea GameDev, s-au incheiat.</p><br>
                 <p><strong>Va asteptam la urmatoarea editie!</strong></p></center>
                 </div>
-                <div class="language-box" style="text-align: left !important;">
+               <!-- <div class="language-box" style="text-align: left !important;">
                     <a href="#ro" onclick="ro()"><img class="language-button" src="{{ asset('img/ro.png') }}" alt="Romana"/></a>
                     <a href="#en" onclick="eng_reg()"><img class="language-button" src="{{ asset('img/eng.png') }}" alt="English"/></a>
 				</div>
                 <div class="field algoOnly">
                     <label id='lb1' class="algoOnly">Nume și prenume<span>*</span></label>
                     <!--<label class="webOnly">Numele complet al liderului<span>*</span></label>
-                    <label class="gamedevOnly">Numele complet al liderului<span>*</span></label> -->
+                    <label class="gamedevOnly">Numele complet al liderului<span>*</span></label> 
                     <input type="text" name="nume" placeholder="Nume si prenume" />
 				</div>
 				<div class="field algoOnly">
 					<label id='lb2' class="algoOnly">Adresa de email<span>*</span></label>
                     <!--<label class="webOnly">Adresa de email a liderului<span>*</span></label>
-                    <label class="gamedevOnly">Adresa de email a liderului<span>*</span></label> -->
+                    <label class="gamedevOnly">Adresa de email a liderului<span>*</span></label> 
                     <input type="text" name="email" placeholder="Email" /> 
 					<span class="error-message"></span>
 				</div>
@@ -226,7 +231,7 @@
 						</select>
 					</div>
 				</div>
-				-->
+				
 				<div class="field algoOnly">
 					<div class="ui checkbox">
 						<input type="checkbox" name="terms_and_conditions1" value="1">
@@ -239,13 +244,13 @@
 						<input type="checkbox" name="terms_and_conditions2" value="1">
 						<label id="gdprlabel">Sunt de acord ca Asociatia sa stocheze si sa prelucreze ulterior datele mele cu caracter personal in scopul gestionarii viitoarelor scopuri ale Asociatiei, astfel cum prevede aceasta <a id="gdprlink" href="/documente/Data-privacy-consent_Recruitment-US-IT-ro.pdf" target="_blank">Declaratie</a> privind Confidentialitatea Datelor.</label>
 					</div>
-				</div>
+				</div>  
 
                  {!! Recaptcha::render() !!}
 
                 <div class="field algoOnly">
                     <div class="ui blue labeled icon submit button"><i id="sendbt" class="icon send"></i>Trimite</div>
-                </div>
+                </div>-->
                 <div class="ui warning message erroareTehnica">
                     <div class="header">Eroare la aplicare.</div>
                     <p>Aparent nu ai completat întocmai cum trebuie câmpurile de mai sus. Te rugam să verifici și să încerci înca odată.</p>

@@ -30,25 +30,32 @@
 <footer>
     <div class="ui container">
         <div class="ui stackable grid">
-            <div class="five wide column">
+            <div class="four wide column">
                 <div class="content">
                     <a href="/"><img src="{{ asset('img/logo.png')}}" alt="Logo FIICode"/></a>
                     <p>FII Code este un concurs la nivel național pentru elevi și studenți în care aceștia își pot etala cunoștințele în algoritmică sau tehnologii web. Sună bine? Atunci înscrie-te chiar acum și dovedește-le tuturor că ești cel mai bun!</p>
                 </div>
             </div>
-            <div class="five wide column">
-                <div class="content">
-                    <h3 class="ui header divided">Ediţia 2019</h3>
-                    <div class="ui list">
-                        
-                    </div>
+            
+            <div class="six wide column">
+                <div class="content parteneri">
+                    
+                    <h3 class="ui header divided"> Parteneri editia 2019</h3>
+                    <a href="http://arobs.ro"><img style="width:120px;" src="{{ asset('img/arobs-logo.png') }}" alt="arobs"></a>
+                    <a href="https://www.levi9.com"><img class="sponsor" src="{{ asset('img/LeviNine_Logo_White.png') }}" alt="levi9"></a>
+                    <a href="http://www.netromsoftware.ro"><img style="height:80px; width:auto;" src="{{ asset('img/netrom.png') }}" alt="netrom"></a>
+                    <a href="https://www.profidatagroup.com"><img style="height:30px;" src="{{ asset('img/logo_profidata_rot_gross.jpg') }}" alt="profidata"></a>
+                    <a href="https://it-st.ro"><img class="sponsor" src="{{ asset('img/itst-logo-01.png') }}" alt="it-st"></a>
+                    <a href="https://www.facebook.com/gdd.is/"><img class="sponsor"src="{{ asset('img/gddi.png') }}" alt="gddi"></a>
+                   
                 </div>
             </div>
-            <div class="five wide column">
+            <div class="three wide column">
                 <div class="content social">
                     <h3 class="ui header divided">Social</h3>
-                    <a href="https://www.facebook.com/FIICode"><i class="icon facebook"></i></a>
+                        <a href="https://www.facebook.com/FIICode"><i class="icon facebook"></i></a>
                     <a href="https://www.instagram.com/fiicode/"><i class="icon instagram"></i></a>
+                    
                 </div>
             </div>
         </div>

@@ -135,9 +135,9 @@
                 <p id="p49">În acest mod, se asigură unicitatea rezultatelor și se pot stabili de la început procentele din totalul disponibil. În comun acord cu partenerii, se pot stabili premii speciale, dar nu mai târziu de festivitatea de premiere. Fiecare concurent va primi o diplomă de participare. Premiile vor fi oferite în cadrul festivității de premiere.</p>
                 <p id="p50">Premiile obținute sunt:</p>
                 <ul>
-                    <li id="l61">Premiul I: 45% din totalul disponibil,</li>
-                    <li id="l62">Premiul al II &ndash; lea: 25% din totalul disponibil,</li>
-                    <li id="l63">Premiul al III &ndash; lea: 15% din totalul disponibil,</li>
+                    <li id="l61">Premiul I: 45% din totalul disponibil, premiu: 200€</li>
+                    <li id="l62">Premiul al II &ndash; lea: 25% din totalul disponibil, premiu: 125€</li>
+                    <li id="l63">Premiul al III &ndash; lea: 15% din totalul disponibil, premiu: 75€</li>
                     <li id="l64">Mențiunea I: 10% din totalul disponibil,</li>
                     <li id="l65">Mențiunea a II &ndash; a: 5% din totalul disponibil.</li>
                 </ul>
