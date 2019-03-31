@@ -24,19 +24,23 @@
     <br>
     <p id="algodesc">Aceasta pagina este dedicata sectiunii de algoritmica din cadrul concursului FII Code. Aici se vor posta informatiile utile participantilor la aceasta sectiune.</p>
 
-    <br>
+    
     <br><p id="algodesc2">
     Proba de algoritmica va fi alcatuita din 3 probe online, la finalul carora se va stabili un clasament cumulat, dupa care se vor stabili finalistii onsite.
     Rundele de calificare, cat si runda finala vor avea dificultate asemanatoare cu o runda CSAcademy div 2.</p>
-    <br><br><br>
+    <br>
     <p id="algodesc3">
     Pentru runda finala, vor fi asigurate cazarea si mesele, dar nu si transportul.</p>
-    <br><br><br>
+    <br>
     <p id="algodesc4">La runda finala se vor califica primii 25 de participanti din Romania si Moldova si primii 5 din alte tari, dupa clasamentul cumulat.</p>
-    <br><br><br>
+    <br>
     <p id="algodesc5">Reamintim faptul ca pentru a fi eligibili pentru calificarea la finala, participantii trebuie sa fie inscrisi si pe site la adresa <a href="/inscrie-te/algo">https://fiicode.asii.ro/inscrie-te/algo</a>, nu doar pe <a href="https://www.csacademy.com">CSAcademy</a>, pana la sfarsitul rundei 3, adica pana pe 20 martie, ora 20.</p>
-    <br><br><br>
-    <b><p id="cal">Calendar proba Algoritmica</p></b><br><br>
+    <br>
+    <p id="algoprize"><b>Premiile pentru runda finala:</b> Premiul 1 - 200€, Premiul 2 - 125€, Premiul 3 - 75€</p>
+    <br>
+    <a href="https://docs.google.com/spreadsheets/d/1IhoXvJ25sQbvxxSbPC4ofngeJvH6W1bWFCDai197z9w/edit#gid=0"><p id="algostatus">Aici puteti vedea statusul finalistilor</p></a>
+    <br>
+    <b><p id="cal">Calendar proba Algoritmica</p></b><br>
 
     
         <p id="r1"><a href="https://csacademy.com/contest/fii-code-2019-round-1">Runda 1 - 20 februarie 2019</a></p>      <br>
