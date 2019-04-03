@@ -38,7 +38,7 @@
     <br>
     <p id="algoprize"><b>Premiile pentru runda finala:</b> Premiul 1 - 200€, Premiul 2 - 125€, Premiul 3 - 75€</p>
     <br>
-    <a href="https://docs.google.com/spreadsheets/d/1IhoXvJ25sQbvxxSbPC4ofngeJvH6W1bWFCDai197z9w/edit#gid=0"><p id="algostatus">Aici puteti vedea statusul finalistilor</p></a>
+    <a href="https://docs.google.com/spreadsheets/d/1IhoXvJ25sQbvxxSbPC4ofngeJvH6W1bWFCDai197z9w/edit?usp=drivesdk"><p id="algostatus">Aici puteti vedea statusul finalistilor</p></a>
     <br>
     <b><p id="cal">Calendar proba Algoritmica</p></b><br>
 
