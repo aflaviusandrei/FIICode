@@ -39,15 +39,17 @@
     <p id="algoprize"><b>Premiile pentru runda finala:</b> Premiul 1 - 200€, Premiul 2 - 125€, Premiul 3 - 75€</p>
     <br>
     <a href="https://docs.google.com/spreadsheets/d/1IhoXvJ25sQbvxxSbPC4ofngeJvH6W1bWFCDai197z9w/edit?usp=drivesdk"><p id="algostatus">Aici puteti vedea statusul finalistilor</p></a>
+    
+    <a href="https://drive.google.com/open?id=1fTijzGQFUQx8pReQKEUT-7vqjGo3-5yc"><p id="algofinala">Aici puteti vedea programul rundei finale</p></a>
     <br>
     <b><p id="cal">Calendar proba Algoritmica</p></b><br>
 
     
-        <p id="r1"><a href="https://csacademy.com/contest/fii-code-2019-round-1">Runda 1 - 20 februarie 2019</a></p>      <br>
+        <p id="r1"><a href="https://csacademy.com/contest/fii-code-2019-round-1">Runda 1 - 20 februarie 2019</a></p>      
        
-        <p id="r2"><a href="https://csacademy.com/contest/fii-code-2019-round-2">Runda 2 - 6 martie 2019</a></p>              <br>
-        <p id="r3"><a href="https://csacademy.com/contest/fii-code-2019-round-3">Runda 3 - 20 martie 2019</a></p>             <br>
-        <p id="r4">Runda Finala - 13 aprilie 2019</p>       <br>
+        <p id="r2"><a href="https://csacademy.com/contest/fii-code-2019-round-2">Runda 2 - 6 martie 2019</a></p>              
+        <p id="r3"><a href="https://csacademy.com/contest/fii-code-2019-round-3">Runda 3 - 20 martie 2019</a></p>             
+        <p id="r4">Runda Finala - 13 aprilie 2019</p>       
     </center>
 
                                 </div>
